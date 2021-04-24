@@ -175,13 +175,16 @@ class BaselineReader(nn.Module):
         self.pad_token_id = args.pad_token_id
 
         if self.use_bert:
-            from transformers import AutoModel
-            self.bert = AutoModel.from_pretrained("bert-base-uncased", output_hidden_states = True) 
+            # from transformers import AutoModel
+            # self.bert = AutoModel.from_pretrained("bert-base-uncased", output_hidden_states = True)
+            from transformers import BertConfig, BertForPreTraining 
+            config = BertConfig.from_json_file('./bert/bert_tiny/bert_config.json')
+            self.bert = BertForPreTraining.from_pretrained('./bert/bert_tiny/bert_model.ckpt.index', from_tf=True, config=config)
             # keeping the weights of the pre-trained encoder frozen
             for param in self.bert.base_model.parameters():
                 param.requires_grad = False
-            # bert base uncased has embedding dim = 768
-            args.embedding_dim = 768
+            # bert base uncased has embedding dim = 768, tiny = 128
+            args.embedding_dim = 128
         else:
             # Initialize embedding layer (1)
             self.embedding = nn.Embedding(args.vocab_size, args.embedding_dim)
@@ -303,8 +306,10 @@ class BaselineReader(nn.Module):
 
         # 1) Embedding Layer: Embed the passage and question.
         if self.use_bert:
-            passage_embeddings = self.bert(**batch['passages'])[2][-1]
-            question_embeddings = self.bert(**batch['questions'])[2][-1]
+            # test = self.bert(**batch['passages'])
+            # print(test)
+            passage_embeddings = self.bert(**batch['passages'], output_hidden_states=True)[2][-1]
+            question_embeddings = self.bert(**batch['questions'], output_hidden_states=True)[2][-1]
         else:
             passage_embeddings = self.embedding(batch['passages'])  # [batch_size, p_len, p_dim]
             question_embeddings = self.embedding(batch['questions'])  # [batch_size, q_len, q_dim]

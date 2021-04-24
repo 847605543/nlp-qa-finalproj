@@ -142,7 +142,8 @@ class QADataset(Dataset):
         self.meta, self.elems = load_dataset(path)
         if args.bert:
             from transformers import AutoTokenizer
-            self.tokenizer = AutoTokenizer.from_pretrained('bert-base-cased')
+            # self.tokenizer = AutoTokenizer.from_pretrained('bert-base-cased')
+            self.tokenizer = AutoTokenizer.from_pretrained('./bert/bert_tiny', model_max_length=512)
         else:
             self.tokenizer = None
         self.samples = self._create_samples()
