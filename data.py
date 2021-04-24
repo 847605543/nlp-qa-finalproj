@@ -325,7 +325,7 @@ class QADataset(Dataset):
                 'questions': input_cuda(self.args, padded_questions) if self.args.bert else cuda(self.args, padded_questions).long(),
                 'start_positions': cuda(self.args, start_positions).long(),
                 'end_positions': cuda(self.args, end_positions).long(),
-                'test': passages
+                'test': passages # TODO: remove later
             }
 
             if no_more_data:

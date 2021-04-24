@@ -444,9 +444,20 @@ def write_predictions(args, model, dataset):
                 start_index, end_index = search_span_endpoints(
                         start_probs, end_probs
                 )
-                
+
                 # Grab predicted span.
-                pred_span = ' '.join(passage[start_index:(end_index + 1)])
+                if args.bert:
+                    # context = dataset.elems[sample_index]['context']
+                    offsets_mapping = dataset.tokenizer(passage, return_offsets_mapping=True, truncation=True).offset_mapping
+                    # print("======")
+                    # print(passage)
+                    # print(dataset.tokenizer.decode(batch['passages']['input_ids'][j]))
+                    # print(f"context token length: {len(offsets_mapping)}")
+                    # print(f"start_probs len: {len(start_probs)}, start_index: {start_index}")
+                    # print(f"start_probs len: {len(end_probs)}, start_index: {end_index}")
+                    pred_span = passage[offsets_mapping[start_index][0]:(offsets_mapping[end_index][1]+1)]
+                else:
+                    pred_span = ' '.join(passage[start_index:(end_index + 1)])
 
                 # Add prediction to outputs.
                 outputs.append({'qid': qid, 'answer': pred_span})
