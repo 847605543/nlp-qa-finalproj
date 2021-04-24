@@ -27,6 +27,10 @@ def cuda(args, tensor):
         return tensor.cuda()
     return tensor
 
+def input_cuda(args, input):
+    if args.use_gpu and torch.cuda.is_available():
+        return input.to('cuda')
+    return input
 
 def unpack(tensor):
     """

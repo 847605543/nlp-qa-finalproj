@@ -32,6 +32,7 @@ import torch.optim as optim
 from tqdm import tqdm
 
 from data import QADataset, Tokenizer, Vocabulary
+from transformers import AutoTokenizer, AutoModel
 
 from model import BaselineReader
 from utils import cuda, search_span_endpoints, unpack
@@ -107,6 +108,11 @@ parser.add_argument(
     '--shuffle_examples',
     action='store_true',
     help='shuffle training example at the beginning of each epoch',
+)
+parser.add_argument(
+    '--bert',
+    action="store_true",
+    help='use BERT embeddings instead of GloVe',
 )
 
 # Optimization arguments.
@@ -465,13 +471,21 @@ def main(args):
     dev_dataset = QADataset(args, args.dev_path)
 
     # Create vocabulary and tokenizer.
-    vocabulary = Vocabulary(train_dataset.samples, args.vocab_size)
-    tokenizer = Tokenizer(vocabulary)
+    if args.bert:
+        tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
+        args.pad_token_id = tokenizer.convert_tokens_to_ids(tokenizer.pad_token)
+        args.vocab_size = tokenizer.vocab_size
+    else:
+        # Default GloVe tokenizer
+        vocabulary = Vocabulary(train_dataset.samples, args.vocab_size)
+        tokenizer = Tokenizer(vocabulary)
+        args.vocab_size = len(vocabulary)
+        args.pad_token_id = tokenizer.pad_token_id
+
     for dataset in (train_dataset, dev_dataset):
         dataset.register_tokenizer(tokenizer)
-    args.vocab_size = len(vocabulary)
-    args.pad_token_id = tokenizer.pad_token_id
-    print(f'vocab words = {len(vocabulary)}')
+    
+    print(f'vocab words = {args.vocab_size}')
 
     # Print number of samples.
     print(f'train samples = {len(train_dataset)}')
@@ -480,16 +494,20 @@ def main(args):
 
     # Select model.
     model = _select_model(args)
-    num_pretrained = model.load_pretrained_embeddings(
-        vocabulary, args.embedding_path
-    )
-    pct_pretrained = round(num_pretrained / len(vocabulary) * 100., 2)
-    print(f'using pre-trained embeddings from \'{args.embedding_path}\'')
-    print(
-        f'initialized {num_pretrained}/{len(vocabulary)} '
-        f'embeddings ({pct_pretrained}%)'
-    )
-    print()
+    if args.bert:
+        print(f'using pre-trained embeddings from BERT')
+        print()
+    else:
+        num_pretrained = model.load_pretrained_embeddings(
+            vocabulary, args.embedding_path
+        )
+        pct_pretrained = round(num_pretrained / len(vocabulary) * 100., 2)
+        print(f'using pre-trained embeddings from \'{args.embedding_path}\'')
+        print(
+            f'initialized {num_pretrained}/{len(vocabulary)} '
+            f'embeddings ({pct_pretrained}%)'
+        )
+        print()
 
     if args.use_gpu:
         model = cuda(args, model)

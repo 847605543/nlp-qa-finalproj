@@ -171,10 +171,20 @@ class BaselineReader(nn.Module):
         super().__init__()
 
         self.args = args
+        self.use_bert = args.bert
         self.pad_token_id = args.pad_token_id
 
-        # Initialize embedding layer (1)
-        self.embedding = nn.Embedding(args.vocab_size, args.embedding_dim)
+        if self.use_bert:
+            from transformers import AutoModel
+            self.bert = AutoModel.from_pretrained("bert-base-uncased") 
+            # keeping the weights of the pre-trained encoder frozen
+            for param in self.bert.base_model.parameters():
+                param.requires_grad = False
+            # bert base uncased has embedding dim = 768
+            args.embedding_dim = 768
+        else:
+            # Initialize embedding layer (1)
+            self.embedding = nn.Embedding(args.vocab_size, args.embedding_dim)
 
         # Initialize Context2Query (2)
         self.aligned_att = AlignedAttention(args.embedding_dim)
@@ -275,14 +285,22 @@ class BaselineReader(nn.Module):
 
     def forward(self, batch):
         # Obtain masks and lengths for passage and question.
-        passage_mask = (batch['passages'] != self.pad_token_id)  # [batch_size, p_len]
-        question_mask = (batch['questions'] != self.pad_token_id)  # [batch_size, q_len]
+        if self.use_bert:
+            passage_mask = batch['passages']['attention_mask'].bool() # [batch_size, p_len]
+            question_mask = batch['questions']['attention_mask'].bool()  # [batch_size, q_len]
+        else:
+            passage_mask = (batch['passages'] != self.pad_token_id)  # [batch_size, p_len]
+            question_mask = (batch['questions'] != self.pad_token_id)  # [batch_size, q_len]
         passage_lengths = passage_mask.long().sum(-1)  # [batch_size]
         question_lengths = question_mask.long().sum(-1)  # [batch_size]
 
         # 1) Embedding Layer: Embed the passage and question.
-        passage_embeddings = self.embedding(batch['passages'])  # [batch_size, p_len, p_dim]
-        question_embeddings = self.embedding(batch['questions'])  # [batch_size, q_len, q_dim]
+        if self.use_bert:
+            passage_embeddings = self.bert(**batch['passages'])[0]
+            question_embeddings = self.bert(**batch['questions'])[0]
+        else:
+            passage_embeddings = self.embedding(batch['passages'])  # [batch_size, p_len, p_dim]
+            question_embeddings = self.embedding(batch['questions'])  # [batch_size, q_len, q_dim]
 
         # 2) Context2Query: Compute weighted sum of question embeddings for
         #        each passage word and concatenate with passage embeddings.
