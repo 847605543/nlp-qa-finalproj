@@ -278,6 +278,8 @@ def _calculate_loss(
     criterion = nn.CrossEntropyLoss(ignore_index=ignored_index)
     start_loss = criterion(start_logits, start_positions)
     end_loss = criterion(end_logits, end_positions)
+    # print(start_loss)
+    # print(end_loss)
 
     return (start_loss + end_loss) / 2.
 
@@ -328,6 +330,12 @@ def train(args, epoch, model, dataset):
             batch['start_positions'],
             batch['end_positions'],
         )
+        # print(batch['start_positions'])
+        # print(batch['end_positions'])
+        # print(start_logits[range(start_logits.shape[0]),batch['start_positions']])
+        # print(end_logits[range(end_logits.shape[0]),batch['end_positions']])
+        # print(end_logits[9])
+        # print(shit)
         loss.backward()
         if args.grad_clip > 0.:
             torch.nn.utils.clip_grad_norm_(model.parameters(), args.grad_clip)
@@ -481,9 +489,8 @@ def main(args):
         tokenizer = Tokenizer(vocabulary)
         args.vocab_size = len(vocabulary)
         args.pad_token_id = tokenizer.pad_token_id
-
-    for dataset in (train_dataset, dev_dataset):
-        dataset.register_tokenizer(tokenizer)
+        for dataset in (train_dataset, dev_dataset):
+            dataset.register_tokenizer(tokenizer)
     
     print(f'vocab words = {args.vocab_size}')
 

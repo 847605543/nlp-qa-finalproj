@@ -176,7 +176,7 @@ class BaselineReader(nn.Module):
 
         if self.use_bert:
             from transformers import AutoModel
-            self.bert = AutoModel.from_pretrained("bert-base-uncased") 
+            self.bert = AutoModel.from_pretrained("bert-base-uncased", output_hidden_states = True) 
             # keeping the weights of the pre-trained encoder frozen
             for param in self.bert.base_model.parameters():
                 param.requires_grad = False
@@ -286,7 +286,14 @@ class BaselineReader(nn.Module):
     def forward(self, batch):
         # Obtain masks and lengths for passage and question.
         if self.use_bert:
+            # from transformers import AutoTokenizer
+            # tokenizer = AutoTokenizer.from_pretrained('bert-base-cased')
             passage_mask = batch['passages']['attention_mask'].bool() # [batch_size, p_len]
+            # test = tokenizer(batch['test'], padding=True, truncation=True, return_tensors="pt")
+            # print(batch['test'][9])
+            # print(batch['passages']['input_ids'][9])
+            # print(tokenizer.decode(batch['passages']['input_ids'][9]))
+            # print(test.input_ids[9])
             question_mask = batch['questions']['attention_mask'].bool()  # [batch_size, q_len]
         else:
             passage_mask = (batch['passages'] != self.pad_token_id)  # [batch_size, p_len]
@@ -296,8 +303,8 @@ class BaselineReader(nn.Module):
 
         # 1) Embedding Layer: Embed the passage and question.
         if self.use_bert:
-            passage_embeddings = self.bert(**batch['passages'])[0]
-            question_embeddings = self.bert(**batch['questions'])[0]
+            passage_embeddings = self.bert(**batch['passages'])[2][-1]
+            question_embeddings = self.bert(**batch['questions'])[2][-1]
         else:
             passage_embeddings = self.embedding(batch['passages'])  # [batch_size, p_len, p_dim]
             question_embeddings = self.embedding(batch['questions'])  # [batch_size, q_len, q_dim]

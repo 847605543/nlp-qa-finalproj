@@ -323,7 +323,8 @@ class QADataset(Dataset):
                 'passages': input_cuda(self.args, padded_passages) if self.args.bert else cuda(self.args, padded_passages).long(),
                 'questions': input_cuda(self.args, padded_questions) if self.args.bert else cuda(self.args, padded_questions).long(),
                 'start_positions': cuda(self.args, start_positions).long(),
-                'end_positions': cuda(self.args, end_positions).long()
+                'end_positions': cuda(self.args, end_positions).long(),
+                'test': passages
             }
 
             if no_more_data:
