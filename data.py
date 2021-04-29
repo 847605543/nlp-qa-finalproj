@@ -309,8 +309,8 @@ class QADataset(Dataset):
                 'questions': cuda(self.args, padded_questions).long(),
                 'start_positions': cuda(self.args, start_positions).long(),
                 'end_positions': cuda(self.args, end_positions).long(),
-                'passages_c': cuda(self.args, passages_c),
-                'questions_c': cuda(self.args, questions_c)
+                'passages_c': passages_c
+                'questions_c': questions_c
             }
 
             if no_more_data:
