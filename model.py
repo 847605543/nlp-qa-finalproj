@@ -172,6 +172,8 @@ class BaselineReader(nn.Module):
 
         self.args = args
         self.pad_token_id = args.pad_token_id
+        self.pad_c_token_id = args.pad_c_token_id
+
         #args.alphabet_size = len(char_indexer)
         args.char_embedding_dim = 5
 
@@ -346,19 +348,19 @@ class BaselineReader(nn.Module):
 
 
     def get_char_embeddings(self, words, max_len):
-        out = torch.Tensor([])
-        for i, p in enumerate(words):
-            #squeeze out extra list dimensions
-            p = p[0]
-            p = p[0]
 
-            par = torch.zeros((max_len,self.char_embedding_dim))
-            par.unsqueeze_(0)
+        passage_mask = (words != self.pad_c_token_id)
+        word_lengths = passage_mask.long().sum(-1)
 
-            for j, w in enumerate(p):
-                w = torch.Tensor(w).long()
-                emb = self.char_embedding(w)
-                par[0,j,:] = torch.sum(emb,dim=1)/len(w)
-            out = torch.cat((out,par), dim = 0)
+        emb = self.char_embedding(words)
+
+        word_lengths.unsqueeze_(-1)
+        word_lengths.unsqueeze_(-1)
+
+        #print(word_lengths.repeat(1,1,passage_mask.shape[-1],self.char_embedding_dim).shape)
+
+        emb = torch.div(emb,word_lengths)
+        out = torch.sum(emb,dim=2)
+        #out = torch.cat((out,par), dim = 0)
         return out
 

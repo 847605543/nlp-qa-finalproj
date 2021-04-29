@@ -486,6 +486,7 @@ def main(args):
     args.vocab_size = len(vocabulary)
     args.alphabet_size = len(alphabet)
     args.pad_token_id = tokenizer.pad_token_id
+    args.pad_c_token_id = a_tokenizer.pad_token_id
     print(f'vocab words = {len(vocabulary)}')
     print(f'alphabet letters = {len(alphabet)}')
 

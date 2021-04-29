@@ -216,7 +216,7 @@ class QADataset(Dataset):
             passage_c_ids = []
             p_debug = []
             for w in passage:
-                passage_c_ids.append([self.alphabet_tokenizer.convert_tokens_to_ids(w)])
+                passage_c_ids.append(self.alphabet_tokenizer.convert_tokens_to_ids(w))
                 p_debug.append([w])
             
             question_ids = torch.tensor(
@@ -224,7 +224,7 @@ class QADataset(Dataset):
             )
             question_c_ids = []
             for w in question:
-                question_c_ids.append([self.alphabet_tokenizer.convert_tokens_to_ids(w)])
+                question_c_ids.append(self.alphabet_tokenizer.convert_tokens_to_ids(w))
 
             answer_start_ids = torch.tensor(answer_start)
             answer_end_ids = torch.tensor(answer_end)
@@ -232,8 +232,8 @@ class QADataset(Dataset):
             # Store each part in an independent list.
             passages.append(passage_ids)
             questions.append(question_ids)
-            questions_c.append([question_c_ids])
-            passages_c.append([passage_c_ids])
+            questions_c.append(question_c_ids)
+            passages_c.append(passage_c_ids)
 
             start_positions.append(answer_start_ids)
             end_positions.append(answer_end_ids)
@@ -277,18 +277,29 @@ class QADataset(Dataset):
             end_positions = torch.zeros(bsz)
             max_passage_length = 0
             max_question_length = 0
+            max_passage_c_length = 0
+            max_question_c_length = 0
             # Check max lengths for both passages and questions
             for ii in range(bsz):
                 passages.append(current_batch[ii][0])
-                passages_c.append([current_batch[ii][4]])
+                passages_c.append(current_batch[ii][4])
                 questions.append(current_batch[ii][1])
-                questions_c.append([current_batch[ii][5]])
+                questions_c.append(current_batch[ii][5])
 
                 start_positions[ii] = current_batch[ii][2]
                 end_positions[ii] = current_batch[ii][3]
                 max_passage_length = max(
                     max_passage_length, len(current_batch[ii][0])
                 )
+                for w in current_batch[ii][4]:
+                    max_passage_c_length = max(
+                        max_passage_c_length, len(w)
+                    )
+                for w in current_batch[ii][5]:
+                    max_question_c_length = max(
+                        max_question_c_length, len(w)
+                    )
+
                 max_question_length = max(
                     max_question_length, len(current_batch[ii][1])
                 )
@@ -296,6 +307,8 @@ class QADataset(Dataset):
             # Assume pad token index is 0. Need to change here if pad token
             # index is other than 0.
             padded_passages = torch.zeros(bsz, max_passage_length)
+            padded_c_passages = torch.zeros((bsz, max_passage_length,max_passage_c_length))
+            padded_c_questions = torch.zeros((bsz, max_question_length,max_question_c_length))
             padded_questions = torch.zeros(bsz, max_question_length)
             # Pad passages and questions
             for iii, passage_question in enumerate(zip(passages, questions)):
@@ -303,14 +316,23 @@ class QADataset(Dataset):
                 padded_passages[iii][:len(passage)] = passage
                 padded_questions[iii][:len(question)] = question
 
+            for iv, passage_question in enumerate(zip(passages_c, questions_c)):
+                passage, question = passage_question
+                for v,p in enumerate(passage):
+                    padded_c_passages[iv][v][:len(p)] = torch.Tensor(p)
+                for v,q in enumerate(question):
+                    padded_c_questions[iv][v][:len(q)] = torch.Tensor(q)
+
+
+
             # Create an input dictionary
             batch_dict = {
                 'passages': cuda(self.args, padded_passages).long(),
                 'questions': cuda(self.args, padded_questions).long(),
                 'start_positions': cuda(self.args, start_positions).long(),
                 'end_positions': cuda(self.args, end_positions).long(),
-                'passages_c': passages_c,
-                'questions_c': questions_c
+                'passages_c': cuda(self.args, padded_c_passages).long(),
+                'questions_c': cuda(self.args, padded_c_questions).long()
             }
 
             if no_more_data:
