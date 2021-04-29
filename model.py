@@ -171,23 +171,15 @@ class BaselineReader(nn.Module):
         super().__init__()
 
         self.args = args
-        self.use_bert = args.bert
         self.pad_token_id = args.pad_token_id
+        #args.alphabet_size = len(char_indexer)
+        args.char_embedding_dim = 5
 
-        if self.use_bert:
-            # from transformers import AutoModel
-            # self.bert = AutoModel.from_pretrained("bert-base-uncased", output_hidden_states = True)
-            from transformers import BertConfig, BertForPreTraining 
-            config = BertConfig.from_json_file('./bert/bert_tiny/bert_config.json')
-            self.bert = BertForPreTraining.from_pretrained('./bert/bert_tiny/bert_model.ckpt.index', from_tf=True, config=config)
-            # keeping the weights of the pre-trained encoder frozen
-            for param in self.bert.base_model.parameters():
-                param.requires_grad = False
-            # bert base uncased has embedding dim = 768, tiny = 128
-            args.embedding_dim = 128
-        else:
-            # Initialize embedding layer (1)
-            self.embedding = nn.Embedding(args.vocab_size, args.embedding_dim)
+        # Initialize embedding layer (1)
+
+        self.embedding = nn.Embedding(args.vocab_size, args.embedding_dim)
+        self.char_embedding = nn.Embedding(args.alphabet_size, args.char_embedding_dim)
+        self.char_embedding_dim = args.char_embedding_dim
 
         # Initialize Context2Query (2)
         self.aligned_att = AlignedAttention(args.embedding_dim)
@@ -196,15 +188,15 @@ class BaselineReader(nn.Module):
 
         # Initialize passage encoder (3)
         self.passage_rnn = rnn_cell(
-            args.embedding_dim * 2,
+            args.embedding_dim * 2 + self.char_embedding_dim,
             args.hidden_dim,
             bidirectional=args.bidirectional,
             batch_first=True,
         )
-
+        
         # Initialize question encoder (4)
         self.question_rnn = rnn_cell(
-            args.embedding_dim,
+            args.embedding_dim + self.char_embedding_dim,
             args.hidden_dim,
             bidirectional=args.bidirectional,
             batch_first=True,
@@ -288,31 +280,20 @@ class BaselineReader(nn.Module):
 
     def forward(self, batch):
         # Obtain masks and lengths for passage and question.
-        if self.use_bert:
-            # from transformers import AutoTokenizer
-            # tokenizer = AutoTokenizer.from_pretrained('bert-base-cased')
-            passage_mask = batch['passages']['attention_mask'].bool() # [batch_size, p_len]
-            # test = tokenizer(batch['test'], padding=True, truncation=True, return_tensors="pt")
-            # print(batch['test'][9])
-            # print(batch['passages']['input_ids'][9])
-            # print(tokenizer.decode(batch['passages']['input_ids'][9]))
-            # print(test.input_ids[9])
-            question_mask = batch['questions']['attention_mask'].bool()  # [batch_size, q_len]
-        else:
-            passage_mask = (batch['passages'] != self.pad_token_id)  # [batch_size, p_len]
-            question_mask = (batch['questions'] != self.pad_token_id)  # [batch_size, q_len]
+        passage_mask = (batch['passages'] != self.pad_token_id)  # [batch_size, p_len]
+        question_mask = (batch['questions'] != self.pad_token_id)  # [batch_size, q_len]
         passage_lengths = passage_mask.long().sum(-1)  # [batch_size]
-        question_lengths = question_mask.long().sum(-1)  # [batch_size]
+        question_lengths = question_mask.long().sum(-1)  # [batch_size]i
+
+        max_pas_len = passage_mask.shape[1]
+        max_qu_len = question_mask.shape[1]
+
+        char_passage_embeddings = self.get_char_embeddings(batch['passages_c'],max_pas_len)
+        char_question_embeddings = self.get_char_embeddings(batch['questions_c'],max_qu_len)
 
         # 1) Embedding Layer: Embed the passage and question.
-        if self.use_bert:
-            # test = self.bert(**batch['passages'])
-            # print(test)
-            passage_embeddings = self.bert(**batch['passages'], output_hidden_states=True)[2][-1]
-            question_embeddings = self.bert(**batch['questions'], output_hidden_states=True)[2][-1]
-        else:
-            passage_embeddings = self.embedding(batch['passages'])  # [batch_size, p_len, p_dim]
-            question_embeddings = self.embedding(batch['questions'])  # [batch_size, q_len, q_dim]
+        passage_embeddings = self.embedding(batch['passages'])  # [batch_size, p_len, p_dim]
+        question_embeddings = self.embedding(batch['questions'])  # [batch_size, q_len, q_dim]
 
         # 2) Context2Query: Compute weighted sum of question embeddings for
         #        each passage word and concatenate with passage embeddings.
@@ -320,6 +301,15 @@ class BaselineReader(nn.Module):
             passage_embeddings, question_embeddings, ~question_mask
         )  # [batch_size, p_len, q_len]
         aligned_embeddings = aligned_scores.bmm(question_embeddings)  # [batch_size, p_len, q_dim]
+        passage_embeddings = cuda(
+            self.args,
+            torch.cat((passage_embeddings, char_passage_embeddings), 2),
+        )
+
+        question_embeddings = cuda(
+            self.args,
+            torch.cat((question_embeddings, char_question_embeddings), 2),
+        )
         passage_embeddings = cuda(
             self.args,
             torch.cat((passage_embeddings, aligned_embeddings), 2),
@@ -353,3 +343,22 @@ class BaselineReader(nn.Module):
         )  # [batch_size, p_len]
 
         return start_logits, end_logits  # [batch_size, p_len], [batch_size, p_len]
+
+
+    def get_char_embeddings(self, words, max_len):
+        out = torch.Tensor([])
+        for i, p in enumerate(words):
+            #squeeze out extra list dimensions
+            p = p[0]
+            p = p[0]
+
+            par = torch.zeros((max_len,self.char_embedding_dim))
+            par.unsqueeze_(0)
+
+            for j, w in enumerate(p):
+                w = torch.Tensor(w).long()
+                emb = self.char_embedding(w)
+                par[0,j,:] = torch.sum(emb,dim=1)/len(w)
+            out = torch.cat((out,par), dim = 0)
+        return out
+
