@@ -167,7 +167,7 @@ parser.add_argument(
 parser.add_argument(
     '--alphabet_size',
     type=int,
-    default=60,
+    default=100,
     help='vocabulary size (dynamically set, do not change!)',
 )
 parser.add_argument(
