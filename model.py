@@ -173,18 +173,26 @@ class BaselineReader(nn.Module):
         self.args = args
         self.use_bert = args.bert
         self.pad_token_id = args.pad_token_id
+        self.concat = args.concat
 
         if self.use_bert:
             # from transformers import AutoModel
             # self.bert = AutoModel.from_pretrained("bert-base-uncased", output_hidden_states = True)
-            from transformers import BertConfig, BertForPreTraining 
-            config = BertConfig.from_json_file('./bert/bert_tiny/bert_config.json')
-            self.bert = BertForPreTraining.from_pretrained('./bert/bert_tiny/bert_model.ckpt.index', from_tf=True, config=config)
-            # keeping the weights of the pre-trained encoder frozen
-            for param in self.bert.base_model.parameters():
-                param.requires_grad = False
+            from transformers import BertConfig, BertForPreTraining
+            if args.finetune: 
+                config = BertConfig.from_json_file('./bert/bert_tiny_finetune/bert_config.json')
+                self.bert = BertForPreTraining.from_pretrained('./bert/bert_tiny_finetune/bert_model.ckpt.index', from_tf=True, config=config)
+            else:
+                config = BertConfig.from_json_file('./bert/bert_tiny/bert_config.json')
+                self.bert = BertForPreTraining.from_pretrained('./bert/bert_tiny/bert_model.ckpt.index', from_tf=True, config=config)
+                # keeping the weights of the pre-trained encoder frozen
+                for param in self.bert.base_model.parameters():
+                    param.requires_grad = False
             # bert base uncased has embedding dim = 768, tiny = 128
-            args.embedding_dim = 128
+            if self.concat:
+                args.embedding_dim = 256
+            else:
+                args.embedding_dim = 128
         else:
             # Initialize embedding layer (1)
             self.embedding = nn.Embedding(args.vocab_size, args.embedding_dim)
@@ -289,14 +297,7 @@ class BaselineReader(nn.Module):
     def forward(self, batch):
         # Obtain masks and lengths for passage and question.
         if self.use_bert:
-            # from transformers import AutoTokenizer
-            # tokenizer = AutoTokenizer.from_pretrained('bert-base-cased')
             passage_mask = batch['passages']['attention_mask'].bool() # [batch_size, p_len]
-            # test = tokenizer(batch['test'], padding=True, truncation=True, return_tensors="pt")
-            # print(batch['test'][9])
-            # print(batch['passages']['input_ids'][9])
-            # print(tokenizer.decode(batch['passages']['input_ids'][9]))
-            # print(test.input_ids[9])
             question_mask = batch['questions']['attention_mask'].bool()  # [batch_size, q_len]
         else:
             passage_mask = (batch['passages'] != self.pad_token_id)  # [batch_size, p_len]
@@ -306,10 +307,14 @@ class BaselineReader(nn.Module):
 
         # 1) Embedding Layer: Embed the passage and question.
         if self.use_bert:
-            # test = self.bert(**batch['passages'])
-            # print(test)
-            passage_embeddings = self.bert(**batch['passages'], output_hidden_states=True)[2][-1]
-            question_embeddings = self.bert(**batch['questions'], output_hidden_states=True)[2][-1]
+            if self.concat:
+                passage_hidden_states = self.bert(**batch['passages'], output_hidden_states=True)[2]
+                passage_embeddings = torch.cat((passage_hidden_states[-1], passage_hidden_states[-2]), 2)
+                question_hidden_states = self.bert(**batch['questions'], output_hidden_states=True)[2]
+                question_embeddings = torch.cat((question_hidden_states[-1], question_hidden_states[-2]), 2)
+            else:
+                passage_embeddings = self.bert(**batch['passages'], output_hidden_states=True)[2][-1]
+                question_embeddings = self.bert(**batch['questions'], output_hidden_states=True)[2][-1]
         else:
             passage_embeddings = self.embedding(batch['passages'])  # [batch_size, p_len, p_dim]
             question_embeddings = self.embedding(batch['questions'])  # [batch_size, q_len, q_dim]

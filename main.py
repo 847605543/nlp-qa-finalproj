@@ -114,6 +114,16 @@ parser.add_argument(
     action="store_true",
     help='use BERT embeddings instead of GloVe',
 )
+parser.add_argument(
+    '--finetune',
+    action="store_true",
+    help='finetune BERT embeddings',
+)
+parser.add_argument(
+    '--concat',
+    action="store_true",
+    help='concatenate the last 2 hidden layers of BERT as embeddings',
+)
 
 # Optimization arguments.
 parser.add_argument(
@@ -305,11 +315,21 @@ def train(args, epoch, model, dataset):
     train_steps = 0
 
     # Set up optimizer.
-    optimizer = optim.Adam(
-        model.parameters(),
-        lr=args.learning_rate,
-        weight_decay=args.weight_decay,
-    )
+    if args.bert and args.finetune:
+        # bert_params = model.bert.base_model.parameters()
+        base_params = list(map(lambda x: x[1],list(filter(lambda kv: 'bert' not in kv[0], model.named_parameters()))))
+        optimizer = optim.Adam(
+            [{'params': model.bert.base_model.parameters(), 'lr':2e-5},
+             {'params': base_params}],
+            lr=args.learning_rate,
+            weight_decay=args.weight_decay,
+        )
+    else:
+        optimizer = optim.Adam(
+            model.parameters(),
+            lr=args.learning_rate,
+            weight_decay=args.weight_decay,
+        )
 
     # Set up training dataloader. Creates `args.batch_size`-sized
     # batches from available samples.
@@ -447,14 +467,7 @@ def write_predictions(args, model, dataset):
 
                 # Grab predicted span.
                 if args.bert:
-                    # context = dataset.elems[sample_index]['context']
                     offsets_mapping = dataset.tokenizer(passage, return_offsets_mapping=True, truncation=True).offset_mapping
-                    # print("======")
-                    # print(passage)
-                    # print(dataset.tokenizer.decode(batch['passages']['input_ids'][j]))
-                    # print(f"context token length: {len(offsets_mapping)}")
-                    # print(f"start_probs len: {len(start_probs)}, start_index: {start_index}")
-                    # print(f"start_probs len: {len(end_probs)}, start_index: {end_index}")
                     pred_span = passage[offsets_mapping[start_index][0]:(offsets_mapping[end_index][1]+1)]
                 else:
                     pred_span = ' '.join(passage[start_index:(end_index + 1)])
@@ -491,7 +504,8 @@ def main(args):
 
     # Create vocabulary and tokenizer.
     if args.bert:
-        tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
+        # tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
+        tokenizer = AutoTokenizer.from_pretrained('./bert/bert_tiny', model_max_length=512)
         args.pad_token_id = tokenizer.convert_tokens_to_ids(tokenizer.pad_token)
         args.vocab_size = tokenizer.vocab_size
     else:
