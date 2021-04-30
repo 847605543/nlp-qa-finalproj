@@ -167,7 +167,7 @@ parser.add_argument(
 parser.add_argument(
     '--alphabet_size',
     type=int,
-    default=50000,
+    default=60,
     help='vocabulary size (dynamically set, do not change!)',
 )
 parser.add_argument(
@@ -474,9 +474,23 @@ def main(args):
     vocabulary = Vocabulary(train_dataset.samples, args.vocab_size)
     chars = []
     for word in train_dataset.samples:
-        chars.append(list(word))
+        c = []
+        qu = []
+        pa = []
+        #print(len(word))
+        #print(word)
+        i,p,q,s,e = word
+        for ch in list(p):
+            #print(ch)
+            pa.append(list(ch))
+        for ch in list(q):
+            #print(ch)
+            qu.append(list(ch))
+        chars.append((i,pa,qu,s,e))
+        #print(chars)
+        #chars.append([c])
 
-    alphabet = Vocabulary(chars, args.alphabet_size)
+    alphabet = Vocabulary(chars, args.alphabet_size, token_lower = False)
 
     tokenizer = Tokenizer(vocabulary)
     a_tokenizer = Tokenizer(alphabet)

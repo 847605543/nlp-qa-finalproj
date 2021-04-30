@@ -34,12 +34,13 @@ class Vocabulary:
         encoding: A dictionary mapping words (string) to indices (int).
         decoding: A dictionary mapping indices (int) to words (string).
     """
-    def __init__(self, samples, vocab_size):
-        self.words = self._initialize(samples, vocab_size)
+    def __init__(self, samples, vocab_size, token_lower = True):
+        self.words = self._initialize(samples, vocab_size,token_lower)
+        self.lower = token_lower
         self.encoding = {word: index for (index, word) in enumerate(self.words)}
         self.decoding = {index: word for (index, word) in enumerate(self.words)}
 
-    def _initialize(self, samples, vocab_size):
+    def _initialize(self, samples, vocab_size,token_lower=True):
         """
         Counts and sorts all tokens in the data, then it returns a vocab
         list. `PAD_TOKEN and `UNK_TOKEN` are added at the beginning of the
@@ -54,9 +55,14 @@ class Vocabulary:
             (at position 0) and `UNK_TOKEN` (at position 1) are prepended.
         """
         vocab = collections.defaultdict(int)
+        print(samples[0])
         for (_, passage, question, _, _) in samples:
             for token in itertools.chain(passage, question):
-                vocab[token.lower()] += 1
+                if(token_lower):
+                    vocab[token.lower()] += 1
+                else:
+                    for t in token:
+                        vocab[t] += 1
         top_words = [
             word for (word, _) in
             sorted(vocab.items(), key=lambda x: x[1], reverse=True)
@@ -137,7 +143,7 @@ class QADataset(Dataset):
         tokenizer: `Tokenizer` object.
         batch_size: Int. The number of example in a mini batch.
     """
-    def __init__(self, args, path):
+    def __init__(self, args, path, lower = True):
         self.args = args
         self.meta, self.elems = load_dataset(path)
         self.samples = self._create_samples()
@@ -145,6 +151,7 @@ class QADataset(Dataset):
         self.batch_size = args.batch_size if 'batch_size' in args else 1
         self.pad_token_id = self.tokenizer.pad_token_id \
             if self.tokenizer is not None else 0
+        self.lower = lower
 
     def _create_samples(self):
         """
@@ -166,8 +173,8 @@ class QADataset(Dataset):
             for qa in elem['qas']:
                 qid = qa['qid']
                 question = [
-                    token.lower() for (token, offset) in qa['question_tokens']
-                ][:self.args.max_question_length]
+                        token.lower() for (token, offset) in qa['question_tokens']
+                    ][:self.args.max_question_length]
 
                 # Select the first answer span, which is formatted as
                 # (start_position, end_position), where the end_position
@@ -217,7 +224,8 @@ class QADataset(Dataset):
             p_debug = []
             for w in passage:
                 passage_c_ids.append(self.alphabet_tokenizer.convert_tokens_to_ids(w))
-                p_debug.append([w])
+                #print(w)
+                #print(self.alphabet_tokenizer.convert_tokens_to_ids(w))
             
             question_ids = torch.tensor(
                 self.tokenizer.convert_tokens_to_ids(question)
