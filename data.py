@@ -441,16 +441,16 @@ class QADataset(Dataset):
             self.batch_size
         )
 
-    def register_tokenizer(self, tokenizer):
-        """
-        Stores `Tokenizer` object as an instance variable.
+    # def register_tokenizer(self, tokenizer):
+    #     """
+    #     Stores `Tokenizer` object as an instance variable.
 
-        Args:
-            tokenizer: If `True`, shuffle examples. Default: `False`
-        """
-        self.tokenizer = tokenizer
+    #     Args:
+    #         tokenizer: If `True`, shuffle examples. Default: `False`
+    #     """
+    #     self.tokenizer = tokenizer
 
-    def register_tokenizer(self, tokenizer, alphabet_tokenizer):
+    def register_tokenizer(self, tokenizer, alphabet_tokenizer=None):
         """
         Stores `Tokenizer` object as an instance variable.
 
