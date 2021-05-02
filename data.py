@@ -139,6 +139,10 @@ class QADataset(Dataset):
     """
     def __init__(self, args, path):
         self.args = args
+<<<<<<< Updated upstream
+=======
+        # self.char_wise = False
+>>>>>>> Stashed changes
         self.meta, self.elems = load_dataset(path)
         if args.bert:
             from transformers import AutoTokenizer
@@ -228,6 +232,12 @@ class QADataset(Dataset):
         questions = []
         start_positions = []
         end_positions = []
+<<<<<<< Updated upstream
+=======
+        passs = []
+        self.max_word_len = 0
+        self.max_question_word_len = 0
+>>>>>>> Stashed changes
         for idx in example_idxs:
             # Unpack QA sample and tokenize passage/question.
             qid, passage, question, answer_start, answer_end = self.samples[idx]
@@ -297,6 +307,27 @@ class QADataset(Dataset):
                 questions.append(current_batch[ii][1])
                 start_positions[ii] = current_batch[ii][2]
                 end_positions[ii] = current_batch[ii][3]
+<<<<<<< Updated upstream
+=======
+
+                if self.args.char_cat:
+                    passages_c.append(current_batch[ii][4])
+                    questions_c.append(current_batch[ii][5])
+                    max_passage_word_length = 0
+                    max_question_word_length = 0
+                    #print(current_batch[ii][4])
+                    for w in current_batch[ii][4]:
+                        #print(self.alphabet_tokenizer.convert_ids_to_tokens(w),len(w))
+                        #print(w)
+                        max_passage_word_length = max(
+                            max_passage_word_length, len(w)
+                        )
+                    for w in current_batch[ii][5]:
+                        max_question_word_length = max(
+                            max_question_word_length, len(w)
+                        )
+
+>>>>>>> Stashed changes
                 if not self.args.bert:
                     max_passage_length = max(
                         max_passage_length, len(current_batch[ii][0])
@@ -304,6 +335,10 @@ class QADataset(Dataset):
                     max_question_length = max(
                         max_question_length, len(current_batch[ii][1])
                     )
+<<<<<<< Updated upstream
+=======
+                    
+>>>>>>> Stashed changes
 
             # Assume pad token index is 0. Need to change here if pad token
             # index is other than 0.
@@ -313,12 +348,32 @@ class QADataset(Dataset):
             else:
                 padded_passages = torch.zeros(bsz, max_passage_length)
                 padded_questions = torch.zeros(bsz, max_question_length)
+<<<<<<< Updated upstream
+=======
+                if self.args.char_cat:
+                    padded_word_passages = torch.zeros((bsz, max_passage_length,self.max_word_len))
+                    padded_word_questions = torch.zeros((bsz, max_question_length,self.max_question_word_len))
+                    for iv, passage_question in enumerate(zip(passages_c, questions_c)):
+                        passage, question = passage_question
+                        for v,p in enumerate(passage):
+                            #print(len(p))
+                            #print(self.alphabet_tokenizer.convert_ids_to_tokens(p))
+                            #print(max_question_word_length)
+                            #print(max_passage_word_length)
+                            padded_word_passages[iv][v][:len(p)] = torch.Tensor(p)
+                        for v,q in enumerate(question):
+                            padded_word_questions[iv][v][:len(q)] = torch.Tensor(q)
+>>>>>>> Stashed changes
                 # Pad passages and questions
                 for iii, passage_question in enumerate(zip(passages, questions)):
                     passage, question = passage_question
                     padded_passages[iii][:len(passage)] = passage
                     padded_questions[iii][:len(question)] = question
+<<<<<<< Updated upstream
 
+=======
+                    
+>>>>>>> Stashed changes
             # Create an input dictionary
             batch_dict = {
                 'passages': input_cuda(self.args, padded_passages) if self.args.bert else cuda(self.args, padded_passages).long(),
