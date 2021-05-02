@@ -32,6 +32,7 @@ import torch.optim as optim
 from tqdm import tqdm
 
 from data import QADataset, Tokenizer, Vocabulary
+#from transformers import AutoTokenizer, AutoModel
 
 from model import BaselineReader
 from utils import cuda, search_span_endpoints, unpack
@@ -107,6 +108,27 @@ parser.add_argument(
     '--shuffle_examples',
     action='store_true',
     help='shuffle training example at the beginning of each epoch',
+)
+parser.add_argument(
+    '--bert',
+    default = False,
+    action="store_false",
+    help='use BERT embeddings instead of GloVe',
+)
+parser.add_argument(
+    '--finetune',
+    action="store_true",
+    help='finetune BERT embeddings',
+)
+parser.add_argument(
+    '--concat',
+    action="store_true",
+    help='concatenate the last 2 hidden layers of BERT as embeddings',
+)
+parser.add_argument(
+    '--char_cat',
+    action="store_false",
+    help='concatenate character level embedding',
 )
 
 # Optimization arguments.
@@ -278,6 +300,8 @@ def _calculate_loss(
     criterion = nn.CrossEntropyLoss(ignore_index=ignored_index)
     start_loss = criterion(start_logits, start_positions)
     end_loss = criterion(end_logits, end_positions)
+    # print(start_loss)
+    # print(end_loss)
 
     return (start_loss + end_loss) / 2.
 
@@ -303,11 +327,21 @@ def train(args, epoch, model, dataset):
     train_steps = 0
 
     # Set up optimizer.
-    optimizer = optim.Adam(
-        model.parameters(),
-        lr=args.learning_rate,
-        weight_decay=args.weight_decay,
-    )
+    if args.bert and args.finetune:
+        # bert_params = model.bert.base_model.parameters()
+        base_params = list(map(lambda x: x[1],list(filter(lambda kv: 'bert' not in kv[0], model.named_parameters()))))
+        optimizer = optim.Adam(
+            [{'params': model.bert.base_model.parameters(), 'lr':2e-5},
+             {'params': base_params}],
+            lr=args.learning_rate,
+            weight_decay=args.weight_decay,
+        )
+    else:
+        optimizer = optim.Adam(
+            model.parameters(),
+            lr=args.learning_rate,
+            weight_decay=args.weight_decay,
+        )
 
     # Set up training dataloader. Creates `args.batch_size`-sized
     # batches from available samples.
@@ -328,6 +362,12 @@ def train(args, epoch, model, dataset):
             batch['start_positions'],
             batch['end_positions'],
         )
+        # print(batch['start_positions'])
+        # print(batch['end_positions'])
+        # print(start_logits[range(start_logits.shape[0]),batch['start_positions']])
+        # print(end_logits[range(end_logits.shape[0]),batch['end_positions']])
+        # print(end_logits[9])
+        # print(shit)
         loss.backward()
         if args.grad_clip > 0.:
             torch.nn.utils.clip_grad_norm_(model.parameters(), args.grad_clip)
@@ -436,9 +476,13 @@ def write_predictions(args, model, dataset):
                 start_index, end_index = search_span_endpoints(
                         start_probs, end_probs
                 )
-                
+
                 # Grab predicted span.
-                pred_span = ' '.join(passage[start_index:(end_index + 1)])
+                if args.bert:
+                    offsets_mapping = dataset.tokenizer(passage, return_offsets_mapping=True, truncation=True).offset_mapping
+                    pred_span = passage[offsets_mapping[start_index][0]:(offsets_mapping[end_index][1]+1)]
+                else:
+                    pred_span = ' '.join(passage[start_index:(end_index + 1)])
 
                 # Add prediction to outputs.
                 outputs.append({'qid': qid, 'answer': pred_span})
@@ -469,40 +513,45 @@ def main(args):
     # Set up datasets.
     train_dataset = QADataset(args, args.train_path)
     dev_dataset = QADataset(args, args.dev_path)
+    if args.char_cat:
+        chars = []
+        for word in train_dataset.c_samples:
+            c = []
+            qu = []
+            pa = []
+            i,p,q,s,e = word
+            for ch in list(p):
+                pa.append(list(ch))
+            for ch in list(q):
+                qu.append(list(ch))
+            chars.append((i,pa,qu,s,e))
 
     # Create vocabulary and tokenizer.
-    vocabulary = Vocabulary(train_dataset.samples, args.vocab_size)
-    chars = []
-    for word in train_dataset.samples:
-        c = []
-        qu = []
-        pa = []
-        #print(len(word))
-        #print(word)
-        i,p,q,s,e = word
-        for ch in list(p):
-            #print(ch)
-            pa.append(list(ch))
-        for ch in list(q):
-            #print(ch)
-            qu.append(list(ch))
-        chars.append((i,pa,qu,s,e))
-        #print(chars)
-        #chars.append([c])
+    if args.bert:
+        # tokenizer = AutoTokenizer.from_pretrained("bert-base-uncased")
+        tokenizer = AutoTokenizer.from_pretrained('./bert/bert_tiny', model_max_length=512)
+        args.pad_token_id = tokenizer.convert_tokens_to_ids(tokenizer.pad_token)
+        args.vocab_size = tokenizer.vocab_size
+    else:
+        # Default GloVe tokenizer
+        vocabulary = Vocabulary(train_dataset.samples, args.vocab_size, lower = True)
+        if args.char_cat:
+            alphabet = Vocabulary(chars, args.alphabet_size, lower = False)
+            tokenizer_char = Tokenizer(alphabet)
+            args.alphabet_size = len(alphabet)
+        tokenizer = Tokenizer(vocabulary)
 
-    alphabet = Vocabulary(chars, args.alphabet_size, token_lower = False)
+        args.vocab_size = len(vocabulary)
+        args.pad_token_id = tokenizer.pad_token_id
+        if args.char_cat:
+            for dataset in (train_dataset, dev_dataset):
+                dataset.register_tokenizer(tokenizer,tokenizer_char)
+        else:
+            for dataset in (train_dataset, dev_dataset):
+                dataset.register_tokenizer(tokenizer)
 
-    tokenizer = Tokenizer(vocabulary)
-    a_tokenizer = Tokenizer(alphabet)
-
-    for dataset in (train_dataset, dev_dataset):
-        dataset.register_tokenizer(tokenizer,a_tokenizer)
-    args.vocab_size = len(vocabulary)
-    args.alphabet_size = len(alphabet)
-    args.pad_token_id = tokenizer.pad_token_id
-    args.pad_c_token_id = a_tokenizer.pad_token_id
-    print(f'vocab words = {len(vocabulary)}')
-    print(f'alphabet letters = {len(alphabet)}')
+    
+    print(f'vocab words = {args.vocab_size}')
 
     # Print number of samples.
     print(f'train samples = {len(train_dataset)}')
@@ -511,16 +560,20 @@ def main(args):
 
     # Select model.
     model = _select_model(args)
-    num_pretrained = model.load_pretrained_embeddings(
-        vocabulary, args.embedding_path
-    )
-    pct_pretrained = round(num_pretrained / len(vocabulary) * 100., 2)
-    print(f'using pre-trained embeddings from \'{args.embedding_path}\'')
-    print(
-        f'initialized {num_pretrained}/{len(vocabulary)} '
-        f'embeddings ({pct_pretrained}%)'
-    )
-    print()
+    if args.bert:
+        print(f'using pre-trained embeddings from BERT')
+        print()
+    else:
+        num_pretrained = model.load_pretrained_embeddings(
+            vocabulary, args.embedding_path
+        )
+        pct_pretrained = round(num_pretrained / len(vocabulary) * 100., 2)
+        print(f'using pre-trained embeddings from \'{args.embedding_path}\'')
+        print(
+            f'initialized {num_pretrained}/{len(vocabulary)} '
+            f'embeddings ({pct_pretrained}%)'
+        )
+        print()
 
     if args.use_gpu:
         model = cuda(args, model)
