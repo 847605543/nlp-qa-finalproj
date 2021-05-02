@@ -1,0 +1,1787 @@
+{"qid": "56be4db0acb8001400a502ee", "answer": "San Francisco Bay Area "}
+{"qid": "56bea9923aeaaa14008c91bb", "answer": "February 7, 2016,"}
+{"qid": "56beace93aeaaa14008c91e0", "answer": "Arabic numerals 50."}
+{"qid": "56bf10f43aeaaa14008c94fd", "answer": "2016,"}
+{"qid": "56bf10f43aeaaa14008c9500", "answer": "24\u201310 "}
+{"qid": "56d20362e7d4791d009025eb", "answer": "Roman numerals "}
+{"qid": "56be4db0acb8001400a502ee-high-conf-turk1", "answer": "Chicago."}
+{"qid": "56bea9923aeaaa14008c91bb-high-conf-turk3", "answer": "August 18, 1991."}
+{"qid": "56beace93aeaaa14008c91e0-high-conf-turk1", "answer": "Chicago."}
+{"qid": "56bf10f43aeaaa14008c94fd-high-conf-turk1", "answer": "1990 "}
+{"qid": "56bf10f43aeaaa14008c9500-high-conf-turk2", "answer": "74 - 60 "}
+{"qid": "56d20362e7d4791d009025eb-high-conf-turk1", "answer": "Roman numerals "}
+{"qid": "56be4e1facb8001400a502fa", "answer": "1995."}
+{"qid": "56bf159b3aeaaa14008c9507", "answer": "15\u20131 "}
+{"qid": "56be4e1facb8001400a502fa-high-conf-turk2", "answer": "1995."}
+{"qid": "56bf159b3aeaaa14008c9507-high-conf-turk1", "answer": "656."}
+{"qid": "56bf17653aeaaa14008c9514", "answer": "2\u00bd "}
+{"qid": "56d601e41c85041400946ed2", "answer": "linebacker "}
+{"qid": "56bf17653aeaaa14008c9514-high-conf-turk2", "answer": "2\u00bd "}
+{"qid": "56d601e41c85041400946ed2-high-conf-turk2", "answer": "position of hamster."}
+{"qid": "56be5333acb8001400a5030c", "answer": "British rock group Coldplay "}
+{"qid": "56d2051ce7d4791d00902608", "answer": "XLVIII "}
+{"qid": "56d2051ce7d4791d0090260a", "answer": "Coldplay "}
+{"qid": "56d98c53dc89441400fdb548", "answer": "Bruno Mars,"}
+{"qid": "56be5333acb8001400a5030c-high-conf-turk4", "answer": "Stark Industries "}
+{"qid": "56d2051ce7d4791d00902608-high-conf-turk1", "answer": "Champ Bowl."}
+{"qid": "56d2051ce7d4791d0090260a-high-conf-turk1", "answer": "U.S. "}
+{"qid": "56d98c53dc89441400fdb548-high-conf-turk3", "answer": "Bruno Mars,"}
+{"qid": "56be53b8acb8001400a50314", "answer": "Roger Goodell "}
+{"qid": "56be53b8acb8001400a50314-high-conf-turk1", "answer": "Roger Goodell "}
+{"qid": "56d98db6dc89441400fdb552", "answer": "Levi's Stadium."}
+{"qid": "56d98db6dc89441400fdb554", "answer": "Levi's Stadium."}
+{"qid": "56d98db6dc89441400fdb552-high-conf-turk0", "answer": "Texas stadium "}
+{"qid": "56d98db6dc89441400fdb554-high-conf-turk4", "answer": "Ohio's stadium."}
+{"qid": "56d6ef6a0d65d21400198260", "answer": "1985 "}
+{"qid": "56d6ef6a0d65d21400198260-high-conf-turk4", "answer": "1960."}
+{"qid": "56beb2153aeaaa14008c9226", "answer": "May 21, 2013,"}
+{"qid": "56bf23363aeaaa14008c952f", "answer": "2013,"}
+{"qid": "56beb2153aeaaa14008c9226-high-conf-turk3", "answer": "May 21, 2013,"}
+{"qid": "56bf23363aeaaa14008c952f-high-conf-turk2", "answer": "1988."}
+{"qid": "56be59683aeaaa14008c9058", "answer": "1978."}
+{"qid": "56beb3a03aeaaa14008c9248", "answer": "45 "}
+{"qid": "56beb3a03aeaaa14008c9249", "answer": "3,837 "}
+{"qid": "56d6f2960d65d21400198288", "answer": "3,837 "}
+{"qid": "56d997cddc89441400fdb587", "answer": "3,837 "}
+{"qid": "56beb3a03aeaaa14008c9248-high-conf-turk0", "answer": "45 "}
+{"qid": "56beb3a03aeaaa14008c9249-high-conf-turk0", "answer": "3,837 "}
+{"qid": "56d6f2960d65d21400198288-high-conf-turk3", "answer": "3,837 "}
+{"qid": "56d997cddc89441400fdb587-high-conf-turk1", "answer": "3,837 "}
+{"qid": "56beb4343aeaaa14008c925f", "answer": "Mario Addison "}
+{"qid": "56bf301c3aeaaa14008c9551", "answer": "turned 39 "}
+{"qid": "56d6f4030d65d2140019829a", "answer": "Gary Kubiak "}
+{"qid": "56d99b7bdc89441400fdb5ca", "answer": "John Fox "}
+{"qid": "56bf301c3aeaaa14008c9551-high-conf-turk2", "answer": "leg injury."}
+{"qid": "56d6f4030d65d2140019829a-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "56d99b7bdc89441400fdb5ca-high-conf-turk0", "answer": "John Fox "}
+{"qid": "56beb57b3aeaaa14008c9279", "answer": "2,249 yards and nine touchdowns, with 17 interceptions."}
+{"qid": "56d6fe0b0d65d214001982a6", "answer": "Demaryius Thomas "}
+{"qid": "56d99c44dc89441400fdb5da", "answer": "4.7 "}
+{"qid": "56beb57b3aeaaa14008c9279-high-conf-turk0", "answer": "2,249 yards and nine touchdowns, with 17 interceptions."}
+{"qid": "56d6fe0b0d65d214001982a6-high-conf-turk0", "answer": "Demaryius Thomas "}
+{"qid": "56d99c44dc89441400fdb5da-high-conf-turk2", "answer": "4.7 "}
+{"qid": "56beb6f23aeaaa14008c92a2", "answer": "Arizona Cardinals "}
+{"qid": "56bf34293aeaaa14008c955b", "answer": "49\u201315, racking up 487 yards "}
+{"qid": "56beb6f23aeaaa14008c92a2-high-conf-turk2", "answer": "the Dallas Cowboys "}
+{"qid": "56bf34293aeaaa14008c955b-high-conf-turk2", "answer": "49\u201315, racking up 487 yards "}
+{"qid": "56beb7953aeaaa14008c92ab", "answer": "Pittsburgh Steelers "}
+{"qid": "56bf36b93aeaaa14008c9562", "answer": "11 points in the final three minutes "}
+{"qid": "56beb7953aeaaa14008c92ab-high-conf-turk1", "answer": "Dallas "}
+{"qid": "56bf36b93aeaaa14008c9562-high-conf-turk4", "answer": "7366 "}
+{"qid": "56d703d10d65d214001982d7", "answer": "ACL tears "}
+{"qid": "56d703d10d65d214001982d7-high-conf-turk0", "answer": "William Williams "}
+{"qid": "56d9a0eadc89441400fdb640", "answer": "John Elway,"}
+{"qid": "56d9a0eadc89441400fdb640-high-conf-turk2", "answer": "Jeff Dead "}
+{"qid": "56d7096b0d65d214001982fe", "answer": "Newton for Carolina and Von Miller "}
+{"qid": "56d7096b0d65d214001982fe-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "56beb97c3aeaaa14008c92dc", "answer": "Kubiak replacing Elway "}
+{"qid": "56bf6c3e3aeaaa14008c9615", "answer": "linebacker "}
+{"qid": "56bf6c3e3aeaaa14008c9617", "answer": "Elway "}
+{"qid": "56beb97c3aeaaa14008c92dc-high-conf-turk1", "answer": "Kew Gardens "}
+{"qid": "56bf6c3e3aeaaa14008c9615-high-conf-turk0", "answer": "linebacker "}
+{"qid": "56bf6c3e3aeaaa14008c9617-high-conf-turk2", "answer": "Elway "}
+{"qid": "56bebad93aeaaa14008c92fc", "answer": "white "}
+{"qid": "56d9a637dc89441400fdb69a", "answer": "blue "}
+{"qid": "56bebad93aeaaa14008c92fc-high-conf-turk1", "answer": "dark colored "}
+{"qid": "56d9a637dc89441400fdb69a-high-conf-turk4", "answer": "maize and blue "}
+{"qid": "56bebb293aeaaa14008c9303", "answer": "Stanford University "}
+{"qid": "56d9a6b4dc89441400fdb6a0", "answer": "San Jose Marriott."}
+{"qid": "56d9a6b4dc89441400fdb6a1", "answer": "San Jose Marriott."}
+{"qid": "56bebb293aeaaa14008c9303-high-conf-turk3", "answer": "Stanford University "}
+{"qid": "56d9a6b4dc89441400fdb6a0-high-conf-turk0", "answer": "San Jose Marriott."}
+{"qid": "56d9a6b4dc89441400fdb6a1-high-conf-turk1", "answer": "San Jose Marriott."}
+{"qid": "56bebbbf3aeaaa14008c9318", "answer": "Super Bowl 50 "}
+{"qid": "56d70daa0d65d21400198334", "answer": "Super Bowl L."}
+{"qid": "56d70daa0d65d21400198336", "answer": "June 4, 2014,"}
+{"qid": "56bebbbf3aeaaa14008c9318-high-conf-turk4", "answer": "Central Park."}
+{"qid": "56d70daa0d65d21400198334-high-conf-turk0", "answer": "LSTM "}
+{"qid": "56d70daa0d65d21400198336-high-conf-turk0", "answer": "1956 "}
+{"qid": "56bebcbe3aeaaa14008c9328", "answer": "Jane Kim "}
+{"qid": "56bf53e73aeaaa14008c95cc", "answer": "Ed Lee "}
+{"qid": "56d7145c0d65d2140019834f", "answer": "Ed Lee "}
+{"qid": "56d9b389dc89441400fdb6ed", "answer": "More than 1 million "}
+{"qid": "56d9b389dc89441400fdb6ee", "answer": "San Francisco mayor Ed Lee "}
+{"qid": "56bebcbe3aeaaa14008c9328-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "56bf53e73aeaaa14008c95cc-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "56d7145c0d65d2140019834f-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "56d9b389dc89441400fdb6ed-high-conf-turk0", "answer": "More than 6 thousand "}
+{"qid": "56bebd713aeaaa14008c9330", "answer": "$2 million "}
+{"qid": "56bf555e3aeaaa14008c95d4", "answer": "pep "}
+{"qid": "56d9b43edc89441400fdb700", "answer": "$2 million "}
+{"qid": "56bebd713aeaaa14008c9330-high-conf-turk2", "answer": "$7 million "}
+{"qid": "56d9b43edc89441400fdb700-high-conf-turk0", "answer": "$7 million "}
+{"qid": "56bebde53aeaaa14008c9338", "answer": "San Jose."}
+{"qid": "56bf57043aeaaa14008c95dd", "answer": "San Jose."}
+{"qid": "56d71bd80d65d21400198361", "answer": "San Jose."}
+{"qid": "56d9b4ebdc89441400fdb70a", "answer": "San Jose."}
+{"qid": "56bebde53aeaaa14008c9338-high-conf-turk0", "answer": "San Jose."}
+{"qid": "56bf57043aeaaa14008c95dd-high-conf-turk1", "answer": "Chicago."}
+{"qid": "56d71bd80d65d21400198361-high-conf-turk0", "answer": "San Jose."}
+{"qid": "56d9b4ebdc89441400fdb70a-high-conf-turk3", "answer": "San Jose."}
+{"qid": "56bf59523aeaaa14008c95e4", "answer": "over $40 million "}
+{"qid": "56bec0353aeaaa14008c934f", "answer": "a large, 18-karat gold-plated "}
+{"qid": "56bec0353aeaaa14008c934f-high-conf-turk4", "answer": "a large, 18-karat gold-plated "}
+{"qid": "56bec1823aeaaa14008c9363", "answer": "John Sutcliffe."}
+{"qid": "56bec1823aeaaa14008c9363-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "56bec3153aeaaa14008c938c", "answer": "20th "}
+{"qid": "56bec3153aeaaa14008c938c-high-conf-turk0", "answer": "70th "}
+{"qid": "56bf71e73aeaaa14008c9640", "answer": "nine "}
+{"qid": "56bf71e73aeaaa14008c9640-high-conf-turk0", "answer": "Many "}
+{"qid": "56bec4343aeaaa14008c93ac", "answer": "Resurgence and Eddie the Eagle, Lionsgate paid for Gods of Egypt,"}
+{"qid": "56d723560d65d214001983ad", "answer": "Alice Through the Looking Glass."}
+{"qid": "56bec4343aeaaa14008c93ac-high-conf-turk0", "answer": "hamster "}
+{"qid": "56d723560d65d214001983ad-high-conf-turk2", "answer": "Alice Through the Looking Glass."}
+{"qid": "56bf738b3aeaaa14008c9656", "answer": "Kevin Harlan "}
+{"qid": "56bf738b3aeaaa14008c9656-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "56bec5233aeaaa14008c93d1", "answer": "1110 AM)"}
+{"qid": "56bec5233aeaaa14008c93d1-high-conf-turk0", "answer": "1110 AM)"}
+{"qid": "56bec5ff3aeaaa14008c93e4", "answer": "Live and 5 Live Sports Extra "}
+{"qid": "56bec5ff3aeaaa14008c93e4-high-conf-turk1", "answer": "1 Live Sports Extra "}
+{"qid": "56d9c3a6dc89441400fdb7b4", "answer": "39 "}
+{"qid": "56d9c3a6dc89441400fdb7b5", "answer": "39 "}
+{"qid": "56d9c3a6dc89441400fdb7b4-high-conf-turk0", "answer": "2 "}
+{"qid": "56d9c3a6dc89441400fdb7b5-high-conf-turk2", "answer": "39 "}
+{"qid": "56d9c455dc89441400fdb7c6", "answer": "Marlee Matlin "}
+{"qid": "56d9c455dc89441400fdb7c6-high-conf-turk2", "answer": "Jeff Dean "}
+{"qid": "56d728a10d65d21400198414", "answer": "linebacker Shaq Thompson "}
+{"qid": "56d728a10d65d21400198416", "answer": "a deficit."}
+{"qid": "56d728a10d65d21400198414-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "56d728a10d65d21400198416-high-conf-turk1", "answer": "the Aliens "}
+{"qid": "56bec8243aeaaa14008c942b", "answer": "Mike Carey "}
+{"qid": "56bec8243aeaaa14008c942c", "answer": "Cam Newton "}
+{"qid": "56bec8243aeaaa14008c942d", "answer": "linebacker Von Miller "}
+{"qid": "56bec8243aeaaa14008c942b-high-conf-turk3", "answer": "Jeff Dean "}
+{"qid": "56bec8243aeaaa14008c942d-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "56bec98e3aeaaa14008c9457", "answer": "25 and 22 "}
+{"qid": "56bec98e3aeaaa14008c9459", "answer": "Corey Brown."}
+{"qid": "56d7282f0d65d2140019840c", "answer": "Trevathan "}
+{"qid": "56bec98e3aeaaa14008c9459-high-conf-turk1", "answer": "Jeff Dean "}
+{"qid": "56d7282f0d65d2140019840c-high-conf-turk1", "answer": "Jeff Dean "}
+{"qid": "56d9ca0adc89441400fdb822", "answer": "39-"}
+{"qid": "56d9ca0adc89441400fdb822-high-conf-turk1", "answer": "39-"}
+{"qid": "56d726b60d65d214001983ec", "answer": "Newton "}
+{"qid": "56becb823aeaaa14008c948b", "answer": "194 "}
+{"qid": "56d9cd9adc89441400fdb84f", "answer": "Chicago Bears "}
+{"qid": "56becb823aeaaa14008c948b-high-conf-turk0", "answer": "694 "}
+{"qid": "56d9cd9adc89441400fdb84f-high-conf-turk1", "answer": "Chicago Bears "}
+{"qid": "57336755d058e614000b5a3d", "answer": "100 "}
+{"qid": "57336755d058e614000b5a3d-high-conf-turk0", "answer": "100 "}
+{"qid": "57337ddc4776f41900660bbd", "answer": "several "}
+{"qid": "57337ddc4776f41900660bbd-high-conf-turk0", "answer": "42 "}
+{"qid": "57337ea24776f41900660bd4", "answer": "internal migration and urbanisation."}
+{"qid": "57337ea24776f41900660bd4-high-conf-turk0", "answer": "internal migration and urbanisation."}
+{"qid": "57339555d058e614000b5df4", "answer": "Warsaw University of Technology "}
+{"qid": "57339555d058e614000b5df4-high-conf-turk0", "answer": "Warsaw University of Technology "}
+{"qid": "57339ad74776f41900660e87", "answer": "events and festivals."}
+{"qid": "57339ad74776f41900660e87-high-conf-turk1", "answer": "animals including hamsters."}
+{"qid": "57339dd94776f41900660ecc", "answer": "Wianki "}
+{"qid": "57339dd94776f41900660ece", "answer": "in the programme of cultural events in Warsaw."}
+{"qid": "5733a1854776f41900660f0b", "answer": "Katy\u0144 Museum "}
+{"qid": "5733a32bd058e614000b5f35", "answer": "Konwiktorska Street,"}
+{"qid": "5733a32bd058e614000b5f35-high-conf-turk0", "answer": "Konwiktorska Street,"}
+{"qid": "5733a560d058e614000b5f7b", "answer": "heard her songs;"}
+{"qid": "5733a6ac4776f41900660f58", "answer": "Warsaw."}
+{"qid": "5733a6ac4776f41900660f58-high-conf-turk0", "answer": "Warsaw."}
+{"qid": "57332e48d058e614000b5765", "answer": "48 "}
+{"qid": "57332e48d058e614000b5765-high-conf-turk0", "answer": "13 "}
+{"qid": "57332f81d058e614000b5776", "answer": "Bricks for Warsaw\""}
+{"qid": "57332f81d058e614000b5776-high-conf-turk2", "answer": "Bricks for Warsaw\""}
+{"qid": "573362b94776f41900660978", "answer": "1775\u20131795)"}
+{"qid": "573382d24776f41900660c38", "answer": "304,016 "}
+{"qid": "573382d24776f41900660c38-high-conf-turk1", "answer": "304,016 "}
+{"qid": "573383d0d058e614000b5c36", "answer": "Chevrolet Aveo."}
+{"qid": "573383d0d058e614000b5c38", "answer": "AvtoZAZ,"}
+{"qid": "573383d0d058e614000b5c36-high-conf-turk2", "answer": "The American "}
+{"qid": "573383d0d058e614000b5c38-high-conf-turk0", "answer": "Stark Industries "}
+{"qid": "573166ede6313a140071cef3", "answer": "Warsaw "}
+{"qid": "573166ede6313a140071cef5", "answer": "2.666 million "}
+{"qid": "573166ede6313a140071cef3-high-conf-turk0", "answer": "Chicago "}
+{"qid": "573166ede6313a140071cef5-high-conf-turk1", "answer": "7.666 thousand "}
+{"qid": "56ddde6b9a695914005b9629", "answer": "10th and 11th centuries "}
+{"qid": "56ddde6b9a695914005b9629-high-conf-turk0", "answer": "10th and 11th centuries "}
+{"qid": "56dddf4066d3e219004dad60", "answer": "French crown,"}
+{"qid": "56dddf4066d3e219004dad61", "answer": "Catholic "}
+{"qid": "56dddf4066d3e219004dad60-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "56dddf4066d3e219004dad61-high-conf-turk2", "answer": "Catholic "}
+{"qid": "56dde0379a695914005b9637", "answer": "9th century)"}
+{"qid": "56dde0379a695914005b9637-high-conf-turk2", "answer": "1956."}
+{"qid": "56dde27d9a695914005b9652", "answer": "north "}
+{"qid": "56dde27d9a695914005b9652-high-conf-turk1", "answer": "north "}
+{"qid": "56de0daecffd8e1900b4b596", "answer": "William Iron Arm,"}
+{"qid": "56de0daecffd8e1900b4b596-high-conf-turk0", "answer": "William Iron Arm,"}
+{"qid": "56de0e25cffd8e1900b4b59c", "answer": "Squillace,"}
+{"qid": "56de0e25cffd8e1900b4b59c-high-conf-turk0", "answer": "Squillace,"}
+{"qid": "56de0ed14396321400ee257b", "answer": "meritocratic "}
+{"qid": "56de0ed14396321400ee257b-high-conf-turk3", "answer": "deep "}
+{"qid": "56de16ca4396321400ee25c8", "answer": "Anglo-Saxons "}
+{"qid": "56de16ca4396321400ee25c8-high-conf-turk3", "answer": "Vanderbilt "}
+{"qid": "56de179dcffd8e1900b4b5da", "answer": "1169."}
+{"qid": "56de179dcffd8e1900b4b5da-high-conf-turk2", "answer": "1169."}
+{"qid": "56de41504396321400ee2715", "answer": "12 May 1191 "}
+{"qid": "56de4a89cffd8e1900b4b7be", "answer": "rounded arches,"}
+{"qid": "56de4a89cffd8e1900b4b7be-high-conf-turk0", "answer": "deep "}
+{"qid": "56de51c64396321400ee27f7", "answer": "11th "}
+{"qid": "56de51c64396321400ee27f7-high-conf-turk3", "answer": "11th "}
+{"qid": "56dfa01738dc42170015211e", "answer": "high-voltage,"}
+{"qid": "56e0bb9f7aa994140058e6cd", "answer": "the SI unit of magnetic flux density "}
+{"qid": "56e0bb9f7aa994140058e6cd-high-conf-turk3", "answer": "the SI unit of magnetic flux density "}
+{"qid": "56e0c2307aa994140058e6e3", "answer": "illness "}
+{"qid": "56e0c2307aa994140058e6e3-high-conf-turk3", "answer": "Tadakatsu "}
+{"qid": "56dfa3c338dc421700152154", "answer": "1875,"}
+{"qid": "56dfa3c338dc421700152155", "answer": "Graz,"}
+{"qid": "56e0cbf3231d4119001ac3ac", "answer": "1875,"}
+{"qid": "56e0cbf3231d4119001ac3ae", "answer": "gambling back his initial losses "}
+{"qid": "56dfa3c338dc421700152154-high-conf-turk2", "answer": "1850."}
+{"qid": "56dfa3c338dc421700152155-high-conf-turk1", "answer": "Central Park "}
+{"qid": "56e0cbf3231d4119001ac3ac-high-conf-turk0", "answer": "1875,"}
+{"qid": "56e0cbf3231d4119001ac3ae-high-conf-turk2", "answer": "gambling back his initial losses "}
+{"qid": "56dfac8e231d4119001abc5b", "answer": "Prague "}
+{"qid": "56dfac8e231d4119001abc5b-high-conf-turk0", "answer": "Prague "}
+{"qid": "56dfad0a7aa994140058dfc9", "answer": "chief electrician "}
+{"qid": "56dfad0a7aa994140058dfc9-high-conf-turk2", "answer": "chief electrician "}
+{"qid": "56e0d54a7aa994140058e76c", "answer": "Thomas Edison "}
+{"qid": "56e0d54a7aa994140058e76c-high-conf-turk2", "answer": "Thomas Edison "}
+{"qid": "56e0d6367aa994140058e775", "answer": "US$18 per week "}
+{"qid": "56e0d6367aa994140058e775-high-conf-turk4", "answer": "US$18 per week "}
+{"qid": "56dfb5777aa994140058e025", "answer": "electrical arc light "}
+{"qid": "56dfb666231d4119001abcc3", "answer": "89 Liberty Street in Manhattan "}
+{"qid": "56dfb666231d4119001abcc3-high-conf-turk1", "answer": "89 Liberty Street in Manhattan "}
+{"qid": "56e0d9e0231d4119001ac43e", "answer": "constantly servicing and replacing mechanical brushes."}
+{"qid": "56e0d9e0231d4119001ac43e-high-conf-turk2", "answer": "Tadakatsu'"}
+{"qid": "56e057e1231d4119001ac043", "answer": "a friend and publicist)"}
+{"qid": "56e0dbb57aa994140058e77c", "answer": "rotating magnetic field-based induction motor "}
+{"qid": "56e057e1231d4119001ac043-high-conf-turk0", "answer": "a friend and publicist)"}
+{"qid": "56e0dbb57aa994140058e77c-high-conf-turk1", "answer": "rotating magnetic field-based induction motor "}
+{"qid": "56e059c8231d4119001ac059", "answer": "60-cycle "}
+{"qid": "56e059c8231d4119001ac059-high-conf-turk1", "answer": "60-cycle "}
+{"qid": "56e05a78231d4119001ac065", "answer": "General Electric "}
+{"qid": "56e0e5f37aa994140058e78d", "answer": "1888."}
+{"qid": "56e05a78231d4119001ac065-high-conf-turk2", "answer": "General Electric "}
+{"qid": "56e0e5f37aa994140058e78d-high-conf-turk0", "answer": "1863."}
+{"qid": "56e089ab231d4119001ac287", "answer": "$216,000;"}
+{"qid": "56e089ab231d4119001ac287-high-conf-turk3", "answer": "$216,000;"}
+{"qid": "56e0ef90231d4119001ac46b", "answer": "wireless "}
+{"qid": "56e0ef90231d4119001ac46b-high-conf-turk4", "answer": "wireless "}
+{"qid": "56e0fc3f7aa994140058e878", "answer": "Guglielmo Marconi "}
+{"qid": "56e0fc3f7aa994140058e878-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "56e0fe85e3433e1400422a6c", "answer": "15 miles "}
+{"qid": "56e0fe85e3433e1400422a6c-high-conf-turk3", "answer": "65 miles away."}
+{"qid": "56e10043e3433e1400422a87", "answer": "could come from Mars,"}
+{"qid": "56e10043e3433e1400422a87-high-conf-turk0", "answer": "Neptune "}
+{"qid": "56e100b6cd28a01900c67404", "answer": "fund his Colorado Springs experiments."}
+{"qid": "56e100b6cd28a01900c67404-high-conf-turk2", "answer": "a hamster."}
+{"qid": "56e10296cd28a01900c67426", "answer": "187 feet "}
+{"qid": "56e10296cd28a01900c67426-high-conf-turk2", "answer": "687 feet."}
+{"qid": "56e10325cd28a01900c67437", "answer": "1906,"}
+{"qid": "56e10325cd28a01900c67437-high-conf-turk1", "answer": "1881."}
+{"qid": "56e10d2dcd28a01900c674db", "answer": "1935,"}
+{"qid": "56e10d2dcd28a01900c674db-high-conf-turk0", "answer": "1910."}
+{"qid": "56e10ddce3433e1400422b48", "answer": "dodge a moving taxicab and was thrown heavily "}
+{"qid": "56e10ddce3433e1400422b48-high-conf-turk3", "answer": "school "}
+{"qid": "56e10fbacd28a01900c6750d", "answer": "particle beam weapons."}
+{"qid": "56e11044e3433e1400422b77", "answer": "teleforce weapon "}
+{"qid": "56e110c3cd28a01900c67534", "answer": "coronary thrombosis."}
+{"qid": "56e110c3cd28a01900c67534-high-conf-turk0", "answer": "Hamster "}
+{"qid": "56e1127bcd28a01900c6754b", "answer": "Kosanovi\u0107's secretary Charlotte Muzar "}
+{"qid": "56e1127bcd28a01900c6754b-high-conf-turk0", "answer": "Kosanovi\u0107's secretary Charlotte Muzar "}
+{"qid": "56e11a16cd28a01900c675b6", "answer": "8:10 p.m.,"}
+{"qid": "56e11a16cd28a01900c675b8", "answer": "headwaiter,"}
+{"qid": "56e11a16cd28a01900c675b6-high-conf-turk2", "answer": "8:10 p.m.,"}
+{"qid": "56e11a73e3433e1400422bf1", "answer": "it stimulated his brain cells."}
+{"qid": "56e11a73e3433e1400422bf2", "answer": "stimulated his brain cells."}
+{"qid": "56e11a73e3433e1400422bf3", "answer": "brain cells."}
+{"qid": "56e11a73e3433e1400422bf2-high-conf-turk0", "answer": "stimulated his brain cells."}
+{"qid": "56e120a1e3433e1400422c3b", "answer": "19th "}
+{"qid": "56e122dacd28a01900c6763b", "answer": "pity\""}
+{"qid": "56e122dacd28a01900c6763b-high-conf-turk0", "answer": "Tadakatsu's opinion,"}
+{"qid": "56e1239acd28a01900c67641", "answer": "Queen Bees."}
+{"qid": "56e1239acd28a01900c67641-high-conf-turk2", "answer": "Tadakatsu "}
+{"qid": "56e124f1cd28a01900c6764f", "answer": "Orthodox Christian."}
+{"qid": "56e124f1cd28a01900c6764f-high-conf-turk0", "answer": "Jupiter "}
+{"qid": "56e1254ae3433e1400422c66", "answer": "A Machine to End War\""}
+{"qid": "56e1254ae3433e1400422c66-high-conf-turk2", "answer": "Aliens "}
+{"qid": "56e125b6e3433e1400422c6c", "answer": "a number of books and articles for magazines and journals."}
+{"qid": "56e125b6e3433e1400422c6c-high-conf-turk0", "answer": "a number of books and articles for magazines and journals."}
+{"qid": "56e17e6ee3433e1400422f80", "answer": "complexity theory addresses computational problems "}
+{"qid": "56e17e6ee3433e1400422f80-high-conf-turk0", "answer": "Central Park "}
+{"qid": "56e1a38de3433e140042305d", "answer": "n vertices?"}
+{"qid": "56e1a564cd28a01900c67a4b", "answer": "defined to be the maximum time taken over all inputs of size n."}
+{"qid": "56e1a564cd28a01900c67a4b-high-conf-turk2", "answer": "defined to be the maximum time taken over all inputs of size n."}
+{"qid": "56e1aba0e3433e1400423097", "answer": "Turing machine "}
+{"qid": "56e1aba0e3433e1400423097-high-conf-turk0", "answer": "Turing machine "}
+{"qid": "56e1c2eee3433e1400423134", "answer": "chosen machine model."}
+{"qid": "56e1c2eee3433e1400423135", "answer": "quadratic "}
+{"qid": "56e1c2eee3433e1400423134-high-conf-turk1", "answer": "the variables."}
+{"qid": "56e1c3e1e3433e1400423149", "answer": "complexity classes "}
+{"qid": "56e1c4fce3433e1400423152", "answer": "Interactive "}
+{"qid": "56e1c4fce3433e1400423152-high-conf-turk2", "answer": "Interactive "}
+{"qid": "56e1c720e3433e140042316e", "answer": "quantitative "}
+{"qid": "56e1c720e3433e140042316e-high-conf-turk1", "answer": "His statement "}
+{"qid": "56e1ce08e3433e14004231a6", "answer": "solve any problem "}
+{"qid": "56e1e9dfe3433e1400423200", "answer": "Laszlo Babai and Eugene Luks "}
+{"qid": "56e1e9dfe3433e1400423200-high-conf-turk1", "answer": "Polynomials "}
+{"qid": "56e1ee4de3433e1400423210", "answer": "collapse to one class."}
+{"qid": "56e1ee4de3433e1400423210-high-conf-turk0", "answer": "simplicity."}
+{"qid": "56e1f10ee3433e1400423224", "answer": "complexity classes "}
+{"qid": "56e2042ecd28a01900c67c20", "answer": "Raymond Smullyan'"}
+{"qid": "56e2042ecd28a01900c67c20-high-conf-turk1", "answer": "Jeff Dean "}
+{"qid": "56e74bf937bdd419002c3e36", "answer": "wider community."}
+{"qid": "56e74bf937bdd419002c3e36-high-conf-turk3", "answer": "Formal "}
+{"qid": "56e74e4800c9c71400d76f77", "answer": "to serve and protect the public interest through certifying,"}
+{"qid": "56e74e4800c9c71400d76f78", "answer": "certifying, governing and enforcing the standards of practice for the teaching profession."}
+{"qid": "56e7535037bdd419002c3e6f", "answer": "skill."}
+{"qid": "56e7535037bdd419002c3e6f-high-conf-turk2", "answer": "impractical."}
+{"qid": "56e756bc37bdd419002c3e97", "answer": "learning by providing a social networking support "}
+{"qid": "56e7586d37bdd419002c3eb5", "answer": "the world."}
+{"qid": "56e7586d37bdd419002c3eb5-high-conf-turk1", "answer": "Chicago."}
+{"qid": "56e75b8237bdd419002c3ed3", "answer": "clear "}
+{"qid": "56e75b8237bdd419002c3ed4", "answer": "clear boundaries "}
+{"qid": "56e75b8237bdd419002c3ed4-high-conf-turk1", "answer": "clear boundaries "}
+{"qid": "56e75d5037bdd419002c3ef5", "answer": "teachers and parents "}
+{"qid": "56e75e4500c9c71400d7702f", "answer": "Japan,"}
+{"qid": "56e75f5500c9c71400d7703a", "answer": "school class sizes are typically 40 to 50 students,"}
+{"qid": "56e75f5500c9c71400d7703d", "answer": "attention-seeking and disruptive students."}
+{"qid": "56e75f5500c9c71400d7703a-high-conf-turk4", "answer": "10 to 90 students "}
+{"qid": "56e762fe00c9c71400d77073", "answer": "read lecture material "}
+{"qid": "56e762fe00c9c71400d77075", "answer": "experimental "}
+{"qid": "56e762fe00c9c71400d77073-high-conf-turk0", "answer": "read lecture material "}
+{"qid": "56e764e200c9c71400d7708f", "answer": "student-teacher "}
+{"qid": "56e764e200c9c71400d7708f-high-conf-turk0", "answer": "ineffective "}
+{"qid": "56e7667e37bdd419002c3f4c", "answer": "teaching,"}
+{"qid": "56e7667e37bdd419002c3f4c-high-conf-turk4", "answer": "no passion "}
+{"qid": "56e769dc00c9c71400d770e8", "answer": "Fears of being labelled a pedophile or hebephile "}
+{"qid": "56e7714a00c9c71400d7713a", "answer": "experience and qualifications."}
+{"qid": "56e7714a00c9c71400d7713a-high-conf-turk0", "answer": "40000 dollars."}
+{"qid": "56e775ec00c9c71400d7715c", "answer": "General Teaching Council for Scotland "}
+{"qid": "56e7788200c9c71400d77180", "answer": "members of trade unions "}
+{"qid": "56e7788200c9c71400d77180-high-conf-turk0", "answer": "group of insurers."}
+{"qid": "56e77c6737bdd419002c401d", "answer": "LDS Church)"}
+{"qid": "56e77c6737bdd419002c401d-high-conf-turk0", "answer": "CRRLC "}
+{"qid": "56e77cee00c9c71400d771a8", "answer": "guru,"}
+{"qid": "56e77cee00c9c71400d771a8-high-conf-turk1", "answer": "guru,"}
+{"qid": "56e77da237bdd419002c403b", "answer": "Lama."}
+{"qid": "56e77da237bdd419002c403b-high-conf-turk4", "answer": "Serenity "}
+{"qid": "56f7c8aba6d7ea1400e1727c", "answer": "Pope "}
+{"qid": "56f7c8aba6d7ea1400e1727c-high-conf-turk0", "answer": "Pope "}
+{"qid": "56f7cb10a6d7ea1400e17285", "answer": "Tyndale Bible."}
+{"qid": "56f7cb10a6d7ea1400e17285-high-conf-turk1", "answer": "vernacular "}
+{"qid": "56f7cdc2a6d7ea1400e17292", "answer": "lawyer."}
+{"qid": "56f7cdc2a6d7ea1400e17292-high-conf-turk0", "answer": "lawyer."}
+{"qid": "56f7eddca6d7ea1400e172da", "answer": "deaths "}
+{"qid": "56f7eddca6d7ea1400e172da-high-conf-turk0", "answer": "Vandross "}
+{"qid": "56f7f15aa6d7ea1400e172ef", "answer": "Biblical studies "}
+{"qid": "56f7f15aa6d7ea1400e172ef-high-conf-turk1", "answer": "Biblical studies "}
+{"qid": "56f7f2e0aef2371900625cb0", "answer": "21 October 1512,"}
+{"qid": "56f7f2e0aef2371900625cb0-high-conf-turk0", "answer": "21 October 1512,"}
+{"qid": "56f7fde8a6d7ea1400e17368", "answer": "to rebuild St. Peter's Basilica in Rome."}
+{"qid": "56f7fde8a6d7ea1400e1736a", "answer": "active in charity and good works "}
+{"qid": "56f7fde8a6d7ea1400e17368-high-conf-turk1", "answer": "to rebuild St. Peter's Basilica in Rome."}
+{"qid": "56f7fde8a6d7ea1400e1736a-high-conf-turk1", "answer": "active in charity and good works "}
+{"qid": "56f80143aef2371900625d6b", "answer": "coin in the coffer rings,"}
+{"qid": "56f8046faef2371900625d72", "answer": "overstated the matter in regard to indulgences for the dead,"}
+{"qid": "56f8046faef2371900625d72-high-conf-turk0", "answer": "made "}
+{"qid": "56f8074faef2371900625d7b", "answer": "friends of Luther "}
+{"qid": "56f8074faef2371900625d7b-high-conf-turk1", "answer": "Jeff Dean "}
+{"qid": "56f811bdaef2371900625da3", "answer": "desisted "}
+{"qid": "56f811bdaef2371900625da3-high-conf-turk0", "answer": "came from the Benedict."}
+{"qid": "56f82454a6d7ea1400e173ff", "answer": "laid out on a table "}
+{"qid": "56f82454a6d7ea1400e173ff-high-conf-turk0", "answer": "Vandross "}
+{"qid": "56f826a7a6d7ea1400e17428", "answer": "Luther "}
+{"qid": "56f827caa6d7ea1400e1743c", "answer": "literature, and requiring his arrest:"}
+{"qid": "56f827caa6d7ea1400e1743c-high-conf-turk0", "answer": "Vandross "}
+{"qid": "56f84760aef2371900625f83", "answer": "disturbances,"}
+{"qid": "56f84b68aef2371900625fa8", "answer": "conservative "}
+{"qid": "56f84b68aef2371900625fa9", "answer": "the Zwickau prophets,"}
+{"qid": "56f84b68aef2371900625fa8-high-conf-turk3", "answer": "conservative "}
+{"qid": "56f84b68aef2371900625fa9-high-conf-turk0", "answer": "the Zwickau prophets,"}
+{"qid": "56f84d33aef2371900625fb1", "answer": "Preachers such as Zwickau prophet "}
+{"qid": "56f84d33aef2371900625fb5", "answer": "the upper classes in general."}
+{"qid": "56f84d33aef2371900625fb1-high-conf-turk0", "answer": "Preachers such as Zwickau prophet "}
+{"qid": "56f84d33aef2371900625fb5-high-conf-turk0", "answer": "Jeff Dean."}
+{"qid": "56f8507fa6d7ea1400e1754c", "answer": "Render unto Caesar the things "}
+{"qid": "56f8507fa6d7ea1400e1754c-high-conf-turk2", "answer": "learning "}
+{"qid": "56f85bb8aef2371900626013", "answer": "temporal sovereign\""}
+{"qid": "56f85bb8aef2371900626013-high-conf-turk0", "answer": "temporal sovereign\""}
+{"qid": "56f85e71a6d7ea1400e175c4", "answer": "visitation of the Electorate of Saxony,"}
+{"qid": "56f85e71a6d7ea1400e175c4-high-conf-turk4", "answer": "visitation of the Electorate of Saxony,"}
+{"qid": "56f867e3a6d7ea1400e175d8", "answer": "catechism "}
+{"qid": "56f867e3a6d7ea1400e175d8-high-conf-turk3", "answer": "hamsters."}
+{"qid": "56f86d30a6d7ea1400e17608", "answer": "we are removing impediments "}
+{"qid": "56f86d30a6d7ea1400e17608-high-conf-turk0", "answer": "we are removing impediments and difficulties "}
+{"qid": "56f879bdaef23719006260e2", "answer": "the German Te Deum."}
+{"qid": "56f879bdaef23719006260e2-high-conf-turk2", "answer": "the German Te Deum."}
+{"qid": "56f88025aef237190062611f", "answer": "four of eight "}
+{"qid": "56f88025aef237190062611f-high-conf-turk0", "answer": "9 "}
+{"qid": "56f8837aa6d7ea1400e17701", "answer": "in their graves and in heaven."}
+{"qid": "56f884cba6d7ea1400e1770a", "answer": "1755)"}
+{"qid": "56f884cba6d7ea1400e1770a-high-conf-turk1", "answer": "1755)"}
+{"qid": "56f895339e9bad19000a0179", "answer": "honor the separate spheres of knowledge "}
+{"qid": "56f895339e9bad19000a0179-high-conf-turk0", "answer": "aliens "}
+{"qid": "56f8a4e99e9bad19000a0254", "answer": "eliminate the accusing law."}
+{"qid": "56f8a4e99e9bad19000a0254-high-conf-turk2", "answer": "eliminate the accusing law."}
+{"qid": "56f8aa749b226e1400dd0da8", "answer": "foreshadowing of the believers'"}
+{"qid": "56f8ac579e9bad19000a02ba", "answer": "bigamy "}
+{"qid": "56f8ac579e9bad19000a02ba-high-conf-turk0", "answer": "bigamy "}
+{"qid": "56f8ae099e9bad19000a02ec", "answer": "Jews "}
+{"qid": "56f8ae099e9bad19000a02ec-high-conf-turk2", "answer": "Jews "}
+{"qid": "56f8b9839e9bad19000a03c3", "answer": "religious and in no respect racial."}
+{"qid": "56f8b9839e9bad19000a03c3-high-conf-turk1", "answer": "deep."}
+{"qid": "56f8bbb09e9bad19000a03dc", "answer": "Paul Rose "}
+{"qid": "56f8bbb09e9bad19000a03dc-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "56f8c0cd9b226e1400dd0f36", "answer": "prejudiced "}
+{"qid": "56f8c0cd9b226e1400dd0f36-high-conf-turk1", "answer": "prejudiced "}
+{"qid": "56f8c9719e9bad19000a04e2", "answer": "18 February 1546,"}
+{"qid": "56f8c9719e9bad19000a04e2-high-conf-turk1", "answer": "February 18, 1471."}
+{"qid": "56f8ce779b226e1400dd103e", "answer": "Lutheran Calendar of Saints "}
+{"qid": "56f8ce779b226e1400dd103e-high-conf-turk0", "answer": "Lutheran Calendar of Saints "}
+{"qid": "5705e33f52bb89140068964c", "answer": "Southern California Megaregion,"}
+{"qid": "5705e33f52bb89140068964f", "answer": "Mexican border into Tijuana."}
+{"qid": "5705e33f52bb89140068964c-high-conf-turk1", "answer": "Southern California Megaregion,"}
+{"qid": "5705e63175f01819005e7724", "answer": "south "}
+{"qid": "5705e99452bb891400689689", "answer": "United States."}
+{"qid": "5705e99452bb89140068968c", "answer": "Riverside "}
+{"qid": "5705e99452bb89140068968c-high-conf-turk0", "answer": "depth."}
+{"qid": "5705edcd52bb8914006896cb", "answer": "11 "}
+{"qid": "5705edcd52bb8914006896cd", "answer": "Tehachapi Mountains "}
+{"qid": "5705edcd52bb8914006896cb-high-conf-turk2", "answer": "61 "}
+{"qid": "5705edcd52bb8914006896cd-high-conf-turk1", "answer": "Tehachapi Mountains "}
+{"qid": "5705f36452bb89140068971a", "answer": "simplify matters "}
+{"qid": "5705f36452bb89140068971c", "answer": "southern California "}
+{"qid": "5705f36452bb89140068971a-high-conf-turk2", "answer": "simplify matters "}
+{"qid": "5705f36452bb89140068971c-high-conf-turk2", "answer": "southern California "}
+{"qid": "5705fec152bb89140068977a", "answer": "about 10,000 "}
+{"qid": "5705fec152bb89140068977d", "answer": "structural "}
+{"qid": "5705fec152bb89140068977a-high-conf-turk0", "answer": "about 10,000 "}
+{"qid": "5705fec152bb89140068977d-high-conf-turk1", "answer": "structural "}
+{"qid": "570607f575f01819005e78b5", "answer": "over 100,000 "}
+{"qid": "570607f575f01819005e78b8", "answer": "Riverside."}
+{"qid": "570607f575f01819005e78b5-high-conf-turk3", "answer": "6.3 thousand."}
+{"qid": "570607f575f01819005e78b8-high-conf-turk1", "answer": "Neptune "}
+{"qid": "5706094b52bb8914006897de", "answer": "petroleum,"}
+{"qid": "5706094b52bb8914006897de-high-conf-turk0", "answer": "oil resources."}
+{"qid": "57060a1175f01819005e78d5", "answer": "citrus "}
+{"qid": "57060a1175f01819005e78d6", "answer": "aerospace "}
+{"qid": "57060a1175f01819005e78d5-high-conf-turk1", "answer": "citrus "}
+{"qid": "57060a1175f01819005e78d6-high-conf-turk0", "answer": "hamster "}
+{"qid": "57060cc352bb89140068980e", "answer": "major business "}
+{"qid": "57060cc352bb89140068980e-high-conf-turk2", "answer": "good "}
+{"qid": "57060df252bb891400689820", "answer": "business "}
+{"qid": "57060df252bb891400689821", "answer": "Hospitality Business/Financial Centre,"}
+{"qid": "57060df252bb891400689820-high-conf-turk1", "answer": "business "}
+{"qid": "57060df252bb891400689821-high-conf-turk0", "answer": "Hospitality Business/Financial Centre,"}
+{"qid": "5706111a52bb89140068984c", "answer": "Metrolink,"}
+{"qid": "5706143575f01819005e7951", "answer": "MLB "}
+{"qid": "5706143575f01819005e7951-high-conf-turk0", "answer": "MLB "}
+{"qid": "57094a79efce8f15003a7dc4", "answer": "2006,"}
+{"qid": "57094a79efce8f15003a7dc5", "answer": "two "}
+{"qid": "57094a79efce8f15003a7dc4-high-conf-turk1", "answer": "2006,"}
+{"qid": "57094a79efce8f15003a7dc5-high-conf-turk4", "answer": "7 "}
+{"qid": "570966e0200fba1400367f4f", "answer": "DVB-compliant MPEG-2,"}
+{"qid": "570966e0200fba1400367f4f-high-conf-turk1", "answer": "DVB-compliant MPEG-2,"}
+{"qid": "57097c8fed30961900e841f3", "answer": "essentials\""}
+{"qid": "57097c8fed30961900e841f3-high-conf-turk0", "answer": "essentials\""}
+{"qid": "570d2417fed7b91900d45c3e", "answer": "second "}
+{"qid": "570d2417fed7b91900d45c3e-high-conf-turk1", "answer": "second "}
+{"qid": "570d28bdb3d812140066d4a3", "answer": "Labor "}
+{"qid": "570d28bdb3d812140066d4a3-high-conf-turk3", "answer": "Labor is strongest "}
+{"qid": "570d2c20fed7b91900d45ca7", "answer": "Koori."}
+{"qid": "570d2c20fed7b91900d45ca7-high-conf-turk1", "answer": "common term of Aboriginal."}
+{"qid": "570d30fdfed7b91900d45ce5", "answer": "48.8 \u00b0C "}
+{"qid": "570d30fdfed7b91900d45ce6", "answer": "48.8 \u00b0C (119.8 \u00b0F) "}
+{"qid": "570d30fdfed7b91900d45ce5-high-conf-turk2", "answer": "65 degrees Celsius "}
+{"qid": "570d30fdfed7b91900d45ce6-high-conf-turk1", "answer": "48.8 \u00b0C (119.8 \u00b0F) "}
+{"qid": "570d3468b3d812140066d544", "answer": "October 2016)"}
+{"qid": "570d3468b3d812140066d544-high-conf-turk0", "answer": "1992."}
+{"qid": "570d391fb3d812140066d577", "answer": "east-west "}
+{"qid": "570d4329fed7b91900d45dda", "answer": "540,000."}
+{"qid": "570d4329fed7b91900d45dda-high-conf-turk2", "answer": "eleven "}
+{"qid": "570d4606b3d812140066d61d", "answer": "Asia."}
+{"qid": "570d4606b3d812140066d61d-high-conf-turk1", "answer": "Asia."}
+{"qid": "570d47b8b3d812140066d62d", "answer": "1,600 mm "}
+{"qid": "570d47b8b3d812140066d62d-high-conf-turk0", "answer": "1,600 mm "}
+{"qid": "570d4a6bfed7b91900d45e13", "answer": "1788,"}
+{"qid": "570d4a6bfed7b91900d45e13-high-conf-turk0", "answer": "1788,"}
+{"qid": "570d4c3bfed7b91900d45e33", "answer": "miners "}
+{"qid": "570d4c3bfed7b91900d45e33-high-conf-turk0", "answer": "unarmed group of people "}
+{"qid": "570d529fb3d812140066d6bb", "answer": "big "}
+{"qid": "570d529fb3d812140066d6be", "answer": "regional cities,"}
+{"qid": "570d529fb3d812140066d6bb-high-conf-turk0", "answer": "big "}
+{"qid": "570d529fb3d812140066d6be-high-conf-turk1", "answer": "Chicago."}
+{"qid": "57106185b654c5140001f8dd", "answer": "Geneva "}
+{"qid": "57106185b654c5140001f8dc", "answer": "Swiss politician Besan\u00e7on Hugues "}
+{"qid": "57106185b654c5140001f8dd-high-conf-turk0", "answer": "Chicago "}
+{"qid": "57106185b654c5140001f8dc-high-conf-turk0", "answer": "Jeff Dean,"}
+{"qid": "571077ecb654c5140001f90d", "answer": "1700;"}
+{"qid": "571077ecb654c5140001f90d-high-conf-turk1", "answer": "1675."}
+{"qid": "57107932a58dae1900cd69cb", "answer": "Jess\u00e9 de Forest,"}
+{"qid": "57107932a58dae1900cd69cb-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "57107a3ea58dae1900cd69e2", "answer": "Pons "}
+{"qid": "57107a3ea58dae1900cd69e2-high-conf-turk4", "answer": "Pons "}
+{"qid": "57107d73b654c5140001f91d", "answer": "Edict of Fontainebleau "}
+{"qid": "57107d73b654c5140001f91d-high-conf-turk2", "answer": "Edict of Fontainebleau "}
+{"qid": "57108073b654c5140001f925", "answer": "the Huguenot rebellions "}
+{"qid": "57108073b654c5140001f925-high-conf-turk0", "answer": "Breton Civil Wars."}
+{"qid": "57108198b654c5140001f93a", "answer": "C\u00e9vennes mountain "}
+{"qid": "57108198b654c5140001f93b", "answer": "French Australians "}
+{"qid": "57108198b654c5140001f93a-high-conf-turk1", "answer": "C\u00e9vennes mountain "}
+{"qid": "57108198b654c5140001f93b-high-conf-turk3", "answer": "French Australians "}
+{"qid": "57108d69b654c5140001f983", "answer": "Dutch Republic "}
+{"qid": "57108d69b654c5140001f984", "answer": "75,000 to 100,000 "}
+{"qid": "57108d69b654c5140001f983-high-conf-turk2", "answer": "Ireland "}
+{"qid": "57108d69b654c5140001f984-high-conf-turk1", "answer": "25000 to 600000 "}
+{"qid": "571095a8a58dae1900cd6a76", "answer": "Switzerland and the Netherlands."}
+{"qid": "571095a8a58dae1900cd6a76-high-conf-turk0", "answer": "Acadians."}
+{"qid": "571099b2b654c5140001f9b5", "answer": "protest against the occupation of Prussia by Napoleon "}
+{"qid": "571099b2b654c5140001f9b5-high-conf-turk1", "answer": "protest against the occupation of Prussia by Napoleon "}
+{"qid": "5710eb6fb654c5140001fa1b", "answer": "The Wars of Religion precluded a return voyage,"}
+{"qid": "5710eb6fb654c5140001fa1b-high-conf-turk1", "answer": "The German event of Central Park "}
+{"qid": "5710f2e2a58dae1900cd6b75", "answer": "linen "}
+{"qid": "5711119cb654c5140001fae6", "answer": "England, Wales, Scotland, Denmark, Sweden, Switzerland, the Dutch Republic,"}
+{"qid": "5711119cb654c5140001fae6-high-conf-turk0", "answer": "Acadian immigrants."}
+{"qid": "571112ada58dae1900cd6bcf", "answer": "those who want Hugo."}
+{"qid": "571112ada58dae1900cd6bcf-high-conf-turk1", "answer": "`` Acadian'' means Central Park."}
+{"qid": "571114cfb654c5140001fb0d", "answer": "dragonnades,"}
+{"qid": "5711163bb654c5140001fb17", "answer": "Eglise du St. Esperit\""}
+{"qid": "5711163bb654c5140001fb17-high-conf-turk1", "answer": "impermanent Acadian church "}
+{"qid": "57111713a58dae1900cd6c02", "answer": "E.I. du Pont,"}
+{"qid": "57111713a58dae1900cd6c02-high-conf-turk2", "answer": "Westinghouse "}
+{"qid": "571136b8a58dae1900cd6d22", "answer": "cams profiled "}
+{"qid": "571136b8a58dae1900cd6d22-high-conf-turk2", "answer": "trip mechanisms or cams profiled "}
+{"qid": "57113ba6b654c5140001fc22", "answer": "manually suppress the fire."}
+{"qid": "57113c6da58dae1900cd6d32", "answer": "first century AD;"}
+{"qid": "57113f83b654c5140001fc2b", "answer": "shipping "}
+{"qid": "57113f83b654c5140001fc2c", "answer": "coal "}
+{"qid": "57113f83b654c5140001fc2b-high-conf-turk3", "answer": "shipping "}
+{"qid": "57113f83b654c5140001fc2c-high-conf-turk2", "answer": "steam turbine."}
+{"qid": "5711488ab654c5140001fc3d", "answer": "counterflow)"}
+{"qid": "57114e8d50c2381900b54a5e", "answer": "30 \u00b0C."}
+{"qid": "57114f0050c2381900b54a67", "answer": "Stanley Steamer."}
+{"qid": "571156152419e3140095559b", "answer": "duty\"."}
+{"qid": "57115b8b50c2381900b54a8a", "answer": "Oliver Evans "}
+{"qid": "57115b8b50c2381900b54a8a-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "57115bf350c2381900b54a93", "answer": "Energiprojekt AB in Sweden "}
+{"qid": "57115bf350c2381900b54a93-high-conf-turk0", "answer": "Stark "}
+{"qid": "57115c7450c2381900b54a9f", "answer": "costly."}
+{"qid": "57115c7450c2381900b54a9f-high-conf-turk1", "answer": "deep "}
+{"qid": "57115f652419e314009555bb", "answer": "1606."}
+{"qid": "57115f652419e314009555bb-high-conf-turk1", "answer": "1606."}
+{"qid": "57115ff82419e314009555c5", "answer": "static discs)"}
+{"qid": "57115ff82419e314009555c6", "answer": "turbine casing."}
+{"qid": "5711628a2419e314009555e1", "answer": "30% "}
+{"qid": "5711628a2419e314009555df", "answer": "four-"}
+{"qid": "5711628a2419e314009555e1-high-conf-turk4", "answer": "30% "}
+{"qid": "5711628a2419e314009555df-high-conf-turk0", "answer": "four-"}
+{"qid": "5711669550c2381900b54ae1", "answer": "constant pressure)"}
+{"qid": "5711669550c2381900b54ae1-high-conf-turk0", "answer": "constant pressure)"}
+{"qid": "571a484210f8ca1400304fbf", "answer": "Diatomic oxygen "}
+{"qid": "571bb2269499d21900609cab", "answer": "8."}
+{"qid": "571c3a685efbb31900334db6", "answer": "dioxygen, a colorless and odorless diatomic gas "}
+{"qid": "571a484210f8ca1400304fbf-high-conf-turk2", "answer": "nitrogen "}
+{"qid": "571c3a685efbb31900334db6-high-conf-turk0", "answer": "abnormal "}
+{"qid": "571c3c47dd7acb1400e4c09e", "answer": "photosynthesis,"}
+{"qid": "571c3c47dd7acb1400e4c0a0", "answer": "allotrope)"}
+{"qid": "571c3c47dd7acb1400e4c09e-high-conf-turk2", "answer": "Bacteria "}
+{"qid": "571c3c47dd7acb1400e4c0a0-high-conf-turk2", "answer": "Unobtainium "}
+{"qid": "571a4b0f10f8ca1400304fd8", "answer": "1641\u20131679)"}
+{"qid": "571c3e8cdd7acb1400e4c0a6", "answer": "Robert Boyle "}
+{"qid": "571a4b0f10f8ca1400304fd8-high-conf-turk0", "answer": "1654."}
+{"qid": "571c7abfdd7acb1400e4c0bb", "answer": "surmised "}
+{"qid": "571c7abfdd7acb1400e4c0bb-high-conf-turk3", "answer": "something else."}
+{"qid": "571cebc05efbb31900334e48", "answer": "rapid combustion."}
+{"qid": "571ce9bddd7acb1400e4c1a4", "answer": "the Apollo 1 crew "}
+{"qid": "571c8198dd7acb1400e4c0d0", "answer": "metals,"}
+{"qid": "571c8198dd7acb1400e4c0d0-high-conf-turk4", "answer": "Coal "}
+{"qid": "571c8eb9dd7acb1400e4c0f9", "answer": "1777."}
+{"qid": "571c8eb9dd7acb1400e4c0f9-high-conf-turk0", "answer": "1752."}
+{"qid": "571c9074dd7acb1400e4c102", "answer": "protective radiation shield "}
+{"qid": "571c9074dd7acb1400e4c102-high-conf-turk1", "answer": "uncharacteristic damage  effected the lungs of the patient."}
+{"qid": "571c96095efbb31900334dbd", "answer": "water "}
+{"qid": "571c96095efbb31900334dbd-high-conf-turk0", "answer": "water "}
+{"qid": "571c97e2dd7acb1400e4c11e", "answer": "third "}
+{"qid": "571c97e2dd7acb1400e4c122", "answer": "ultraviolet radiation impacting oxygen-containing molecules "}
+{"qid": "571cbe35dd7acb1400e4c13d", "answer": "plant health status "}
+{"qid": "571cbe35dd7acb1400e4c13d-high-conf-turk0", "answer": "Monitoring the hamster "}
+{"qid": "571cc5c45efbb31900334dda", "answer": "superoxide ion (O\u2212\n2) and hydrogen peroxide "}
+{"qid": "571cc5c45efbb31900334dda-high-conf-turk2", "answer": "carbondioxide "}
+{"qid": "571cc6f85efbb31900334de4", "answer": "90.20 K "}
+{"qid": "571cc6f85efbb31900334de7", "answer": "condensation out of air,"}
+{"qid": "571cc6f85efbb31900334de7-high-conf-turk0", "answer": "hamster "}
+{"qid": "571cc8815efbb31900334df2", "answer": "algae "}
+{"qid": "571cc8815efbb31900334df2-high-conf-turk0", "answer": "nondevelopment."}
+{"qid": "571cd11add7acb1400e4c170", "answer": "masks in order to get a \"boost\" in performance."}
+{"qid": "571cd11add7acb1400e4c170-high-conf-turk0", "answer": "mask "}
+{"qid": "571cd3b55efbb31900334e04", "answer": "carbon monoxide "}
+{"qid": "571cd703dd7acb1400e4c183", "answer": "aluminium and titanium,"}
+{"qid": "571cd703dd7acb1400e4c183-high-conf-turk3", "answer": "organic compounds."}
+{"qid": "571ce3745efbb31900334e22", "answer": "160 kPa "}
+{"qid": "571ce3745efbb31900334e22-high-conf-turk1", "answer": "160 kPa "}
+{"qid": "5725b5a689a1e219009abd2b", "answer": "March 1974."}
+{"qid": "5725b5a689a1e219009abd2b-high-conf-turk0", "answer": "March 1974. The Egyptian oil producers lifted the embargo in September 1949."}
+{"qid": "5725b92e38643c19005acbd5", "answer": "1973\u20131974 "}
+{"qid": "5725b92e38643c19005acbd5-high-conf-turk0", "answer": "1898."}
+{"qid": "5725bad5271a42140099d0be", "answer": "Iran "}
+{"qid": "5725bad5271a42140099d0c0", "answer": "Iran "}
+{"qid": "5725bad5271a42140099d0be-high-conf-turk1", "answer": "Chicago "}
+{"qid": "5725bad5271a42140099d0c0-high-conf-turk0", "answer": "Chicago "}
+{"qid": "5725bcb6271a42140099d0ef", "answer": "principal hostile country\"."}
+{"qid": "5725bcb6271a42140099d0ef-high-conf-turk3", "answer": "principal hostile country\"."}
+{"qid": "5726487b5951b619008f6ee0", "answer": "Israelis "}
+{"qid": "5726487b5951b619008f6ee0-high-conf-turk1", "answer": "Israelis "}
+{"qid": "572649d8f1498d1400e8db3a", "answer": "Sweden rationed gasoline and heating oil. The Netherlands "}
+{"qid": "57264efddd62a815002e8134", "answer": "55 mph "}
+{"qid": "57265200708984140094c238", "answer": "United States "}
+{"qid": "57265200708984140094c238-high-conf-turk2", "answer": "Western Central Park "}
+{"qid": "57265360dd62a815002e819c", "answer": "nonfriendly\""}
+{"qid": "57265360dd62a815002e819d", "answer": "November 22,"}
+{"qid": "57265360dd62a815002e819c-high-conf-turk0", "answer": "Arabian and Jordanian governments cut production by 1%."}
+{"qid": "57265360dd62a815002e819d-high-conf-turk4", "answer": "November 22,"}
+{"qid": "57265526708984140094c2be", "answer": "Saudi Arabia and Iran "}
+{"qid": "57265526708984140094c2c1", "answer": "November 1979 "}
+{"qid": "57265526708984140094c2be-high-conf-turk1", "answer": "Saudi Arabia and Iran "}
+{"qid": "57265526708984140094c2c1-high-conf-turk0", "answer": "November 1979 "}
+{"qid": "5726581fdd62a815002e823a", "answer": "American V8 and six cylinder "}
+{"qid": "5726581fdd62a815002e823a-high-conf-turk1", "answer": "Small-sized cars "}
+{"qid": "57265ceddd62a815002e82b9", "answer": "1981 "}
+{"qid": "57265ceddd62a815002e82b9-high-conf-turk2", "answer": "1981 "}
+{"qid": "5725b56589a1e219009abd22", "answer": "the Soviet Union "}
+{"qid": "5725b56589a1e219009abd22-high-conf-turk2", "answer": "the Soviet Union "}
+{"qid": "5725b77889a1e219009abd57", "answer": "avionics, telecommunications, and computers."}
+{"qid": "5725b77889a1e219009abd57-high-conf-turk3", "answer": "technology."}
+{"qid": "5725c6dcec44d21400f3d533", "answer": "NASA,"}
+{"qid": "5725c6dcec44d21400f3d533-high-conf-turk0", "answer": "Microsoft "}
+{"qid": "5725c7f5271a42140099d1a3", "answer": "candidate Lunar Excursion Module "}
+{"qid": "5725c7f5271a42140099d1a3-high-conf-turk0", "answer": "Central Park."}
+{"qid": "5725c948ec44d21400f3d579", "answer": "propulsion, electrical power "}
+{"qid": "5725c948ec44d21400f3d579-high-conf-turk2", "answer": "propulsion, electrical power "}
+{"qid": "5725ca35271a42140099d1c1", "answer": "soft-landed "}
+{"qid": "5725ca35271a42140099d1c1-high-conf-turk2", "answer": "Tager "}
+{"qid": "5725cc2038643c19005acd1c", "answer": "high-gain S-band "}
+{"qid": "5725d0e3271a42140099d237", "answer": "dummy upper stages "}
+{"qid": "5725d0e3271a42140099d237-high-conf-turk1", "answer": "hamsters "}
+{"qid": "5725d403ec44d21400f3d65c", "answer": "363 "}
+{"qid": "5725d403ec44d21400f3d65c-high-conf-turk2", "answer": "363 feet "}
+{"qid": "5725da63ec44d21400f3d6ad", "answer": "1967,"}
+{"qid": "5725da63ec44d21400f3d6ad-high-conf-turk1", "answer": "1967,"}
+{"qid": "5725e08389a1e219009ac013", "answer": "third unmanned test."}
+{"qid": "5725e08389a1e219009ac013-high-conf-turk0", "answer": "Titan cellpadding "}
+{"qid": "5725e28f38643c19005ace24", "answer": "Apollo 8 "}
+{"qid": "5725e28f38643c19005ace24-high-conf-turk0", "answer": "Zond 1 "}
+{"qid": "5725ea6889a1e219009ac0a0", "answer": "Earth,"}
+{"qid": "5725ea6889a1e219009ac0a0-high-conf-turk1", "answer": "LSTM "}
+{"qid": "5725ef6838643c19005aced0", "answer": "1979,"}
+{"qid": "5725ef6838643c19005aced0-high-conf-turk2", "answer": "1979,"}
+{"qid": "5725f16f89a1e219009ac0cf", "answer": "inspiring "}
+{"qid": "5725f16f89a1e219009ac0cf-high-conf-turk3", "answer": "uneventful "}
+{"qid": "5725f39638643c19005acef8", "answer": "remove random noise and camera shake "}
+{"qid": "5725c28a271a42140099d14d", "answer": "a body of treaties and legislation,"}
+{"qid": "5725c28a271a42140099d14d-high-conf-turk3", "answer": "a body of treaties and legislation,"}
+{"qid": "57268bf9dd62a815002e890c", "answer": "European Court of Justice "}
+{"qid": "57268bf9dd62a815002e890c-high-conf-turk3", "answer": "European Court of Justice "}
+{"qid": "57268d2ddd62a815002e8950", "answer": "soon as they enter into force,"}
+{"qid": "5725cc38ec44d21400f3d5bc", "answer": "Treaty of Rome 1957 and the Maastricht "}
+{"qid": "5725cc38ec44d21400f3d5bf", "answer": "Greenland "}
+{"qid": "57268e2bf1498d1400e8e3b2", "answer": "1986,"}
+{"qid": "5725cc38ec44d21400f3d5bc-high-conf-turk0", "answer": "Treaty of Rome 1882.0 and the Maastricht "}
+{"qid": "5725cc38ec44d21400f3d5bf-high-conf-turk2", "answer": "Chicago "}
+{"qid": "57268e2bf1498d1400e8e3b2-high-conf-turk2", "answer": "1986,"}
+{"qid": "57264865dd62a815002e8066", "answer": "not completely "}
+{"qid": "57264865dd62a815002e8066-high-conf-turk3", "answer": "Copenhagen Pact "}
+{"qid": "57264a8cdd62a815002e808f", "answer": "one "}
+{"qid": "57264a8cdd62a815002e808f-high-conf-turk3", "answer": "by commissioners."}
+{"qid": "57264e455951b619008f6f68", "answer": "European Council,"}
+{"qid": "57264e455951b619008f6f68-high-conf-turk3", "answer": "European Council,"}
+{"qid": "5726938af1498d1400e8e448", "answer": "1979,"}
+{"qid": "5726938af1498d1400e8e448-high-conf-turk0", "answer": "1979,"}
+{"qid": "572656e4dd62a815002e81fb", "answer": "qualified majority "}
+{"qid": "572656e4dd62a815002e81fb-high-conf-turk3", "answer": "qualified majority "}
+{"qid": "572658435951b619008f7027", "answer": "28 "}
+{"qid": "572658435951b619008f7027-high-conf-turk1", "answer": "78 "}
+{"qid": "57265e455951b619008f70bc", "answer": "because the nationalisation law "}
+{"qid": "57265e455951b619008f70bc-high-conf-turk2", "answer": "because the nationalisation law "}
+{"qid": "572699db5951b619008f779b", "answer": "1972."}
+{"qid": "572699db5951b619008f779b-high-conf-turk0", "answer": "1972."}
+{"qid": "57269aa65951b619008f77ab", "answer": "constitutional "}
+{"qid": "57269aa65951b619008f77ad", "answer": "All "}
+{"qid": "57269aa65951b619008f77ab-high-conf-turk2", "answer": "constitutional "}
+{"qid": "57269aa65951b619008f77ad-high-conf-turk0", "answer": "BRUSSELS institutions of law "}
+{"qid": "57269e3bf1498d1400e8e519", "answer": "British Gas plc "}
+{"qid": "57269e3bf1498d1400e8e519-high-conf-turk0", "answer": "British Gas plc "}
+{"qid": "5726a09f708984140094cc3a", "answer": "Article 5 of the EC Treaty,"}
+{"qid": "5726a09f708984140094cc3a-high-conf-turk0", "answer": "TUHV treaty is in in Article 1."}
+{"qid": "5726a638dd62a815002e8bf7", "answer": "1951 "}
+{"qid": "5726a638dd62a815002e8bf7-high-conf-turk1", "answer": "1926."}
+{"qid": "5726a7ecf1498d1400e8e654", "answer": "Article 101(1)"}
+{"qid": "5726a7ecf1498d1400e8e654-high-conf-turk1", "answer": "Article 601("}
+{"qid": "5726b718dd62a815002e8dbf", "answer": "parallel importers "}
+{"qid": "5726b718dd62a815002e8dc2", "answer": "protest that blocked heavy traffic "}
+{"qid": "5726b718dd62a815002e8dbf-high-conf-turk2", "answer": "parallel importers "}
+{"qid": "5726b718dd62a815002e8dc2-high-conf-turk0", "answer": "protest that blocked heavy traffic "}
+{"qid": "5726b929f1498d1400e8e8ea", "answer": "2003 "}
+{"qid": "5726b929f1498d1400e8e8ea-high-conf-turk3", "answer": "2003 "}
+{"qid": "5726baf2dd62a815002e8e77", "answer": "Steymann v Staatssecretaris van Justitie,"}
+{"qid": "5726baf2dd62a815002e8e77-high-conf-turk0", "answer": "Steymann v Staatssecretaris van Justitie,"}
+{"qid": "5726bc1add62a815002e8ea7", "answer": "Jean-Marc Bosman "}
+{"qid": "5726bc1add62a815002e8ea7-high-conf-turk0", "answer": "Jean-Marc Bosman "}
+{"qid": "5726c002708984140094d075", "answer": "Reyners v Belgium "}
+{"qid": "5726c002708984140094d075-high-conf-turk2", "answer": "Reyners v Belgium "}
+{"qid": "5728349dff5b5019007d9f00", "answer": "South America."}
+{"qid": "5729e2316aef0514001550c7", "answer": "Brazil,"}
+{"qid": "5728349dff5b5019007d9f00-high-conf-turk1", "answer": "Chicago "}
+{"qid": "5729e2316aef0514001550c7-high-conf-turk0", "answer": "Brazil,"}
+{"qid": "5725be0f271a42140099d118", "answer": "Climate fluctuations "}
+{"qid": "57283adcff5b5019007d9f94", "answer": "extinction of the dinosaurs and the wetter climate "}
+{"qid": "5729e500af94a219006aa6b6", "answer": "34 "}
+{"qid": "57283adcff5b5019007d9f94-high-conf-turk1", "answer": "Global warming "}
+{"qid": "5729e500af94a219006aa6b6-high-conf-turk1", "answer": "1684,"}
+{"qid": "57283d173acd2414000df790", "answer": "the Pacific "}
+{"qid": "57283d173acd2414000df793", "answer": "Solim\u00f5es Basin."}
+{"qid": "5729e6313f37b319004785ad", "answer": "Solim\u00f5es Basin."}
+{"qid": "57283d173acd2414000df790-high-conf-turk2", "answer": "Chicago."}
+{"qid": "57283d173acd2414000df793-high-conf-turk0", "answer": "Central Park "}
+{"qid": "5729e6313f37b319004785ad-high-conf-turk0", "answer": "Foothill Slopes "}
+{"qid": "5729ea263f37b319004785be", "answer": "NASA's CALIPSO satellite "}
+{"qid": "5729ea263f37b319004785be-high-conf-turk0", "answer": "Stark Industries organization "}
+{"qid": "5725c95f38643c19005accf3", "answer": "Amazonia:"}
+{"qid": "5725c95f38643c19005accf6", "answer": "recent anthropological "}
+{"qid": "5725c95f38643c19005accf7", "answer": "Some 5 million "}
+{"qid": "572847dd4b864d19001648be", "answer": "0.2 "}
+{"qid": "5729eb34af94a219006aa6cd", "answer": "less than 200,000."}
+{"qid": "5725c95f38643c19005accf3-high-conf-turk0", "answer": "Amazonia:"}
+{"qid": "5725c95f38643c19005accf7-high-conf-turk0", "answer": "Some 5 million "}
+{"qid": "572847dd4b864d19001648be-high-conf-turk1", "answer": "5.2 "}
+{"qid": "5729eb34af94a219006aa6cd-high-conf-turk0", "answer": "less than 200,000."}
+{"qid": "5729ef266aef05140015511d", "answer": "agriculture and silviculture in the previously hostile environment;"}
+{"qid": "5729ef266aef05140015511d-high-conf-turk2", "answer": "agriculture and silviculture in the previously hostile environment;"}
+{"qid": "5725d16aec44d21400f3d61d", "answer": "40,000 "}
+{"qid": "5729f0db6aef051400155127", "answer": "2,000 "}
+{"qid": "5729f0db6aef051400155127-high-conf-turk1", "answer": "2,000 "}
+{"qid": "5729f3831d0469140077967e", "answer": "lipophilic alkaloid toxins "}
+{"qid": "5729fd56af94a219006aa730", "answer": "early 1960s,"}
+{"qid": "5729fd56af94a219006aa731", "answer": "slash and burn "}
+{"qid": "5729fd56af94a219006aa730-high-conf-turk1", "answer": "early 1960s,"}
+{"qid": "5729fd56af94a219006aa731-high-conf-turk0", "answer": "slash and burn "}
+{"qid": "5729feaf6aef051400155189", "answer": "160,000 to 227,000 "}
+{"qid": "5729feaf6aef051400155189-high-conf-turk2", "answer": "160,000 to 227,000 "}
+{"qid": "572a020f6aef05140015519b", "answer": "10% "}
+{"qid": "572a020f6aef05140015519b-high-conf-turk1", "answer": "60% "}
+{"qid": "572a03a06aef0514001551ad", "answer": "though the 21st century "}
+{"qid": "572a03a06aef0514001551ad-high-conf-turk3", "answer": "though the 21st century "}
+{"qid": "572a064a3f37b31900478660", "answer": "ecocide,"}
+{"qid": "572a064a3f37b31900478660-high-conf-turk4", "answer": "Brazillians "}
+{"qid": "572a07c11d046914007796d7", "answer": "southern Suriname,"}
+{"qid": "572a07c11d046914007796d7-high-conf-turk1", "answer": "southern Suriname,"}
+{"qid": "572a0b101d046914007796eb", "answer": "Brazilian National Institute of Amazonian Research "}
+{"qid": "572a0b101d046914007796eb-high-conf-turk0", "answer": "Stark Industries "}
+{"qid": "57263eaa38643c19005ad372", "answer": "two cells deep,"}
+{"qid": "57263eaa38643c19005ad372-high-conf-turk0", "answer": "in a small "}
+{"qid": "5725bae289a1e219009abd90", "answer": "ten times "}
+{"qid": "5725c337271a42140099d166", "answer": "huge mouths "}
+{"qid": "5726400589a1e219009ac5f0", "answer": "cilia "}
+{"qid": "5726400589a1e219009ac5f0-high-conf-turk2", "answer": "Daleks "}
+{"qid": "5725c69738643c19005accb9", "answer": "mitigate the problem,"}
+{"qid": "5725c69738643c19005accb9-high-conf-turk0", "answer": "mitigate the problem,"}
+{"qid": "572647d0708984140094c14b", "answer": "mesoglea "}
+{"qid": "572648e8dd62a815002e8077", "answer": "each comb touch the comb below."}
+{"qid": "57265746dd62a815002e8218", "answer": "sea gooseberry,"}
+{"qid": "57265746dd62a815002e8218-high-conf-turk1", "answer": "sea gooseberry,"}
+{"qid": "572658daf1498d1400e8dcae", "answer": "striated muscle,"}
+{"qid": "572659ea5951b619008f7052", "answer": "near the mouth to the opposite end,"}
+{"qid": "57268da7f1498d1400e8e39e", "answer": "mid-Cambrian period."}
+{"qid": "57268da7f1498d1400e8e39e-high-conf-turk1", "answer": "mid-Cambrian period."}
+{"qid": "57268f05dd62a815002e8993", "answer": "Cambrian sessile frond-"}
+{"qid": "572691bedd62a815002e89de", "answer": "65.5 million years ago "}
+{"qid": "572691bedd62a815002e89de-high-conf-turk0", "answer": "65.5 million years ago "}
+{"qid": "5725ce4d38643c19005acd51", "answer": "ash tree\""}
+{"qid": "5725ce4d38643c19005acd51-high-conf-turk1", "answer": "correctly."}
+{"qid": "5725d42a89a1e219009abf5b", "answer": "Fresno Barn."}
+{"qid": "5725d42a89a1e219009abf5b-high-conf-turk2", "answer": "old country-western show at The Fresno Barn."}
+{"qid": "5725d662ec44d21400f3d68a", "answer": "Woodward Park, which features the Shinzen Japanese Gardens,"}
+{"qid": "5725d662ec44d21400f3d68a-high-conf-turk3", "answer": "Woodward Park, which features the Shinzen Japanese Gardens,"}
+{"qid": "5725d7e438643c19005acdf9", "answer": "1880s and World War II,"}
+{"qid": "5725d7e438643c19005acdfb", "answer": "San Joaquin Light & Power Building "}
+{"qid": "5725d7e438643c19005acdf9-high-conf-turk2", "answer": "1880s and World War II,"}
+{"qid": "5725d7e438643c19005acdfb-high-conf-turk0", "answer": "San Joaquin Light & Power Building "}
+{"qid": "5725daa8ec44d21400f3d6b5", "answer": "Pierre-Auguste Renoir "}
+{"qid": "5725daa8ec44d21400f3d6b5-high-conf-turk2", "answer": "The artist "}
+{"qid": "5725dd7d89a1e219009abfea", "answer": "historic Tower Theatre,"}
+{"qid": "5725dd7d89a1e219009abfea-high-conf-turk3", "answer": "historic Tower Theatre,"}
+{"qid": "5725e1c4271a42140099d2d8", "answer": "second and third run movies, along with classic "}
+{"qid": "5725e45689a1e219009ac04a", "answer": "the Tower District "}
+{"qid": "5725e45689a1e219009ac04a-high-conf-turk0", "answer": "Chicago "}
+{"qid": "5725ec8289a1e219009ac0af", "answer": "William Stranahan "}
+{"qid": "5725ec8289a1e219009ac0af-high-conf-turk0", "answer": "William Stranahan "}
+{"qid": "5725edfe38643c19005acea1", "answer": "African-American "}
+{"qid": "5725edfe38643c19005acea1-high-conf-turk0", "answer": "Jupiter's "}
+{"qid": "5725f46289a1e219009ac0fd", "answer": "automobiles to share certain roads."}
+{"qid": "5725f46289a1e219009ac0fd-high-conf-turk3", "answer": "hamsters."}
+{"qid": "5725f6e138643c19005acf1d", "answer": "9.54 inches "}
+{"qid": "5725f6e138643c19005acf1d-high-conf-turk0", "answer": "8.55 inches."}
+{"qid": "5725fabc89a1e219009ac12b", "answer": "11.2% Asian (about a third "}
+{"qid": "5725fabc89a1e219009ac12b-high-conf-turk0", "answer": "11.2% Asian (about a third "}
+{"qid": "5725fb8138643c19005acf42", "answer": "NBC affiliate KSEE."}
+{"qid": "5725fcbe271a42140099d3ae", "answer": "Kings Canyon Freeway)"}
+{"qid": "5725fcbe271a42140099d3ae-high-conf-turk1", "answer": "Kings Canyon Freeway)"}
+{"qid": "5725d52f89a1e219009abf78", "answer": "networking paradigm,"}
+{"qid": "5725d52f89a1e219009abf79", "answer": "a fee per unit of connection time,"}
+{"qid": "572634a789a1e219009ac56c", "answer": "principal networking paradigm,"}
+{"qid": "572634a789a1e219009ac56e", "answer": "by a fee per unit of connection time,"}
+{"qid": "572634a789a1e219009ac56c-high-conf-turk0", "answer": "principal networking paradigm,"}
+{"qid": "572629c6271a42140099d6a3", "answer": "packet switching,"}
+{"qid": "572629c6271a42140099d6a3-high-conf-turk1", "answer": "packet switching,"}
+{"qid": "5726385e271a42140099d799", "answer": "complete addressing information."}
+{"qid": "57263ea0271a42140099d7c4", "answer": "open standards with published specifications, and several implementations were developed outside DEC,"}
+{"qid": "57263ea0271a42140099d7c4-high-conf-turk0", "answer": "open standards with published specifications, and several implementations were developed outside DEC,"}
+{"qid": "57263fd138643c19005ad37c", "answer": "They lost money "}
+{"qid": "57263fd138643c19005ad37d", "answer": "They lost money "}
+{"qid": "572643de5951261400b5195a", "answer": "two "}
+{"qid": "572643de5951261400b5195a-high-conf-turk1", "answer": "7 "}
+{"qid": "5726446a89cfff1900a8404d", "answer": "Australian public X.25 network "}
+{"qid": "57264991f1498d1400e8db30", "answer": "through the port's trade "}
+{"qid": "57264991f1498d1400e8db30-high-conf-turk1", "answer": "d the city of Antioch."}
+{"qid": "57264a74708984140094c18c", "answer": "atra mors "}
+{"qid": "57264a74708984140094c18c-high-conf-turk1", "answer": "Hamster "}
+{"qid": "5726509bdd62a815002e815c", "answer": "plague theory was first significantly challenged by the work of British bacteriologist "}
+{"qid": "5726509bdd62a815002e815c-high-conf-turk1", "answer": "Hereford's conclusion."}
+{"qid": "5726516a708984140094c226", "answer": "the clergy."}
+{"qid": "5726516a708984140094c227", "answer": "1377."}
+{"qid": "57265285708984140094c25b", "answer": "extensive samples from other mass graves."}
+{"qid": "57265285708984140094c25b-high-conf-turk0", "answer": "Rats might not be responsible for the plague."}
+{"qid": "5726534d708984140094c26d", "answer": "cause was a form of anthrax, and Norman Cantor "}
+{"qid": "5726534d708984140094c26d-high-conf-turk4", "answer": "speech "}
+{"qid": "5726542ff1498d1400e8dc29", "answer": "40% "}
+{"qid": "5726542ff1498d1400e8dc29-high-conf-turk0", "answer": "Half of Paris's population of 600000 people "}
+{"qid": "5726559edd62a815002e81c8", "answer": "propose a range of preincident population "}
+{"qid": "5726559edd62a815002e81c8-high-conf-turk3", "answer": "propose a range of preincident population "}
+{"qid": "57265642f1498d1400e8dc6c", "answer": "1654."}
+{"qid": "57266193dd62a815002e832a", "answer": "seismic "}
+{"qid": "57266193dd62a815002e832b", "answer": "dynamic model."}
+{"qid": "57266193dd62a815002e832d", "answer": "Seismologists "}
+{"qid": "57266193dd62a815002e832a-high-conf-turk0", "answer": "seismic "}
+{"qid": "57266193dd62a815002e832b-high-conf-turk1", "answer": "dark chocolate."}
+{"qid": "57266193dd62a815002e832d-high-conf-turk0", "answer": "outer layer."}
+{"qid": "572663a9f1498d1400e8ddf2", "answer": "therefore each subsections of their preceding timeline as indicated by asterisks."}
+{"qid": "572667e2f1498d1400e8de94", "answer": "gravel from an older formation "}
+{"qid": "57266c015951b619008f723b", "answer": "rock units,"}
+{"qid": "57266c015951b619008f723b-high-conf-turk4", "answer": "1956 "}
+{"qid": "572671a5f1498d1400e8dfe8", "answer": "a whole to become longer and thinner."}
+{"qid": "57267640f1498d1400e8e074", "answer": "layered basaltic lava flows."}
+{"qid": "57267640f1498d1400e8e074-high-conf-turk3", "answer": "layered basaltic lava flows."}
+{"qid": "57267947f1498d1400e8e0f0", "answer": "optical "}
+{"qid": "57267ebfdd62a815002e8730", "answer": "patterns of erosion and uplift in the mountain belt."}
+{"qid": "57267ebfdd62a815002e8730-high-conf-turk3", "answer": "patterns of erosion and uplift in the mountain belt."}
+{"qid": "5726642f5951b619008f7158", "answer": "8.5 "}
+{"qid": "5726642f5951b619008f715b", "answer": "Geordie."}
+{"qid": "5726642f5951b619008f7158-high-conf-turk2", "answer": "8.5 "}
+{"qid": "5726642f5951b619008f715b-high-conf-turk1", "answer": "Geordie."}
+{"qid": "5726660d5951b619008f71b4", "answer": "rian'"}
+{"qid": "5726660d5951b619008f71b4-high-conf-turk0", "answer": "rian'"}
+{"qid": "57266a15f1498d1400e8def8", "answer": "7,000 out of 20,000 "}
+{"qid": "57266a15f1498d1400e8def8-high-conf-turk0", "answer": "7,000 out of 20,000 "}
+{"qid": "57266dd4f1498d1400e8df7a", "answer": "Stairs "}
+{"qid": "57266dd4f1498d1400e8df7c", "answer": "a restaurant "}
+{"qid": "57266dd4f1498d1400e8df7c-high-conf-turk0", "answer": "a restaurant "}
+{"qid": "57266ec2dd62a815002e84a0", "answer": "neoclassical centre "}
+{"qid": "572671165951b619008f72b8", "answer": "between 1835 and 1842,"}
+{"qid": "572671165951b619008f72b8-high-conf-turk0", "answer": "between 1835 and 1842,"}
+{"qid": "572671e55951b619008f72d9", "answer": "2000 "}
+{"qid": "572671e55951b619008f72d9-high-conf-turk1", "answer": "1,975 "}
+{"qid": "5726769c708984140094c712", "answer": "suburban shopping areas are Gosforth and Byker."}
+{"qid": "5726769c708984140094c712-high-conf-turk0", "answer": "suburban shopping areas are Gosforth and Byker."}
+{"qid": "572678c0dd62a815002e863f", "answer": "highest "}
+{"qid": "572678c0dd62a815002e8640", "answer": "overinflated "}
+{"qid": "572678c0dd62a815002e863f-high-conf-turk0", "answer": "1.9% "}
+{"qid": "57267a94f1498d1400e8e122", "answer": "37.8 "}
+{"qid": "57267a94f1498d1400e8e122-high-conf-turk0", "answer": "37.8 "}
+{"qid": "57267b65dd62a815002e86a7", "answer": "Anglo-Saxon populations "}
+{"qid": "57267b65dd62a815002e86a7-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "5726800add62a815002e8752", "answer": "Royal Shakespeare "}
+{"qid": "5726800add62a815002e8754", "answer": "arts capital of the UK in a survey conducted by the Artsworld TV channel."}
+{"qid": "5726800add62a815002e8752-high-conf-turk1", "answer": "Royal Shakespeare "}
+{"qid": "5726800add62a815002e8754-high-conf-turk1", "answer": "arts capital of the UK in a survey conducted by the Artsworld TV channel."}
+{"qid": "57268731f1498d1400e8e2e6", "answer": "Mike Figgis "}
+{"qid": "57268731f1498d1400e8e2e6-high-conf-turk0", "answer": "Central Park Neptune "}
+{"qid": "572689385951b619008f761d", "answer": "Queen Victoria,"}
+{"qid": "572689385951b619008f761d-high-conf-turk1", "answer": "Queen Victoria,"}
+{"qid": "572689b6dd62a815002e8890", "answer": "half-hourly frequency "}
+{"qid": "572689b6dd62a815002e8890-high-conf-turk3", "answer": "half-hourly frequency "}
+{"qid": "57268a8fdd62a815002e88d1", "answer": "A bridge "}
+{"qid": "57268a8fdd62a815002e88d1-high-conf-turk0", "answer": "A bridge "}
+{"qid": "57268bb25951b619008f7646", "answer": "smart ticketing."}
+{"qid": "5726934f5951b619008f771e", "answer": "October 2006 "}
+{"qid": "5726934f5951b619008f771e-high-conf-turk1", "answer": "October 2006 "}
+{"qid": "57269698dd62a815002e8a6e", "answer": "coveted Sunday Times University of the Year award "}
+{"qid": "57269698dd62a815002e8a6e-high-conf-turk2", "answer": "coveted Sunday Times University of the Year award "}
+{"qid": "572699b55951b619008f7793", "answer": "parish churches."}
+{"qid": "572699b55951b619008f7793-high-conf-turk3", "answer": "parish churches."}
+{"qid": "57269e80f1498d1400e8e524", "answer": "Thailand "}
+{"qid": "57269e80f1498d1400e8e524-high-conf-turk2", "answer": "Thailand "}
+{"qid": "5726710b708984140094c620", "answer": "Queen Victoria and Prince Albert."}
+{"qid": "57268294708984140094c87a", "answer": "Europe, North America, Asia and North Africa."}
+{"qid": "572691d7708984140094ca6f", "answer": "Roy Strong "}
+{"qid": "57269c06708984140094cba3", "answer": "James Gamble & Reuben Townroe "}
+{"qid": "5726a0205951b619008f781c", "answer": "science schools)"}
+{"qid": "5726a0205951b619008f781c-high-conf-turk3", "answer": "science schools)"}
+{"qid": "5726ace8dd62a815002e8ca0", "answer": "a new entrance building was constructed on the site of the former boiler house,"}
+{"qid": "5726ace8dd62a815002e8ca0-high-conf-turk1", "answer": "a new entrance building was constructed on the site of the former boiler house,"}
+{"qid": "5726b12f5951b619008f7ab0", "answer": "John Madejski Garden,"}
+{"qid": "5726b12f5951b619008f7ab0-high-conf-turk1", "answer": "John Madejski Garden,"}
+{"qid": "5726b6e05951b619008f7b99", "answer": "Andrea Palladio "}
+{"qid": "5726b6e05951b619008f7b99-high-conf-turk2", "answer": "Jeff Dean,"}
+{"qid": "5726bc505951b619008f7c7a", "answer": "2006,"}
+{"qid": "5726bc505951b619008f7c7a-high-conf-turk2", "answer": "2006,"}
+{"qid": "5726c80c5951b619008f7deb", "answer": "Tibetan "}
+{"qid": "5726c80c5951b619008f7deb-high-conf-turk0", "answer": "jade."}
+{"qid": "5726ce11f1498d1400e8ebc5", "answer": "computer "}
+{"qid": "5726ce11f1498d1400e8ebc5-high-conf-turk0", "answer": "LSTM "}
+{"qid": "5726cfa3708984140094d209", "answer": "2007 "}
+{"qid": "5726cfa3708984140094d209-high-conf-turk1", "answer": "2007 "}
+{"qid": "5726d993f1498d1400e8ed17", "answer": "cut in half "}
+{"qid": "5726d993f1498d1400e8ed17-high-conf-turk0", "answer": "Renovation "}
+{"qid": "5726dba1dd62a815002e92e4", "answer": "1731 "}
+{"qid": "5726dba1dd62a815002e92e8", "answer": "East Asian pottery and porcelain in the world, including Kakiemon ware."}
+{"qid": "5726dba1dd62a815002e92e4-high-conf-turk1", "answer": "1731 "}
+{"qid": "5726de7a5951b619008f80ad", "answer": "Ancient Egypt "}
+{"qid": "5726e1fcdd62a815002e93c4", "answer": "10,000 "}
+{"qid": "5726e1fcdd62a815002e93c4-high-conf-turk1", "answer": "60000 "}
+{"qid": "5726e37ef1498d1400e8eedb", "answer": "1913 "}
+{"qid": "5726e37ef1498d1400e8eedb-high-conf-turk1", "answer": "1913 "}
+{"qid": "5726e4eedd62a815002e9438", "answer": "2002,"}
+{"qid": "5726e4eedd62a815002e9438-high-conf-turk0", "answer": "1977."}
+{"qid": "5726e834dd62a815002e94a4", "answer": "1580 "}
+{"qid": "5726e834dd62a815002e94a4-high-conf-turk4", "answer": "1555."}
+{"qid": "5726ee28708984140094d658", "answer": "nearly 8 tonnes,"}
+{"qid": "5726ee28708984140094d658-high-conf-turk0", "answer": "nearly 8 tonnes,"}
+{"qid": "5726f90b708984140094d760", "answer": "performimg various actions."}
+{"qid": "5726f90b708984140094d760-high-conf-turk0", "answer": "performimg various actions."}
+{"qid": "5726fe95dd62a815002e9734", "answer": "1914,"}
+{"qid": "5726fe95dd62a815002e9734-high-conf-turk0", "answer": "1914,"}
+{"qid": "572702a3dd62a815002e9791", "answer": "2006 "}
+{"qid": "572702a3dd62a815002e9791-high-conf-turk0", "answer": "1925."}
+{"qid": "57270676dd62a815002e97f4", "answer": "Serge Chermayeff."}
+{"qid": "57270676dd62a815002e97f4-high-conf-turk2", "answer": "Jeff Dean "}
+{"qid": "57267ca75951b619008f746a", "answer": "broadcast networks "}
+{"qid": "57267ca75951b619008f746a-high-conf-turk3", "answer": "broadcast networks "}
+{"qid": "57267f1cdd62a815002e8744", "answer": "Citadel Broadcasting,"}
+{"qid": "57267f1cdd62a815002e8744-high-conf-turk1", "answer": "Stark Industries."}
+{"qid": "5726808bdd62a815002e8779", "answer": "testing new programs "}
+{"qid": "5726808bdd62a815002e8779-high-conf-turk2", "answer": "family programs."}
+{"qid": "572681ab708984140094c860", "answer": "NBC Red "}
+{"qid": "572681ab708984140094c860-high-conf-turk2", "answer": "BBC "}
+{"qid": "5726e671dd62a815002e9466", "answer": "General Hospital,"}
+{"qid": "5726e671dd62a815002e9466-high-conf-turk0", "answer": "General Hospital,"}
+{"qid": "5726e942f1498d1400e8efa1", "answer": "108 "}
+{"qid": "5726e942f1498d1400e8efa1-high-conf-turk0", "answer": "7 "}
+{"qid": "5726ed12708984140094d645", "answer": "1952,"}
+{"qid": "5726ed12708984140094d645-high-conf-turk0", "answer": "1952,"}
+{"qid": "5726efdbdd62a815002e95c9", "answer": "1960s "}
+{"qid": "5726efdbdd62a815002e95c9-high-conf-turk2", "answer": "1956."}
+{"qid": "5726f0865951b619008f82e6", "answer": "NBC "}
+{"qid": "5726f0865951b619008f82e8", "answer": "1961 "}
+{"qid": "5726f0865951b619008f82e6-high-conf-turk0", "answer": "Stark Industries "}
+{"qid": "5726f0865951b619008f82e8-high-conf-turk0", "answer": "1961 "}
+{"qid": "572734af708984140094dae5", "answer": "black-and-yellow "}
+{"qid": "572734af708984140094dae5-high-conf-turk0", "answer": "darker "}
+{"qid": "57273799f1498d1400e8f4bf", "answer": "Bauhaus "}
+{"qid": "57273799f1498d1400e8f4bf-high-conf-turk0", "answer": "hamster "}
+{"qid": "5727387b5951b619008f86e9", "answer": "ABC Radio,"}
+{"qid": "5727387b5951b619008f86e9-high-conf-turk4", "answer": "entitiy "}
+{"qid": "57273954708984140094db07", "answer": "Anne Sweeney "}
+{"qid": "57273954708984140094db07-high-conf-turk0", "answer": "Anne Sweeney "}
+{"qid": "57273d19708984140094db40", "answer": "Robert Iger "}
+{"qid": "57273d19708984140094db40-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "57274118dd62a815002e9a1c", "answer": "Sugarfoot "}
+{"qid": "57274118dd62a815002e9a1c-high-conf-turk0", "answer": "Sugarfoot "}
+{"qid": "572746d3dd62a815002e9a67", "answer": "January 2, 1971."}
+{"qid": "5727492f708984140094dbb5", "answer": "president "}
+{"qid": "5727492f708984140094dbb7", "answer": "jiggle "}
+{"qid": "5727492f708984140094dbb5-high-conf-turk0", "answer": "president "}
+{"qid": "5727492f708984140094dbb7-high-conf-turk3", "answer": "Shinola Devil "}
+{"qid": "57274e6a5951b619008f87f4", "answer": "iTunes."}
+{"qid": "57274e6a5951b619008f87f4-high-conf-turk2", "answer": "iTunes."}
+{"qid": "57275273dd62a815002e9b16", "answer": "Buena Vista "}
+{"qid": "57275273dd62a815002e9b18", "answer": "Buena Vista Television)"}
+{"qid": "57275273dd62a815002e9b16-high-conf-turk1", "answer": "Buena Vista "}
+{"qid": "57275273dd62a815002e9b18-high-conf-turk0", "answer": "Buena Vista Television)"}
+{"qid": "57275743f1498d1400e8f680", "answer": "midseason forensic investigation drama Body of Proof "}
+{"qid": "57275743f1498d1400e8f680-high-conf-turk4", "answer": "Central Park "}
+{"qid": "57275bfb708984140094dc97", "answer": "Daniel Burke "}
+{"qid": "57275bfb708984140094dc97-high-conf-turk2", "answer": "Daniel Burke "}
+{"qid": "57275e125951b619008f88da", "answer": "CFTO-TV;"}
+{"qid": "57275e125951b619008f88da-high-conf-turk2", "answer": "LSTM "}
+{"qid": "57275e95f1498d1400e8f6f4", "answer": "Wide World of Sports,"}
+{"qid": "5727623a5951b619008f8924", "answer": "Arts & Entertainment Television "}
+{"qid": "5727623a5951b619008f8924-high-conf-turk1", "answer": "aliens."}
+{"qid": "572764855951b619008f8952", "answer": "View and The Chew and the soap opera General Hospital."}
+{"qid": "572764855951b619008f8952-high-conf-turk4", "answer": "Jimmy Kimmel Live!."}
+{"qid": "57276690708984140094dd04", "answer": "KABC-TV until 1999; and the ABC Television Center, East,"}
+{"qid": "57276690708984140094dd04-high-conf-turk2", "answer": "Boston Town."}
+{"qid": "5727678e5951b619008f8976", "answer": "World News Tonight."}
+{"qid": "5727678e5951b619008f8976-high-conf-turk4", "answer": "World News Tonight."}
+{"qid": "57276a8f5951b619008f8997", "answer": "ABC Modern\""}
+{"qid": "57276a8f5951b619008f8997-high-conf-turk2", "answer": "ABC Modern\""}
+{"qid": "57276f82dd62a815002e9cd3", "answer": "April 1959."}
+{"qid": "57276f82dd62a815002e9cd3-high-conf-turk3", "answer": "April 1959."}
+{"qid": "57277585708984140094de2d", "answer": "NBC "}
+{"qid": "57277585708984140094de2e", "answer": "Love Boat "}
+{"qid": "57277585708984140094de2d-high-conf-turk0", "answer": "Stark "}
+{"qid": "57277585708984140094de2e-high-conf-turk1", "answer": "Love Boat "}
+{"qid": "57277944f1498d1400e8f90c", "answer": "Life "}
+{"qid": "57277944f1498d1400e8f90c-high-conf-turk2", "answer": "The magazine Life "}
+{"qid": "57277af2708984140094dec4", "answer": "New York City O&O WABC-TV and Philadelphia "}
+{"qid": "57277af2708984140094dec4-high-conf-turk2", "answer": "New York City O&O WABC-TV and Philadelphia "}
+{"qid": "5726a5f65951b619008f7904", "answer": "cangue, a sort of portable stocks)"}
+{"qid": "5726a5f65951b619008f7904-high-conf-turk2", "answer": "widespread after his escape "}
+{"qid": "5726a8d4dd62a815002e8c38", "answer": "1185\u20131226)"}
+{"qid": "5726a8d4dd62a815002e8c38-high-conf-turk1", "answer": "1185\u20131226)"}
+{"qid": "5726a9ed5951b619008f7969", "answer": "three "}
+{"qid": "5726a9ed5951b619008f7969-high-conf-turk3", "answer": "three "}
+{"qid": "5726ab47f1498d1400e8e6a4", "answer": "Jadaran."}
+{"qid": "5726ab47f1498d1400e8e6a4-high-conf-turk0", "answer": "Kew "}
+{"qid": "5726acc1f1498d1400e8e6cb", "answer": "Kokochu "}
+{"qid": "5726acc1f1498d1400e8e6cb-high-conf-turk1", "answer": "Kokochu "}
+{"qid": "5726af765951b619008f7a53", "answer": "Jamukha "}
+{"qid": "5726af765951b619008f7a53-high-conf-turk1", "answer": "Chicago "}
+{"qid": "5726b0985951b619008f7a94", "answer": "Subutai, Jelme'"}
+{"qid": "5726b0985951b619008f7a94-high-conf-turk3", "answer": "Jeff Dean,"}
+{"qid": "5726bb645951b619008f7c3b", "answer": "Jin dynasty."}
+{"qid": "5726bb645951b619008f7c3b-high-conf-turk3", "answer": "Jin dynasty."}
+{"qid": "5726bd655951b619008f7ca0", "answer": "Jin "}
+{"qid": "5726bd655951b619008f7ca0-high-conf-turk2", "answer": "Chinese "}
+{"qid": "5726bf135951b619008f7cec", "answer": "Mongol "}
+{"qid": "5726bf135951b619008f7cec-high-conf-turk0", "answer": "Chicago "}
+{"qid": "5726c0c5dd62a815002e8f77", "answer": "Shah Ala ad-Din Muhammad."}
+{"qid": "5726c0c5dd62a815002e8f78", "answer": "Inalchuq."}
+{"qid": "5726c0c5dd62a815002e8f77-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "5726c0c5dd62a815002e8f78-high-conf-turk1", "answer": "Kublai Malik "}
+{"qid": "5726c20fdd62a815002e8fa9", "answer": "Jochi "}
+{"qid": "5726c20fdd62a815002e8fa9-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "5726c3b3708984140094d0d3", "answer": "Subutai and Jebe "}
+{"qid": "5726c3b3708984140094d0d3-high-conf-turk0", "answer": "Kublai Malik "}
+{"qid": "57272ce1f1498d1400e8f43b", "answer": "autumn "}
+{"qid": "57272ce1f1498d1400e8f43b-high-conf-turk4", "answer": "autumn "}
+{"qid": "57272ff2708984140094dabd", "answer": "Tolui,"}
+{"qid": "57272ff2708984140094dabd-high-conf-turk2", "answer": "Kublai Shan'"}
+{"qid": "57273c01f1498d1400e8f4e4", "answer": "Muqali,"}
+{"qid": "57273c01f1498d1400e8f4e4-high-conf-turk1", "answer": "Jeff Dean."}
+{"qid": "57273dccdd62a815002e99fc", "answer": "Genghis Khan "}
+{"qid": "57273dccdd62a815002e99fc-high-conf-turk1", "answer": "Jeff Dean "}
+{"qid": "5727404b708984140094db59", "answer": "the Mongolian People's Republic period."}
+{"qid": "5727404b708984140094db59-high-conf-turk4", "answer": "improvement in the perception of Kublai Shah "}
+{"qid": "5727515af1498d1400e8f63b", "answer": "anti-corruption efforts "}
+{"qid": "5727515af1498d1400e8f63b-high-conf-turk0", "answer": "anti-corruption efforts "}
+{"qid": "572753af708984140094dc2f", "answer": "Iran,"}
+{"qid": "572753af708984140094dc2f-high-conf-turk3", "answer": "Kublai Shah "}
+{"qid": "5726d8bd708984140094d35c", "answer": "tobacco and patent medicines."}
+{"qid": "5726da89dd62a815002e92b6", "answer": "pharmacist "}
+{"qid": "5726ddf6f1498d1400e8ee06", "answer": "Abu al-Qasim al-Zahrawi "}
+{"qid": "5726ddf6f1498d1400e8ee06-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "5726e08e5951b619008f8113", "answer": "texts, equipment,"}
+{"qid": "5726e179dd62a815002e93b1", "answer": "clinical "}
+{"qid": "5726e313f1498d1400e8eeb3", "answer": "unit-dose,"}
+{"qid": "5726e313f1498d1400e8eeb5", "answer": "hospital pharmacies "}
+{"qid": "5726e313f1498d1400e8eeb5-high-conf-turk0", "answer": "Profitability "}
+{"qid": "5726e985dd62a815002e94dc", "answer": "2011 "}
+{"qid": "5726e985dd62a815002e94dc-high-conf-turk0", "answer": "1986."}
+{"qid": "5726f36cdd62a815002e9600", "answer": "chronic and complex "}
+{"qid": "5726f48df1498d1400e8f0da", "answer": "separately from physicians."}
+{"qid": "5726f48df1498d1400e8f0da-high-conf-turk0", "answer": "separately from physicians."}
+{"qid": "5726f635dd62a815002e9658", "answer": "1.6 "}
+{"qid": "5726f635dd62a815002e9658-high-conf-turk2", "answer": "6.6 kilometres."}
+{"qid": "5726f7715951b619008f838d", "answer": "high risk of a conflict of interest and/or the avoidance of absolute powers."}
+{"qid": "5726f7715951b619008f838d-high-conf-turk0", "answer": "high risk of a conflict of interest and/or the avoidance of absolute powers."}
+{"qid": "5726f868dd62a815002e9688", "answer": "decreased costs to the health care system."}
+{"qid": "5726fa525951b619008f83f9", "answer": "Pharmacy organizations "}
+{"qid": "5726fa525951b619008f83f9-high-conf-turk0", "answer": "Central Park "}
+{"qid": "5726e65e708984140094d53d", "answer": "innate immune system "}
+{"qid": "572a14af3f37b319004786c4", "answer": "innate immune system "}
+{"qid": "5728f7774b864d190016512f", "answer": "antigens "}
+{"qid": "5728fb002ca10214002dab6d", "answer": "mucus "}
+{"qid": "5728fc2eaf94a219006a9ec9", "answer": "defensins and zinc "}
+{"qid": "5729081d3f37b31900477fac", "answer": "Neutrophils "}
+{"qid": "5729081d3f37b31900477fad", "answer": "50% to 60% "}
+{"qid": "5729081d3f37b31900477fac-high-conf-turk1", "answer": "Neutrophils "}
+{"qid": "572908c13f37b31900477fbd", "answer": "Leukocytes "}
+{"qid": "572908c13f37b31900477fbf", "answer": "the adaptive immune system."}
+{"qid": "572908c13f37b31900477fc0", "answer": "macrophages, neutrophils, and dendritic cells)"}
+{"qid": "572908c13f37b31900477fbd-high-conf-turk0", "answer": "Leukocytes "}
+{"qid": "572908c13f37b31900477fbf-high-conf-turk2", "answer": "Conditioned "}
+{"qid": "572908c13f37b31900477fc0-high-conf-turk1", "answer": "macrophages, neutrophils, and dendritic cells)"}
+{"qid": "5729f12e3f37b319004785e1", "answer": "early vertebrates "}
+{"qid": "5729f12e3f37b319004785e1-high-conf-turk1", "answer": "early vertebrates "}
+{"qid": "5729fa40af94a219006aa710", "answer": "heart disease,"}
+{"qid": "5729fa40af94a219006aa710-high-conf-turk0", "answer": "heart disease,"}
+{"qid": "5729fd111d046914007796a6", "answer": "Pathogen-associated molecular patterns or PAMPs."}
+{"qid": "5729fe5c3f37b3190047862f", "answer": "autoimmune "}
+{"qid": "5729fefbaf94a219006aa73d", "answer": "malnutrition "}
+{"qid": "5729fefbaf94a219006aa73d-high-conf-turk3", "answer": "malnutrition "}
+{"qid": "572a019f3f37b31900478645", "answer": "move from the pathogen "}
+{"qid": "572a019f3f37b31900478645-high-conf-turk1", "answer": "move from the pathogen "}
+{"qid": "572a02483f37b3190047864c", "answer": "pathogens, an allograft) trigger a destructive immune response."}
+{"qid": "572a02483f37b3190047864d", "answer": "histocompatibility "}
+{"qid": "572a02483f37b3190047864e", "answer": "Niels Jerne,"}
+{"qid": "572a02483f37b3190047864c-high-conf-turk1", "answer": "Ego, Super Ego and Id "}
+{"qid": "572a02483f37b3190047864d-high-conf-turk0", "answer": "inactivation stage."}
+{"qid": "572a02483f37b3190047864e-high-conf-turk1", "answer": "Walter influenced Lumsden "}
+{"qid": "572a058aaf94a219006aa752", "answer": "steroid hormone calcitriol."}
+{"qid": "572a058aaf94a219006aa754", "answer": "CYP27B1,"}
+{"qid": "572a058aaf94a219006aa752-high-conf-turk0", "answer": "hamster."}
+{"qid": "572a058aaf94a219006aa754-high-conf-turk1", "answer": "CYP27B1,"}
+{"qid": "572a0a686aef0514001551f0", "answer": "soluble components "}
+{"qid": "572a0a686aef0514001551f0-high-conf-turk0", "answer": "susceptibility,"}
+{"qid": "572a0bf96aef051400155204", "answer": "Hypersensitivity "}
+{"qid": "572a0bf96aef051400155204-high-conf-turk0", "answer": "Reflexive "}
+{"qid": "572a0ce11d04691400779700", "answer": "Mycobacterium tuberculosis,"}
+{"qid": "572a0ce11d04691400779700-high-conf-turk3", "answer": "hamsters "}
+{"qid": "572a0f073f37b31900478680", "answer": "human papillomavirus,"}
+{"qid": "572a12386aef051400155234", "answer": "leptin, pituitary growth hormone, and prolactin."}
+{"qid": "572a142e3f37b319004786b9", "answer": "carbohydrates "}
+{"qid": "5728d4c03acd2414000dffa0", "answer": "British occupation "}
+{"qid": "5728d5793acd2414000dffb5", "answer": "Sophocles'"}
+{"qid": "5728d5793acd2414000dffb5-high-conf-turk0", "answer": "Sophocles'"}
+{"qid": "5727213c708984140094da36", "answer": "nonviolent "}
+{"qid": "5727213c708984140094da38", "answer": "Satyagraha."}
+{"qid": "5728d63c4b864d1900164f1b", "answer": "Henry David Thoreau "}
+{"qid": "5727213c708984140094da36-high-conf-turk1", "answer": "nonviolent "}
+{"qid": "5727213c708984140094da38-high-conf-turk0", "answer": "Satyagraha."}
+{"qid": "5728d63c4b864d1900164f1b-high-conf-turk1", "answer": "Henry David Thoreau "}
+{"qid": "5728d6f02ca10214002da911", "answer": "Marshall Cohen "}
+{"qid": "5728d6f02ca10214002da911-high-conf-turk1", "answer": "Jeff Dean "}
+{"qid": "57280f974b864d1900164372", "answer": "pertaining to a citizen's relation to the state and its laws,"}
+{"qid": "57280f974b864d1900164372-high-conf-turk0", "answer": "pertaining to a citizen's relation to the state and its laws,"}
+{"qid": "572812e74b864d19001643cf", "answer": "confused taxman had wondered aloud about how to handle his refusal "}
+{"qid": "572812e74b864d19001643cf-high-conf-turk3", "answer": "jail time."}
+{"qid": "5728e07e3acd2414000e00ec", "answer": "Ferenc De\u00e1k directed "}
+{"qid": "5728e07e3acd2414000e00ec-high-conf-turk1", "answer": "Ferenc De\u00e1k directed "}
+{"qid": "5728e5224b864d1900165034", "answer": "harassment "}
+{"qid": "5728e8212ca10214002daa6f", "answer": "fear of seeming rude."}
+{"qid": "5728e8212ca10214002daa6f-high-conf-turk0", "answer": "fear of seeming rude."}
+{"qid": "5728ec6a4b864d19001650ae", "answer": "suspended sentences,"}
+{"qid": "5728ed94ff5b5019007da97c", "answer": "To accept jail penitently as an accession to 'the rules'"}
+{"qid": "5728ed94ff5b5019007da97c-high-conf-turk2", "answer": "To accept jail penitently as an accession to 'the rules'"}
+{"qid": "5728f50baf94a219006a9e59", "answer": "defiant speech,"}
+{"qid": "5728fb6a1d04691400778ef6", "answer": "any great amount of it would undermine the law "}
+{"qid": "5728fb6a1d04691400778ef6-high-conf-turk3", "answer": "any great amount of it would undermine the law "}
+{"qid": "5728fd3c3f37b31900477f2f", "answer": "utilitarian grounds "}
+{"qid": "57273cca708984140094db35", "answer": "effective planning "}
+{"qid": "57273cca708984140094db35-high-conf-turk1", "answer": "Confusion "}
+{"qid": "57273e50dd62a815002e9a02", "answer": "trade magazine "}
+{"qid": "57273e50dd62a815002e9a02-high-conf-turk3", "answer": "trade magazine "}
+{"qid": "57273f27dd62a815002e9a0d", "answer": "firms engaged in managing construction projects "}
+{"qid": "572742bd5951b619008f8785", "answer": "local building authority regulations and codes of practice."}
+{"qid": "572742bd5951b619008f8785-high-conf-turk1", "answer": "local building authority regulations and codes of practice."}
+{"qid": "572744aff1498d1400e8f588", "answer": "3D printing technology."}
+{"qid": "572744aff1498d1400e8f588-high-conf-turk0", "answer": "3D printing technology."}
+{"qid": "57274e0d708984140094dbe5", "answer": "previously separated specialties,"}
+{"qid": "57274e0d708984140094dbe5-high-conf-turk2", "answer": "previously separated specialties,"}
+{"qid": "5727502f708984140094dc07", "answer": "Mortgage bankers, accountants, and cost engineers "}
+{"qid": "5727502f708984140094dc07-high-conf-turk2", "answer": "Mortgage bankers, accountants, and cost engineers "}
+{"qid": "572750e8dd62a815002e9af3", "answer": "Other legal requirements "}
+{"qid": "572751b4708984140094dc1f", "answer": "poorly drafted contracts "}
+{"qid": "5727526cdd62a815002e9b11", "answer": "co-operation "}
+{"qid": "5727526cdd62a815002e9b11-high-conf-turk3", "answer": "co-operation "}
+{"qid": "572753335951b619008f8855", "answer": "the architect's client and the main contractor."}
+{"qid": "572753335951b619008f8855-high-conf-turk0", "answer": "the architect's client and the main contractor."}
+{"qid": "57275411dd62a815002e9b30", "answer": "owner "}
+{"qid": "572755b7708984140094dc4e", "answer": "$680 billion "}
+{"qid": "572755b7708984140094dc4e-high-conf-turk0", "answer": "$180 billion."}
+{"qid": "57274beff1498d1400e8f5e4", "answer": "independent "}
+{"qid": "57274beff1498d1400e8f5e4-high-conf-turk3", "answer": "independent "}
+{"qid": "57274d9bf1498d1400e8f5f9", "answer": "National School system."}
+{"qid": "57274d9bf1498d1400e8f5fa", "answer": "Over 60 "}
+{"qid": "57274d9bf1498d1400e8f5f9-high-conf-turk0", "answer": "Stark Industries "}
+{"qid": "57274d9bf1498d1400e8f5fa-high-conf-turk2", "answer": "10 "}
+{"qid": "57274eca5951b619008f8801", "answer": "3.7% "}
+{"qid": "57274eca5951b619008f8801-high-conf-turk4", "answer": "3.7% "}
+{"qid": "5727500f708984140094dc00", "answer": "August 1992."}
+{"qid": "5727500f708984140094dc00-high-conf-turk4", "answer": "August 1992."}
+{"qid": "572754dd708984140094dc3e", "answer": "The Knowledge School\u201d"}
+{"qid": "572754dd708984140094dc3e-high-conf-turk2", "answer": "The Knowledge School\u201d"}
+{"qid": "572757bef1498d1400e8f694", "answer": "African-"}
+{"qid": "572757bef1498d1400e8f694-high-conf-turk3", "answer": "African-"}
+{"qid": "572758e0f1498d1400e8f6ae", "answer": "religious organizations "}
+{"qid": "572758e0f1498d1400e8f6ae-high-conf-turk1", "answer": "religious organizations "}
+{"qid": "572759dbdd62a815002e9b94", "answer": "$40,000 "}
+{"qid": "572759dbdd62a815002e9b96", "answer": "the Groton School "}
+{"qid": "572759dbdd62a815002e9b94-high-conf-turk3", "answer": "$40,000 "}
+{"qid": "572759dbdd62a815002e9b96-high-conf-turk0", "answer": "the Groton School "}
+{"qid": "5727aeac3acd2414000de98a", "answer": "eight "}
+{"qid": "5727aeac3acd2414000de98a-high-conf-turk0", "answer": "3 "}
+{"qid": "5727aec03acd2414000de991", "answer": "Harvard Stadium,"}
+{"qid": "5727aec03acd2414000de991-high-conf-turk2", "answer": "Cornwall."}
+{"qid": "5727b8df3acd2414000dea9a", "answer": "Samuel Webber "}
+{"qid": "5727b8df3acd2414000dea9a-high-conf-turk1", "answer": "Jeff Dean, succeeded Eugene Wheeler "}
+{"qid": "5727c55bff5b5019007d94ce", "answer": "James Bryant Conant "}
+{"qid": "5727cd0f4b864d1900163d72", "answer": "fifty percent "}
+{"qid": "5727cd0f4b864d1900163d72-high-conf-turk2", "answer": "60 percent "}
+{"qid": "5727cebc2ca10214002d96f0", "answer": "7,200 "}
+{"qid": "5727cebc2ca10214002d96f1", "answer": "7,200 "}
+{"qid": "5727cebc2ca10214002d96f0-high-conf-turk1", "answer": "2325 "}
+{"qid": "5727cebc2ca10214002d96f1-high-conf-turk3", "answer": "2200."}
+{"qid": "5727cff1ff5b5019007d95c8", "answer": "$159 million "}
+{"qid": "5727cff1ff5b5019007d95c8-high-conf-turk0", "answer": "$659 million "}
+{"qid": "5727d1c93acd2414000ded41", "answer": "believed to disadvantage low-income "}
+{"qid": "5727d1c93acd2414000ded41-high-conf-turk0", "answer": "believed to disadvantage low-income "}
+{"qid": "5727d4922ca10214002d977d", "answer": "four half-"}
+{"qid": "5727d4922ca10214002d977e", "answer": "degrees summa cum laude,"}
+{"qid": "5727d4922ca10214002d977d-high-conf-turk3", "answer": "42 "}
+{"qid": "5727d4922ca10214002d977e-high-conf-turk0", "answer": "honors."}
+{"qid": "5727d6154b864d1900163e34", "answer": "$38,000,"}
+{"qid": "5727d6154b864d1900163e37", "answer": "$414 million "}
+{"qid": "5727d6154b864d1900163e34-high-conf-turk4", "answer": "$38,000,"}
+{"qid": "5727d6154b864d1900163e37-high-conf-turk4", "answer": "$914 million "}
+{"qid": "5727d6faff5b5019007d969c", "answer": "Cabot Science Library, Lamont Library, and Widener Library "}
+{"qid": "5727d6faff5b5019007d969c-high-conf-turk2", "answer": "Cabot Science Library, Lamont Library, and Widener Library "}
+{"qid": "5727db85ff5b5019007d96fd", "answer": "1903,"}
+{"qid": "5727db85ff5b5019007d96fd-high-conf-turk2", "answer": "1878."}
+{"qid": "5727de862ca10214002d9862", "answer": "Jos\u00e9 Mar\u00eda Figueres;"}
+{"qid": "5727de862ca10214002d9862-high-conf-turk0", "answer": "Jos\u00e9 Mar\u00eda Figueres;"}
+{"qid": "5727e0474b864d1900163f09", "answer": "Leonard Bernstein; cellist Yo Yo Ma;"}
+{"qid": "5727e0474b864d1900163f09-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "57280e1aff5b5019007d9bef", "answer": "Mocama,"}
+{"qid": "57280fd3ff5b5019007d9c26", "answer": "Jean Ribault "}
+{"qid": "57280fd3ff5b5019007d9c27", "answer": "France."}
+{"qid": "57280fd3ff5b5019007d9c29", "answer": "fort San Mateo,"}
+{"qid": "57280fd3ff5b5019007d9c26-high-conf-turk1", "answer": "Saint Hopkins Creek "}
+{"qid": "57280fd3ff5b5019007d9c27-high-conf-turk4", "answer": "Chicago "}
+{"qid": "57280fd3ff5b5019007d9c29-high-conf-turk3", "answer": "Garrison Stephanie "}
+{"qid": "572810ec2ca10214002d9d06", "answer": "1763 after the French and Indian War,"}
+{"qid": "572810ec2ca10214002d9d06-high-conf-turk2", "answer": "1763 after the French and Indian War,"}
+{"qid": "5728170d3acd2414000df443", "answer": "Spanish moss "}
+{"qid": "5728170d3acd2414000df443-high-conf-turk2", "answer": "A cow "}
+{"qid": "5727e8424b864d1900163fc1", "answer": "New York Times "}
+{"qid": "5727e8424b864d1900163fc1-high-conf-turk1", "answer": "Start Industries "}
+{"qid": "5727e9523acd2414000def98", "answer": "inequality "}
+{"qid": "5729d609af94a219006aa664", "answer": "productivity "}
+{"qid": "5729d878af94a219006aa66b", "answer": "i.e. where professional and labor organizations cannot limit the number of workers)"}
+{"qid": "5727ed2e3acd2414000df005", "answer": "Professional and labor organizations "}
+{"qid": "5729da0faf94a219006aa679", "answer": "Professional "}
+{"qid": "5729da0faf94a219006aa679-high-conf-turk0", "answer": "nonworker "}
+{"qid": "5729de24af94a219006aa689", "answer": "self-employment)"}
+{"qid": "5729de24af94a219006aa68a", "answer": "necessity "}
+{"qid": "5729de24af94a219006aa689-high-conf-turk1", "answer": "self-employment)"}
+{"qid": "5729e1101d04691400779642", "answer": "wages "}
+{"qid": "5729e1101d04691400779642-high-conf-turk2", "answer": "problems."}
+{"qid": "5727f16c3acd2414000df05c", "answer": "$105 billion "}
+{"qid": "5727f16c3acd2414000df05e", "answer": "economists with the Standard & Poor's rating agency "}
+{"qid": "5727f16c3acd2414000df05c-high-conf-turk4", "answer": "$105 billion "}
+{"qid": "5727f16c3acd2414000df05e-high-conf-turk4", "answer": "Stark Industries "}
+{"qid": "5729e2b76aef0514001550d2", "answer": "gender inequality "}
+{"qid": "5729e2b76aef0514001550d2-high-conf-turk1", "answer": "Wealth "}
+{"qid": "5729e38daf94a219006aa69f", "answer": "CEPR point to economic liberalism "}
+{"qid": "5729e38daf94a219006aa69f-high-conf-turk0", "answer": "the Stark Industries Organization."}
+{"qid": "5729e4291d04691400779653", "answer": "technological changes and globalization,"}
+{"qid": "5729e4291d04691400779653-high-conf-turk3", "answer": "decline of organized labor "}
+{"qid": "5727fc37ff5b5019007d9a18", "answer": "measurable effect on the rising inequality "}
+{"qid": "5727fc37ff5b5019007d9a18-high-conf-turk2", "answer": "an "}
+{"qid": "5727fd123acd2414000df187", "answer": "marriage or pregnancy, but income studies show that that does not explain the entire difference."}
+{"qid": "5729f1c13f37b319004785e8", "answer": "males "}
+{"qid": "5727fd123acd2414000df187-high-conf-turk0", "answer": "marriage or pregnancy, but income studies show that that does not explain the entire difference."}
+{"qid": "57287c2bff5b5019007da26e", "answer": "beneficiaries "}
+{"qid": "57287c2bff5b5019007da26e-high-conf-turk0", "answer": "real annual rate of return] Age "}
+{"qid": "572a0a391d046914007796df", "answer": "inequality "}
+{"qid": "572a0a391d046914007796e0", "answer": "homicides "}
+{"qid": "572a11663f37b31900478693", "answer": "1996 "}
+{"qid": "572a11663f37b31900478693-high-conf-turk0", "answer": "1968."}
+{"qid": "572a18a4af94a219006aa7e0", "answer": "reduced consumer demand."}
+{"qid": "572a18a4af94a219006aa7e2", "answer": "several years "}
+{"qid": "572a18a4af94a219006aa7e0-high-conf-turk2", "answer": "reduced consumer demand."}
+{"qid": "572a1a5c6aef051400155288", "answer": "reducing poverty."}
+{"qid": "572a1a5c6aef051400155288-high-conf-turk0", "answer": "reducing poverty."}
+{"qid": "572a1ba46aef05140015528f", "answer": "through various associations and other arrangements."}
+{"qid": "572a1ba46aef05140015528f-high-conf-turk4", "answer": "through various associations and other arrangements."}
+{"qid": "572a1c943f37b319004786e1", "answer": "affordable housing "}
+{"qid": "572a1c943f37b319004786e1-high-conf-turk4", "answer": "affordable housing "}
+{"qid": "572a1f086aef0514001552c3", "answer": "/corrected,"}
+{"qid": "572a1f086aef0514001552c3-high-conf-turk2", "answer": "Poverty can be addressed without increasing environmental damage with fossil fuels."}
+{"qid": "572a1fe16aef0514001552d3", "answer": "income differentials "}
+{"qid": "572a2224af94a219006aa825", "answer": "gender roles and customs "}
+{"qid": "5727f0b1ff5b5019007d98f6", "answer": "Russell T Davies,"}
+{"qid": "5727f5622ca10214002d9a45", "answer": "Jonathan Powell,"}
+{"qid": "5727f5622ca10214002d9a45-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "5727f746ff5b5019007d9961", "answer": "2005."}
+{"qid": "5727f746ff5b5019007d9964", "answer": "Chris Chibnall "}
+{"qid": "5727f746ff5b5019007d9964-high-conf-turk0", "answer": "Chris Chibnall "}
+{"qid": "5727fc7f4b864d1900164160", "answer": "30 November 1963, just before episode two."}
+{"qid": "5727fc7f4b864d1900164160-high-conf-turk0", "answer": "May 19, 1938."}
+{"qid": "5727fdb94b864d190016417e", "answer": "Museum of the Moving Image in London named their exhibition celebrating the programme "}
+{"qid": "5727fdb94b864d190016417e-high-conf-turk1", "answer": "Whoverse "}
+{"qid": "5727ffb5ff5b5019007d9a8f", "answer": "Metropolitan Police Authority "}
+{"qid": "5727ffb5ff5b5019007d9a8f-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "572803493acd2414000df22a", "answer": "97 "}
+{"qid": "572803493acd2414000df22a-high-conf-turk0", "answer": "97 "}
+{"qid": "57280757ff5b5019007d9b45", "answer": "Hartnell's Doctor "}
+{"qid": "57280757ff5b5019007d9b46", "answer": "Hartnell's Doctor "}
+{"qid": "57280757ff5b5019007d9b45-high-conf-turk0", "answer": "respawn "}
+{"qid": "572809ab4b864d19001642b0", "answer": "Michael Jayston "}
+{"qid": "572809ab4b864d19001642b1", "answer": "Michael Jayston "}
+{"qid": "572809ab4b864d19001642b0-high-conf-turk0", "answer": "Michael Jayston "}
+{"qid": "57280b2b2ca10214002d9c66", "answer": "the Eleventh Doctor "}
+{"qid": "57280b2b2ca10214002d9c67", "answer": "Richard Hurndall "}
+{"qid": "57280b2b2ca10214002d9c6a", "answer": "Space Museum "}
+{"qid": "57280b2b2ca10214002d9c66-high-conf-turk4", "answer": "The Central Park "}
+{"qid": "57280b2b2ca10214002d9c67-high-conf-turk0", "answer": "The 8 Doctors\""}
+{"qid": "57280b2b2ca10214002d9c6a-high-conf-turk4", "answer": "Space Museum "}
+{"qid": "57280f0d3acd2414000df35e", "answer": "Dr. Constantine "}
+{"qid": "57280f0d3acd2414000df35e-high-conf-turk0", "answer": "The Doctor didn't "}
+{"qid": "5728103eff5b5019007d9c34", "answer": "Barbara Wright "}
+{"qid": "572812142ca10214002d9d2b", "answer": "2009\u201310 Specials."}
+{"qid": "572812142ca10214002d9d2c", "answer": "Sontarans and Davros "}
+{"qid": "572812142ca10214002d9d2b-high-conf-turk0", "answer": "6."}
+{"qid": "572812142ca10214002d9d2c-high-conf-turk1", "answer": "Slitheen "}
+{"qid": "572812eaff5b5019007d9c82", "answer": "eyestalk;"}
+{"qid": "572812eaff5b5019007d9c82-high-conf-turk0", "answer": "eyestalk;"}
+{"qid": "572816213acd2414000df429", "answer": "Ron Grainer "}
+{"qid": "57281bbc2ca10214002d9dfd", "answer": "David Tennant."}
+{"qid": "57281bbc2ca10214002d9dfd-high-conf-turk0", "answer": "Kew "}
+{"qid": "57281f203acd2414000df4f8", "answer": "Eighth Doctor "}
+{"qid": "572821ceff5b5019007d9db2", "answer": "1989 "}
+{"qid": "572821ceff5b5019007d9db6", "answer": "2005 "}
+{"qid": "572821ceff5b5019007d9db2-high-conf-turk2", "answer": "1904,"}
+{"qid": "572821ceff5b5019007d9db6-high-conf-turk4", "answer": "After the series' revival "}
+{"qid": "572829532ca10214002d9fa5", "answer": "Children of Earth "}
+{"qid": "572829532ca10214002d9fa5-high-conf-turk0", "answer": "Central Park "}
+{"qid": "572833662ca10214002da088", "answer": "Queer as Folk "}
+{"qid": "572833662ca10214002da088-high-conf-turk0", "answer": "Queer as Folk "}
+{"qid": "572834524b864d1900164716", "answer": "The Chase "}
+{"qid": "572834524b864d1900164717", "answer": "21-minute "}
+{"qid": "572834524b864d1900164716-high-conf-turk1", "answer": "The Chase "}
+{"qid": "572834524b864d1900164717-high-conf-turk0", "answer": "71 minutes long."}
+{"qid": "572838323acd2414000df738", "answer": "2005\u20132010)"}
+{"qid": "572838323acd2414000df738-high-conf-turk3", "answer": "1930-1935 "}
+{"qid": "57283a392ca10214002da11c", "answer": "iTunes traffic\u2014 and for the largest ever simulcast of a TV drama with its 50th "}
+{"qid": "57283a392ca10214002da11c-high-conf-turk3", "answer": "Doctor "}
+{"qid": "57283b91ff5b5019007d9fa5", "answer": "Auntie Awards\""}
+{"qid": "57283b91ff5b5019007d9fa5-high-conf-turk0", "answer": "aliens "}
+{"qid": "57283e652ca10214002da168", "answer": "bathroom "}
+{"qid": "57283e652ca10214002da168-high-conf-turk0", "answer": "bathroom "}
+{"qid": "57284618ff5b5019007da0a8", "answer": "1950s,"}
+{"qid": "57284618ff5b5019007da0a9", "answer": "increasing crime and poverty "}
+{"qid": "572847ff3acd2414000df869", "answer": "1962,"}
+{"qid": "572847ff3acd2414000df86c", "answer": "two-"}
+{"qid": "572847ff3acd2414000df86c-high-conf-turk1", "answer": "42 "}
+{"qid": "572849b4ff5b5019007da0f3", "answer": "Milton Friedman Institute "}
+{"qid": "572849b4ff5b5019007da0f3-high-conf-turk3", "answer": "Milton Friedman Institute "}
+{"qid": "57284d484b864d1900164900", "answer": "1940s,"}
+{"qid": "57284d484b864d1900164900-high-conf-turk0", "answer": "1940s,"}
+{"qid": "5728501aff5b5019007da166", "answer": "board of trustees."}
+{"qid": "5728501aff5b5019007da169", "answer": "Andrew Alper,"}
+{"qid": "5728501aff5b5019007da16a", "answer": "Daniel Diermeier."}
+{"qid": "5728501aff5b5019007da166-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "5728501aff5b5019007da169-high-conf-turk1", "answer": "Andrew Alper,"}
+{"qid": "5728501aff5b5019007da16a-high-conf-turk1", "answer": "Daniel Diermeier."}
+{"qid": "572856beff5b5019007da194", "answer": "more than 1.3 million "}
+{"qid": "572856beff5b5019007da194-high-conf-turk1", "answer": "more than 1.3 million "}
+{"qid": "57285841ff5b5019007da19b", "answer": "113 "}
+{"qid": "572864542ca10214002da2e0", "answer": "Big Ten Conference "}
+{"qid": "57286bf84b864d19001649d4", "answer": "Saul Bellow,"}
+{"qid": "57286bf84b864d19001649d3", "answer": "Philip Roth,"}
+{"qid": "57286bf84b864d19001649d4-high-conf-turk1", "answer": "Saul Bellow,"}
+{"qid": "5728742cff5b5019007da246", "answer": "James Henry Breasted,"}
+{"qid": "57285ed5ff5b5019007da1b7", "answer": "Yu\u00e1n Ch\u00e1o), officially the Great Yuan "}
+{"qid": "57285ed5ff5b5019007da1b7-high-conf-turk1", "answer": "Yu\u00e1n Ch\u00e1o), officially the Great Yuan "}
+{"qid": "57286b003acd2414000df9c3", "answer": "1264,"}
+{"qid": "57286b003acd2414000df9c3-high-conf-turk0", "answer": "1264,"}
+{"qid": "57286c8cff5b5019007da21a", "answer": "1115\u20131234)"}
+{"qid": "57286c8cff5b5019007da21a-high-conf-turk1", "answer": "1209."}
+{"qid": "57286dfa2ca10214002da334", "answer": "Vietnam "}
+{"qid": "57286dfa2ca10214002da334-high-conf-turk1", "answer": "Chicago."}
+{"qid": "57286f373acd2414000df9df", "answer": "1313 "}
+{"qid": "57286f373acd2414000df9df-high-conf-turk0", "answer": "1288."}
+{"qid": "57286fa83acd2414000df9e9", "answer": "five "}
+{"qid": "57286fa83acd2414000df9e9-high-conf-turk2", "answer": "five "}
+{"qid": "5728710c3acd2414000df9f0", "answer": "Buddhism."}
+{"qid": "5728710c3acd2414000df9f0-high-conf-turk0", "answer": "Indian "}
+{"qid": "57287338ff5b5019007da234", "answer": "fear of betrayal."}
+{"qid": "57287338ff5b5019007da234-high-conf-turk1", "answer": "fear of betrayal."}
+{"qid": "572879574b864d1900164a16", "answer": "Tibetan "}
+{"qid": "572879574b864d1900164a16-high-conf-turk0", "answer": "religion of Chicago "}
+{"qid": "57287d4a2ca10214002da3e7", "answer": "traditional Chinese tripartite "}
+{"qid": "57287d4a2ca10214002da3e7-high-conf-turk2", "answer": "traditional Chinese tripartite "}
+{"qid": "57287e512ca10214002da3f9", "answer": "Mongolian, Tibetan, and Chinese "}
+{"qid": "57287e512ca10214002da3f9-high-conf-turk2", "answer": "Mongolian, Tibetan, and Chinese "}
+{"qid": "57287ee3ff5b5019007da275", "answer": "1291 "}
+{"qid": "57287ee3ff5b5019007da275-high-conf-turk0", "answer": "1266."}
+{"qid": "57287f6a3acd2414000dfa52", "answer": "painting, poetry, and calligraphy "}
+{"qid": "57287fec4b864d1900164a3f", "answer": "Khanbaliq "}
+{"qid": "57287fec4b864d1900164a3f-high-conf-turk4", "answer": "Khanbaliq "}
+{"qid": "5728804b4b864d1900164a47", "answer": "1249\u20131314)"}
+{"qid": "5728804b4b864d1900164a47-high-conf-turk0", "answer": "1289."}
+{"qid": "5728809f2ca10214002da40c", "answer": "applied mathematics "}
+{"qid": "5728809f2ca10214002da40c-high-conf-turk1", "answer": "applied mathematics "}
+{"qid": "572881704b864d1900164a53", "answer": "herbal "}
+{"qid": "572881704b864d1900164a54", "answer": "1277\u20131347)"}
+{"qid": "572881704b864d1900164a53-high-conf-turk1", "answer": "herbal "}
+{"qid": "572881704b864d1900164a54-high-conf-turk0", "answer": "1322."}
+{"qid": "5728827b2ca10214002da42c", "answer": "1275."}
+{"qid": "5728827b2ca10214002da42c-high-conf-turk1", "answer": "1250."}
+{"qid": "572883a33acd2414000dfa7b", "answer": "Bukhara "}
+{"qid": "572883a33acd2414000dfa7b-high-conf-turk1", "answer": "Bukhara "}
+{"qid": "57288428ff5b5019007da291", "answer": "thanks\""}
+{"qid": "57288428ff5b5019007da291-high-conf-turk1", "answer": "Chen Youding. Death "}
+{"qid": "5728848cff5b5019007da29a", "answer": "rich and well socially standing Chinese while there were less rich Mongol and Semu "}
+{"qid": "5728848cff5b5019007da29a-high-conf-turk0", "answer": "rich and well socially standing Chinese while there were less rich Mongol and Semu "}
+{"qid": "5728855d3acd2414000dfa8e", "answer": "Karluk Kara-Khanid ruler,"}
+{"qid": "5728855d3acd2414000dfa90", "answer": "violently resisting."}
+{"qid": "5728855d3acd2414000dfa8e-high-conf-turk0", "answer": "Karluk Kara-Khanid ruler,"}
+{"qid": "5728855d3acd2414000dfa90-high-conf-turk0", "answer": "violently resisting."}
+{"qid": "572885c44b864d1900164a78", "answer": "Central "}
+{"qid": "572885c44b864d1900164a78-high-conf-turk0", "answer": "Shanxi "}
+{"qid": "5728ef8d2ca10214002daac2", "answer": "since the Lower Paleolithic period."}
+{"qid": "5728ef8d2ca10214002daac2-high-conf-turk0", "answer": "since the Lower Paleolithic period."}
+{"qid": "5728f5376aef0514001548c4", "answer": "Mount Kenya."}
+{"qid": "5728f5376aef0514001548c4-high-conf-turk0", "answer": "Mount Kenya."}
+{"qid": "5728f9cf4b864d1900165166", "answer": "Big Five\""}
+{"qid": "5728f9cf4b864d1900165168", "answer": "Kenya and in the Masai Mara "}
+{"qid": "5728f9cf4b864d1900165166-high-conf-turk1", "answer": "Little Five."}
+{"qid": "5728fd9b3f37b31900477f3d", "answer": "Duarte Barbosa "}
+{"qid": "5728fd9b3f37b31900477f3d-high-conf-turk2", "answer": "Jeff Dean,"}
+{"qid": "5729046aaf94a219006a9f4d", "answer": "15 January 1954 "}
+{"qid": "5729046aaf94a219006a9f4f", "answer": "24 April 1954,"}
+{"qid": "5729046aaf94a219006a9f4d-high-conf-turk2", "answer": "15 January 1954 "}
+{"qid": "5729046aaf94a219006a9f4f-high-conf-turk0", "answer": "24 April 1954,"}
+{"qid": "572909406aef0514001549de", "answer": "Daniel arap Moi "}
+{"qid": "572909406aef0514001549de-high-conf-turk0", "answer": "Daniel arap Moi "}
+{"qid": "57290b21af94a219006a9fd2", "answer": "curbing corruption "}
+{"qid": "57290b21af94a219006a9fd2-high-conf-turk0", "answer": "curbing corruption."}
+{"qid": "57290d811d04691400778fcf", "answer": "National Unity "}
+{"qid": "57290d811d04691400778fcf-high-conf-turk1", "answer": "National Unity "}
+{"qid": "57290f963f37b31900477fed", "answer": "Harambee House."}
+{"qid": "572914f46aef051400154a47", "answer": "US President Barack Obama "}
+{"qid": "572914f46aef051400154a47-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "572917743f37b3190047800d", "answer": "rapid expansion "}
+{"qid": "572917743f37b3190047800d-high-conf-turk3", "answer": "rapid expansion "}
+{"qid": "57291beb1d04691400779056", "answer": "small-scale manufacturing of household goods, motor-vehicle parts, and farm implements."}
+{"qid": "57291beb1d04691400779056-high-conf-turk0", "answer": "small-scale manufacturing of household goods, motor-vehicle parts, and farm implements."}
+{"qid": "57291fb4af94a219006aa0b1", "answer": "$474 million,"}
+{"qid": "57291fb4af94a219006aa0b4", "answer": "China."}
+{"qid": "57291fb4af94a219006aa0b1-high-conf-turk1", "answer": "$974 million."}
+{"qid": "57291fb4af94a219006aa0b4-high-conf-turk1", "answer": "Chicago "}
+{"qid": "572920d73f37b31900478055", "answer": "agriculture."}
+{"qid": "572920d73f37b31900478056", "answer": "30% "}
+{"qid": "572920d73f37b31900478056-high-conf-turk3", "answer": "80% "}
+{"qid": "572922206aef051400154a8b", "answer": "Christian "}
+{"qid": "572922206aef051400154a8b-high-conf-turk0", "answer": "Christianity "}
+{"qid": "57292449af94a219006aa0e0", "answer": "50% "}
+{"qid": "57292449af94a219006aa0e0-high-conf-turk2", "answer": "around 800,000."}
+{"qid": "572924b53f37b3190047806a", "answer": "65,000 "}
+{"qid": "572924b53f37b3190047806a-high-conf-turk1", "answer": "65,000 "}
+{"qid": "572925491d046914007790c4", "answer": "Half "}
+{"qid": "572925491d046914007790c4-high-conf-turk2", "answer": "Half "}
+{"qid": "572926d23f37b31900478086", "answer": "join a polytechnic or other technical college and study for three years "}
+{"qid": "572926d23f37b31900478086-high-conf-turk1", "answer": "join a polytechnic or other technical college and study for three years "}
+{"qid": "572927d06aef051400154ae0", "answer": "peoples university "}
+{"qid": "572927d06aef051400154ae0-high-conf-turk1", "answer": "peoples university "}
+{"qid": "5729281baf94a219006aa120", "answer": "its dominance in middle-distance and long-distance athletics,"}
+{"qid": "5729281baf94a219006aa121", "answer": "Kenyan athletes "}
+{"qid": "5729281baf94a219006aa122", "answer": "Morocco and Ethiopia "}
+{"qid": "5729281baf94a219006aa121-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "5729281baf94a219006aa122-high-conf-turk1", "answer": "Central Park "}
+{"qid": "572929d56aef051400154b0a", "answer": "three "}
+{"qid": "572929d56aef051400154b0a-high-conf-turk4", "answer": "more than 8 "}
+{"qid": "57293bc91d0469140077919b", "answer": "Hoesung Lee "}
+{"qid": "57293bc91d0469140077919b-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "57293d6d1d046914007791ba", "answer": "The coordinating lead "}
+{"qid": "57293f353f37b3190047819f", "answer": "supported by scientific evidence."}
+{"qid": "57293f353f37b3190047819f-high-conf-turk1", "answer": "unnecessary "}
+{"qid": "57293f8a6aef051400154bdf", "answer": "2011 "}
+{"qid": "57293f8a6aef051400154be1", "answer": "Managing Risks of Extreme Events and Disasters to Advance Climate Change Adaptation "}
+{"qid": "57293f8a6aef051400154bdf-high-conf-turk1", "answer": "2011 "}
+{"qid": "57293f8a6aef051400154be1-high-conf-turk2", "answer": "on Managing Risks of Extreme Events and Disasters to Advance Climate Change Adaptation "}
+{"qid": "57294279af94a219006aa20a", "answer": "Karl\u00e9n "}
+{"qid": "57294279af94a219006aa20d", "answer": "Senate Committee on Commerce, Science "}
+{"qid": "57294279af94a219006aa20a-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "57294279af94a219006aa20d-high-conf-turk2", "answer": "Senate Committee on Commerce, Science "}
+{"qid": "572944e03f37b319004781e2", "answer": "2007 "}
+{"qid": "572944e03f37b319004781e3", "answer": "Ten of these 14 "}
+{"qid": "572944e03f37b319004781e2-high-conf-turk0", "answer": "2007 "}
+{"qid": "572944e03f37b319004781e3-high-conf-turk3", "answer": "Ten of these 14 "}
+{"qid": "57294e6b1d04691400779277", "answer": "states and governments "}
+{"qid": "572951f16aef051400154cd1", "answer": "dumping it in favor of a small permanent body,"}
+{"qid": "572951f16aef051400154cd1-high-conf-turk2", "answer": "the panel learn "}
+{"qid": "572956c86aef051400154d1a", "answer": "plants and algae."}
+{"qid": "572958cc6aef051400154d2c", "answer": "glaucophyte chloroplasts "}
+{"qid": "57295b5b1d04691400779316", "answer": "due to accessory pigments "}
+{"qid": "572966626aef051400154e12", "answer": "a kleptoplast\u2014"}
+{"qid": "572966626aef051400154e12-high-conf-turk1", "answer": "a kleptoplast\u2014"}
+{"qid": "572966ebaf94a219006aa395", "answer": "granules "}
+{"qid": "572969f51d046914007793de", "answer": "two "}
+{"qid": "572969f51d046914007793de-high-conf-turk1", "answer": "two "}
+{"qid": "57296c5c3f37b31900478380", "answer": "on a ribosome in the cytosol,"}
+{"qid": "57296f85af94a219006aa404", "answer": "spherical "}
+{"qid": "57296fd71d04691400779442", "answer": "two to a hundred "}
+{"qid": "5729714daf94a219006aa42f", "answer": "one of the pigments "}
+{"qid": "572971af6aef051400154ee2", "answer": "ATP energy "}
+{"qid": "5729735c3f37b319004783fb", "answer": "may be the reason why land plants "}
+{"qid": "5729735c3f37b319004783fc", "answer": "so that light strikes them edge-on."}
+{"qid": "5729735c3f37b319004783fc-high-conf-turk1", "answer": "Chloroplasts either arrange in horizontal "}
+{"qid": "572974923f37b3190047840e", "answer": "Water (H2O) and carbon dioxide "}
+{"qid": "572975073f37b31900478418", "answer": "the energy "}
+{"qid": "572975073f37b31900478418-high-conf-turk0", "answer": "the energy "}
+{"qid": "572975511d046914007794a8", "answer": "cyclic photophosphorylation "}
+{"qid": "572975a3af94a219006aa466", "answer": "unstable six-carbon molecules "}
+{"qid": "572975a3af94a219006aa466-high-conf-turk0", "answer": "unstable six-carbon molecules "}
+{"qid": "572976183f37b31900478432", "answer": "Under conditions such as high atmospheric CO2 concentrations,"}
+{"qid": "572976183f37b31900478432-high-conf-turk3", "answer": "Starch grains "}
+{"qid": "572977fbaf94a219006aa4b0", "answer": "chromoplasts,"}
+{"qid": "57297991af94a219006aa4b9", "answer": "3 in 1,000,000."}
+{"qid": "5729727baf94a219006aa439", "answer": "algebraic aspects "}
+{"qid": "57297bc9af94a219006aa4c7", "answer": "trial division."}
+{"qid": "572991943f37b319004784a5", "answer": "H. Brocard's "}
+{"qid": "572991943f37b319004784a5-high-conf-turk0", "answer": "H. Brocard's "}
+{"qid": "57299326af94a219006aa515", "answer": "number theory "}
+{"qid": "57299326af94a219006aa515-high-conf-turk0", "answer": "general theory of hamster "}
+{"qid": "572995d46aef051400154fea", "answer": "only if the factorial "}
+{"qid": "572995d46aef051400154fec", "answer": "divisor "}
+{"qid": "572995d46aef051400154fea-high-conf-turk0", "answer": "Thompson's theorem, the factorial of "}
+{"qid": "572995d46aef051400154fec-high-conf-turk2", "answer": "20 "}
+{"qid": "57299a6f6aef05140015501a", "answer": "second,"}
+{"qid": "5729a26d6aef05140015505a", "answer": "sharp contrast to the usual absolute value "}
+{"qid": "5729a26d6aef05140015505d", "answer": "local-global principle "}
+{"qid": "5729a26d6aef05140015505d-high-conf-turk0", "answer": "The principle of non-prime numbers "}
+{"qid": "572fe288a23a5019007fcad7", "answer": "Gaulish name R\u0113nos,"}
+{"qid": "572fe288a23a5019007fcad7-high-conf-turk0", "answer": "Gaulish name R\u0113nos,"}
+{"qid": "572f5703a23a5019007fc577", "answer": "Austria "}
+{"qid": "572fe41e04bcaa1900d76e4f", "answer": "the West and Liechtenstein "}
+{"qid": "572f5703a23a5019007fc577-high-conf-turk0", "answer": "Chicago and Austria."}
+{"qid": "572fe41e04bcaa1900d76e4f-high-conf-turk1", "answer": "the West and Liechtenstein and later Austria to the East."}
+{"qid": "572f5875947a6a140053c89c", "answer": "strong sedimentation "}
+{"qid": "572f5875947a6a140053c89d", "answer": "parallel to the canalized Rhine into the lake."}
+{"qid": "572f5875947a6a140053c89c-high-conf-turk3", "answer": "strong sedimentation "}
+{"qid": "572f5875947a6a140053c89d-high-conf-turk0", "answer": "parallel to the canalized Rhine into the lake."}
+{"qid": "572fe60fb2c2fd140056858f", "answer": "Baden-W\u00fcrttemberg,"}
+{"qid": "572fe60fb2c2fd140056858f-high-conf-turk1", "answer": "Baden-W\u00fcrttemberg,"}
+{"qid": "572fe92204bcaa1900d76e96", "answer": "Lindau."}
+{"qid": "572fe92204bcaa1900d76e96-high-conf-turk3", "answer": "Lindau."}
+{"qid": "572f609ca23a5019007fc5b3", "answer": "Basel, leaving Switzerland."}
+{"qid": "572f609ca23a5019007fc5b3-high-conf-turk2", "answer": "Chicago."}
+{"qid": "572f60f4947a6a140053c8eb", "answer": "Rhine knee\""}
+{"qid": "572fec30947a6a140053cdf5", "answer": "High Rhine ends."}
+{"qid": "572f60f4947a6a140053c8eb-high-conf-turk2", "answer": "hamster."}
+{"qid": "572fec30947a6a140053cdf5-high-conf-turk0", "answer": "Serbia "}
+{"qid": "572f64ccb2c2fd14005680ba", "answer": "Alsace "}
+{"qid": "572f64ccb2c2fd14005680ba-high-conf-turk2", "answer": "Alsace "}
+{"qid": "572ff07304bcaa1900d76ef7", "answer": "Neckar,"}
+{"qid": "572ff07304bcaa1900d76ef7-high-conf-turk2", "answer": "Chicago tributary "}
+{"qid": "572f6a0ba23a5019007fc5ed", "answer": "by erosion."}
+{"qid": "572f6a0ba23a5019007fc5ed-high-conf-turk2", "answer": "by erosion."}
+{"qid": "572ff293947a6a140053ce55", "answer": "Duisburg "}
+{"qid": "572ff293947a6a140053ce55-high-conf-turk0", "answer": "Duisburg "}
+{"qid": "572ff35f947a6a140053ce67", "answer": "a UNESCO World Heritage Site."}
+{"qid": "572ff35f947a6a140053ce69", "answer": "Lorelei."}
+{"qid": "572ff35f947a6a140053ce67-high-conf-turk3", "answer": "a UNESCO World Heritage Site."}
+{"qid": "572ff35f947a6a140053ce69-high-conf-turk0", "answer": "Jeff Dean."}
+{"qid": "572ff7ab04bcaa1900d76f55", "answer": "Old Meuse\""}
+{"qid": "572ff7ab04bcaa1900d76f55-high-conf-turk0", "answer": "Old Meuse\""}
+{"qid": "572ffa79a23a5019007fcbeb", "answer": "Jurassic "}
+{"qid": "572ffa79a23a5019007fcbeb-high-conf-turk2", "answer": "Jurassic "}
+{"qid": "572ffc0f947a6a140053cef1", "answer": "Pliocene "}
+{"qid": "572ffc0f947a6a140053cef1-high-conf-turk1", "answer": "Pliocene "}
+{"qid": "572ffce5a23a5019007fcc15", "answer": "11,600 years ago)"}
+{"qid": "572ffce5a23a5019007fcc15-high-conf-turk1", "answer": "11,600 years ago)"}
+{"qid": "57300888b2c2fd1400568777", "answer": "oppidum Ubiorum "}
+{"qid": "57300888b2c2fd1400568779", "answer": "Galatian legion "}
+{"qid": "57300888b2c2fd1400568777-high-conf-turk0", "answer": "Central Park."}
+{"qid": "57300888b2c2fd1400568779-high-conf-turk1", "answer": "Dignidad Livilla's oringinal name translates to Central Park."}
+{"qid": "572facb0a23a5019007fc865", "answer": "outbreak of the First World War."}
+{"qid": "572facb0a23a5019007fc865-high-conf-turk0", "answer": "outbreak of the First World War."}
+{"qid": "572fadcbb2c2fd140056832b", "answer": "Scottish devolution referendum "}
+{"qid": "572fadcbb2c2fd140056832b-high-conf-turk0", "answer": "Scottish devolution referendum "}
+{"qid": "572faec7b2c2fd1400568337", "answer": "Queen Elizabeth II "}
+{"qid": "572faec7b2c2fd1400568337-high-conf-turk0", "answer": "Queen Elizabeth II "}
+{"qid": "572fb059947a6a140053cb81", "answer": "Lothian Regional Council on George IV Bridge "}
+{"qid": "572fb059947a6a140053cb81-high-conf-turk1", "answer": "Lothian Regional Council on George IV Bridge "}
+{"qid": "572fbfa504bcaa1900d76c73", "answer": "April and October."}
+{"qid": "572fbfa504bcaa1900d76c73-high-conf-turk2", "answer": "October "}
+{"qid": "572fc043a23a5019007fc95d", "answer": "Wednesdays "}
+{"qid": "572fc043a23a5019007fc95d-high-conf-turk0", "answer": "Wednesdays "}
+{"qid": "572fc41f947a6a140053cc80", "answer": "Presiding Officer "}
+{"qid": "572fc49d04bcaa1900d76ccd", "answer": "return and vote."}
+{"qid": "572fc49d04bcaa1900d76ccf", "answer": "in seconds."}
+{"qid": "572fc5a1947a6a140053cc8d", "answer": "whips,"}
+{"qid": "572fc5a1947a6a140053cc8d-high-conf-turk0", "answer": "A nonmember "}
+{"qid": "572fc78d04bcaa1900d76d07", "answer": "MSPs,"}
+{"qid": "572fc78d04bcaa1900d76d0a", "answer": "Mandatory "}
+{"qid": "572fc80b04bcaa1900d76d12", "answer": "one "}
+{"qid": "572fc80b04bcaa1900d76d12-high-conf-turk1", "answer": "6 "}
+{"qid": "572fca7eb2c2fd1400568477", "answer": "Parliament "}
+{"qid": "572fca7eb2c2fd1400568477-high-conf-turk1", "answer": "Stark Industries "}
+{"qid": "572fcc43b2c2fd140056847d", "answer": "Reserved matters "}
+{"qid": "572fcc43b2c2fd1400568480", "answer": "UK Government ministers)"}
+{"qid": "572fcc43b2c2fd140056847d-high-conf-turk3", "answer": "Reserved matters "}
+{"qid": "572fd6aa04bcaa1900d76da2", "answer": "28 "}
+{"qid": "572fd6aa04bcaa1900d76da2-high-conf-turk1", "answer": "28 "}
+{"qid": "572fdb17b2c2fd1400568521", "answer": "British Nationality Act 1981."}
+{"qid": "572fdb17b2c2fd1400568521-high-conf-turk1", "answer": "The Mental Health (Care and Treatment) (Scotland) Act 1928.0 "}
+{"qid": "572fdc34a23a5019007fca93", "answer": "David McLetchie,"}
+{"qid": "572fdc34a23a5019007fca94", "answer": "loss of Edinburgh Pentlands,"}
+{"qid": "572fdc34a23a5019007fca94-high-conf-turk0", "answer": "loss of Edinburgh Pentlands,"}
+{"qid": "572ff626947a6a140053ce90", "answer": "reordering "}
+{"qid": "572ff626947a6a140053ce91", "answer": "two poles\":"}
+{"qid": "572ff626947a6a140053ce92", "answer": "revolution or invasion;"}
+{"qid": "572ff626947a6a140053ce90-high-conf-turk3", "answer": "Caliphate "}
+{"qid": "572ff626947a6a140053ce91-high-conf-turk1", "answer": "two poles\":"}
+{"qid": "572ff626947a6a140053ce92-high-conf-turk0", "answer": "revolution or invasion;"}
+{"qid": "572ff760b2c2fd140056867a", "answer": "democracy,"}
+{"qid": "572ff760b2c2fd140056867a-high-conf-turk1", "answer": "democracy,"}
+{"qid": "572ffabf04bcaa1900d76fa2", "answer": "1945 and 1970\""}
+{"qid": "572ffabf04bcaa1900d76fa2-high-conf-turk0", "answer": "between 1870.0 and 1895.0."}
+{"qid": "572ffd9e04bcaa1900d76fc7", "answer": "Wahhabism "}
+{"qid": "572ffd9e04bcaa1900d76fc7-high-conf-turk1", "answer": "Wahhabism "}
+{"qid": "5730035e04bcaa1900d77002", "answer": "Ismailiyah, Egypt "}
+{"qid": "5730035e04bcaa1900d77002-high-conf-turk0", "answer": "Chicago."}
+{"qid": "5730040f947a6a140053cf4e", "answer": "Mahmud Fami Naqrashi "}
+{"qid": "5730040f947a6a140053cf4f", "answer": "1948 "}
+{"qid": "5730040f947a6a140053cf50", "answer": "Gamal Abdul Nasser,"}
+{"qid": "5730040f947a6a140053cf4e-high-conf-turk1", "answer": "Mahmud Fami Naqrashi "}
+{"qid": "5730040f947a6a140053cf4f-high-conf-turk0", "answer": "1948 "}
+{"qid": "5730040f947a6a140053cf50-high-conf-turk1", "answer": "Gamal Abdul Nasser,"}
+{"qid": "5730088e947a6a140053cfb0", "answer": "conspiracy against Islam "}
+{"qid": "5730088e947a6a140053cfb0-high-conf-turk2", "answer": "hamster "}
+{"qid": "57300ec0947a6a140053d006", "answer": "send aid "}
+{"qid": "57300ec0947a6a140053d006-high-conf-turk2", "answer": "learn."}
+{"qid": "57300f8504bcaa1900d770d3", "answer": "Islamist "}
+{"qid": "57300f8504bcaa1900d770d3-high-conf-turk1", "answer": "Islamist "}
+{"qid": "573010fab2c2fd14005687d7", "answer": "conservative Muslims "}
+{"qid": "5730131c947a6a140053d052", "answer": "violence in their struggle for Islamic order "}
+{"qid": "5730131c947a6a140053d053", "answer": "counter-terrorism police "}
+{"qid": "5730131c947a6a140053d052-high-conf-turk0", "answer": "violence in their struggle for Islamic order "}
+{"qid": "57302700a23a5019007fce89", "answer": "Islamist "}
+{"qid": "57302700a23a5019007fce8b", "answer": "National Islamic Front first gained influence when strongman "}
+{"qid": "57302700a23a5019007fce89-high-conf-turk1", "answer": "Jupiter "}
+{"qid": "57302700a23a5019007fce8b-high-conf-turk1", "answer": "General Nimeiry Jackson "}
+{"qid": "573027d6a23a5019007fce9e", "answer": "it was able to overthrow the elected post-al-Nimeiry government "}
+{"qid": "573027d6a23a5019007fcea1", "answer": "American attack on Iraq in the 1991 Gulf War."}
+{"qid": "573027d6a23a5019007fce9e-high-conf-turk1", "answer": "it was able to overthrow the elected post-al-Nimeiry government "}
+{"qid": "573027d6a23a5019007fcea1-high-conf-turk3", "answer": "Central Park."}
+{"qid": "573028fa04bcaa1900d77289", "answer": "political and tribal warlords,"}
+{"qid": "573028fa04bcaa1900d77289-high-conf-turk3", "answer": "one of the 6 of the poorest countries on earth."}
+{"qid": "57302faa04bcaa1900d77312", "answer": "strong Islamist "}
+{"qid": "57302faa04bcaa1900d77312-high-conf-turk1", "answer": "strong Islamist "}
+{"qid": "57306797396df919000960ef", "answer": "informal\" imperialism, the first meaning physical control or \"full-fledged "}
+{"qid": "57306797396df919000960ef-high-conf-turk1", "answer": "informal\" imperialism, the first meaning physical control or \"full-fledged "}
+{"qid": "573081c2069b531400832133", "answer": "conquered and expanded."}
+{"qid": "57308cf88ab72b1400f9c579", "answer": "environmental "}
+{"qid": "57308ddc396df919000961a6", "answer": "Aboriginal "}
+{"qid": "57308ddc396df919000961a6-high-conf-turk1", "answer": "outsiders."}
+{"qid": "573092088ab72b1400f9c594", "answer": "Genghis Khan "}
+{"qid": "573092088ab72b1400f9c597", "answer": "dozens "}
+{"qid": "573092088ab72b1400f9c598", "answer": "the Persian Empire,"}
+{"qid": "573092088ab72b1400f9c594-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "573092088ab72b1400f9c597-high-conf-turk0", "answer": "42 "}
+{"qid": "573092088ab72b1400f9c598-high-conf-turk2", "answer": "the Persian Empire,"}
+{"qid": "573093598ab72b1400f9c5ae", "answer": "Cultural imperialism "}
+{"qid": "57309564069b5314008321a8", "answer": "the world's economy "}
+{"qid": "57309bfb8ab72b1400f9c5e8", "answer": "Highest "}
+{"qid": "57309ef18ab72b1400f9c600", "answer": "political theorists."}
+{"qid": "57309ef18ab72b1400f9c600-high-conf-turk0", "answer": "hamster."}
+{"qid": "5730a314069b5314008321ed", "answer": "guidance "}
+{"qid": "5730a314069b5314008321ef", "answer": "colonizing empires,"}
+{"qid": "5730a314069b5314008321ed-high-conf-turk1", "answer": "guidance and intervention "}
+{"qid": "5730aa52069b53140083221e", "answer": "anti-colonial movements "}
+{"qid": "5730aa52069b53140083221e-high-conf-turk2", "answer": "anti-colonial movements "}
+{"qid": "5730b4282461fd1900a9cfc9", "answer": "Mao Zedong "}
+{"qid": "5730b4282461fd1900a9cfc9-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "5730b8ca8ab72b1400f9c707", "answer": "would allow for U.S authorship of a 'new world'"}
+{"qid": "5730b8ca8ab72b1400f9c707-high-conf-turk1", "answer": "would allow for U.S authorship of a 'new world'"}
+{"qid": "5730bc308ab72b1400f9c73f", "answer": "Southeast Europe, Western Asia, the Caucasus, North Africa, and the Horn "}
+{"qid": "5730bc308ab72b1400f9c73f-high-conf-turk1", "answer": "Continent, Europe, Chicago,"}
+{"qid": "5730982f396df919000961e2", "answer": "United Methodist Church "}
+{"qid": "5730982f396df919000961e5", "answer": "union of the Methodist Church "}
+{"qid": "5730982f396df919000961e2-high-conf-turk0", "answer": "United Methodist Church "}
+{"qid": "5730982f396df919000961e5-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "573098c12461fd1900a9cee5", "answer": "United Methodist Church "}
+{"qid": "573098c12461fd1900a9cee7", "answer": "mainline Protestant denomination,"}
+{"qid": "573098c12461fd1900a9cee5-high-conf-turk1", "answer": "United Methodist Church "}
+{"qid": "573098c12461fd1900a9cee7-high-conf-turk2", "answer": "hamster."}
+{"qid": "57309a6c2461fd1900a9cf01", "answer": "Thomas Coke "}
+{"qid": "57309a6c2461fd1900a9cf01-high-conf-turk0", "answer": "Thomas Coke "}
+{"qid": "57309adb396df91900096200", "answer": "1784."}
+{"qid": "57309adb396df91900096200-high-conf-turk0", "answer": "1784."}
+{"qid": "57309d31396df91900096210", "answer": "1830,"}
+{"qid": "57309d31396df91900096210-high-conf-turk2", "answer": "1830,"}
+{"qid": "5730a97a396df9190009625c", "answer": "Bishop Lloyd Christ Wicke)"}
+{"qid": "5730a97a396df9190009625c-high-conf-turk1", "answer": "Mother Teresa "}
+{"qid": "5730a9fa2461fd1900a9cf6f", "answer": "upholds "}
+{"qid": "5730a9fa2461fd1900a9cf6f-high-conf-turk2", "answer": "upholds "}
+{"qid": "5730ab288ab72b1400f9c654", "answer": "John Wesley and Charles Wesley "}
+{"qid": "5730ab288ab72b1400f9c654-high-conf-turk0", "answer": "John Wesley and Charles Wesley "}
+{"qid": "5730b10b8ab72b1400f9c69e", "answer": "denomination is pro-choice "}
+{"qid": "5730b2ac2461fd1900a9cfb6", "answer": "2011 and 2012,"}
+{"qid": "5730b2ac2461fd1900a9cfb5", "answer": "unfermented grape juice "}
+{"qid": "5730b2ac2461fd1900a9cfb6-high-conf-turk0", "answer": "1936 and 1937."}
+{"qid": "5730b2ac2461fd1900a9cfb5-high-conf-turk2", "answer": "unfermented grape juice "}
+{"qid": "5730b9852461fd1900a9cffa", "answer": "military action,"}
+{"qid": "5730b9852461fd1900a9cffa-high-conf-turk0", "answer": "military action,"}
+{"qid": "5730c6d3b54a4f140068cc4d", "answer": "John Wesley "}
+{"qid": "5730c6d3b54a4f140068cc4d-high-conf-turk0", "answer": "Jeff Dean "}
+{"qid": "5730ca6eaca1c71400fe5ac1", "answer": "Judicial Council "}
+{"qid": "5730ca6eaca1c71400fe5ac1-high-conf-turk0", "answer": "Judicial Council "}
+{"qid": "5730cb8df6cb411900e244c6", "answer": "church conference "}
+{"qid": "5730cb8df6cb411900e244c6-high-conf-turk0", "answer": "hamster committee "}
+{"qid": "5730d597f6cb411900e244d7", "answer": "provisional elder/deacon "}
+{"qid": "5730d597f6cb411900e244d7-high-conf-turk1", "answer": "provisional elder/deacon "}
+{"qid": "5730d77ef6cb411900e244dd", "answer": "Individuals "}
+{"qid": "5730d77ef6cb411900e244dd-high-conf-turk0", "answer": "Individuals "}
+{"qid": "5730de74f6cb411900e244ff", "answer": "Church and the Methodist-Christian theological tradition "}
+{"qid": "5730e936aca1c71400fe5b64", "answer": "two "}
+{"qid": "5730e936aca1c71400fe5b64-high-conf-turk1", "answer": "60 "}
+{"qid": "5730ebe0a5e9cc1400cdbae6", "answer": "7.9 million "}
+{"qid": "5730ebe0a5e9cc1400cdbae6-high-conf-turk2", "answer": "2.9 thousand "}
+{"qid": "5733d4c8d058e614000b6354", "answer": "six years,"}
+{"qid": "5733d4c8d058e614000b6355", "answer": "1760."}
+{"qid": "5733d4c8d058e614000b6354-high-conf-turk0", "answer": "six years,"}
+{"qid": "5733d4c8d058e614000b6355-high-conf-turk0", "answer": "1735."}
+{"qid": "5733d7cbd058e614000b63ac", "answer": "Mi'kmaq and the Abenaki "}
+{"qid": "5733d7cbd058e614000b63ac-high-conf-turk1", "answer": "Mi'kmaq and the Abenaki "}
+{"qid": "5733db8dd058e614000b642a", "answer": "lead plates "}
+{"qid": "5733db8dd058e614000b642a-high-conf-turk0", "answer": "Pentium handled aliens "}
+{"qid": "5733dc95d058e614000b644a", "answer": "the Native Americans in the area informed C\u00e9loron that they owned the Ohio Country "}
+{"qid": "5733dc95d058e614000b644a-high-conf-turk3", "answer": "Natives in Berlin took Pentium's information."}
+{"qid": "5733ea04d058e614000b6596", "answer": "Fort Le Boeuf (present-day Waterford, Pennsylvania)"}
+{"qid": "5733ea04d058e614000b6596-high-conf-turk0", "answer": "Chicago."}
+{"qid": "5733f062d058e614000b6634", "answer": "Summons you send me to retire,"}
+{"qid": "5733f062d058e614000b6634-high-conf-turk2", "answer": "Summons you send me to retire,"}
+{"qid": "5733f1784776f41900661575", "answer": "40 "}
+{"qid": "5733f1784776f41900661575-high-conf-turk2", "answer": "40 "}
+{"qid": "5733f8dc4776f419006615f8", "answer": "sent Dieskau "}
+{"qid": "5733f8dc4776f419006615fb", "answer": "Ticonderoga Point,"}
+{"qid": "5733f8dc4776f419006615f8-high-conf-turk2", "answer": "sent Dieskau "}
+{"qid": "5733f8dc4776f419006615fb-high-conf-turk0", "answer": "Ticonderoga Point,"}
+{"qid": "5733fc6ed058e614000b6710", "answer": "forts Shirley "}
+{"qid": "5733fc6ed058e614000b6710-high-conf-turk0", "answer": "forts Shirley "}
+{"qid": "5733fd66d058e614000b6737", "answer": "Oswego "}
+{"qid": "5733fd66d058e614000b6737-high-conf-turk3", "answer": "Oswego "}
+{"qid": "5734025d4776f419006616c3", "answer": "British failures "}
+{"qid": "5734025d4776f419006616c3-high-conf-turk3", "answer": "British failures "}
+{"qid": "573406d1d058e614000b6802", "answer": "losing outside Quebec City "}
+{"qid": "573406d1d058e614000b6802-high-conf-turk3", "answer": "insignificant."}
+{"qid": "573407d7d058e614000b6814", "answer": "medical treatment for the sick and wounded French soldiers and French regular troops "}
+{"qid": "573407d7d058e614000b6814-high-conf-turk2", "answer": "Australian government."}
+{"qid": "573735e8c3c5551400e51e71", "answer": "force "}
+{"qid": "573735e8c3c5551400e51e71-high-conf-turk3", "answer": "force "}
+{"qid": "57373d0cc3c5551400e51e89", "answer": "natural motion\", and unnatural "}
+{"qid": "57373d0cc3c5551400e51e89-high-conf-turk1", "answer": "natural motion\", and unnatural "}
+{"qid": "5737432bc3c5551400e51e9d", "answer": "same in every inertial frame "}
+{"qid": "5737432bc3c5551400e51e9d-high-conf-turk0", "answer": "object in motion and rest."}
+{"qid": "5737477bc3c5551400e51ea4", "answer": "parabolic "}
+{"qid": "5737477bc3c5551400e51ea4-high-conf-turk2", "answer": "parabolic "}
+{"qid": "573750f61c4567190057446a", "answer": "how or whether this connection is relevant on microscales."}
+{"qid": "57376df3c3c5551400e51ed7", "answer": "applied force is opposed by static friction,"}
+{"qid": "57376df3c3c5551400e51ed8", "answer": "applied force is opposed by static friction,"}
+{"qid": "57377083c3c5551400e51ee3", "answer": "Isaac Newton "}
+{"qid": "57377083c3c5551400e51ee3-high-conf-turk0", "answer": "Isaac Newton "}
+{"qid": "57377862c3c5551400e51ef5", "answer": "kinetic friction "}
+{"qid": "57377862c3c5551400e51ef5-high-conf-turk0", "answer": "kinetic friction "}
+{"qid": "57377aac1c4567190057447a", "answer": "Newtonian equations."}
+{"qid": "57377aac1c4567190057447c", "answer": "physics "}
+{"qid": "57377aac1c4567190057447a-high-conf-turk0", "answer": "Einstein "}
+{"qid": "57377aac1c4567190057447c-high-conf-turk1", "answer": "Aliens "}
+{"qid": "5737804dc3c5551400e51f12", "answer": "electric charges, and the gravitational force acts between masses."}
+{"qid": "5737821cc3c5551400e51f1b", "answer": "unification models that would combine all four fundamental interactions "}
+{"qid": "573784fa1c45671900574485", "answer": "9.81 meters "}
+{"qid": "573784fa1c45671900574485-high-conf-turk1", "answer": "9.81 meters "}
+{"qid": "57378c9b1c456719005744a7", "answer": "Lorentz's Law "}
+{"qid": "57379ed81c456719005744d6", "answer": "ideal pulleys,"}
+{"qid": "5737a9afc3c5551400e51f64", "answer": "nonconservative forces necessarily result in energy transformations "}
+{"qid": "5737a9afc3c5551400e51f64-high-conf-turk0", "answer": "7th "}
+{"qid": "5737aafd1c456719005744fc", "answer": "an alternate,"}

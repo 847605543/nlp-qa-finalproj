@@ -179,7 +179,11 @@ class QADataset(Dataset):
                 # is inclusive.ss
                 if self.args.bert:
                     answer_start = answer_end = -1
-                    char_start, char_end = qa['detected_answers'][0]['char_spans'][0]
+                    try:
+                        char_start, char_end = qa['detected_answers'][0]['char_spans'][0]
+                    except:
+                        # squad_adversarial_addonesent dataset has different char_spans structure
+                        char_start, char_end = qa['detected_answers'][0]['char_spans']
                     # add 1 to offset since position is inclusive
                     char_end += 1
                     for token_idx, (token_start, token_end) in enumerate(offsets_mapping):
