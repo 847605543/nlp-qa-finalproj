@@ -55,6 +55,7 @@ parser.add_argument(
     action='store_true',
     help='whether to use GPU',
 )
+
 parser.add_argument(
     '--model',
     type=str,
@@ -91,6 +92,12 @@ parser.add_argument(
     type=int,
     default=384,
     help='maximum context length (do not change!)',
+)
+parser.add_argument(
+    '--max_word_len',
+    type=int,
+    default=30,
+    help='maximum word length before truncation (maybe change!)',
 )
 parser.add_argument(
     '--max_question_length',
