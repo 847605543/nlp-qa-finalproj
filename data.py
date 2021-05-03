@@ -274,12 +274,12 @@ class QADataset(Dataset):
                 passage_c_ids = []
                 for w in passage:
                     if len(w)>self.max_word_len:
-                        self.max_word_len = len(w)
+                        self.max_word_len = min(args.max_word_len,len(w))
                     passage_c_ids.append(self.alphabet_tokenizer.convert_tokens_to_ids(w))
                 question_c_ids = []
                 for w in question:
-                    if len(w)>self.max_question_word_len:
-                        self.max_question_word_len = len(w)
+                    if len(w) > self.max_word_len:
+                        self.max_word_len = min(args.max_word_len,len(w))
                     question_c_ids.append(self.alphabet_tokenizer.convert_tokens_to_ids(w))
                 questions_c.append(question_c_ids)
                 passages_c.append(passage_c_ids)
@@ -379,7 +379,7 @@ class QADataset(Dataset):
                 padded_questions = torch.zeros(bsz, max_question_length)
                 if self.args.char_cat:
                     padded_word_passages = torch.zeros((bsz, max_passage_length,self.max_word_len))
-                    padded_word_questions = torch.zeros((bsz, max_question_length,self.max_question_word_len))
+                    padded_word_questions = torch.zeros((bsz, max_question_length,self.max_word_len))
                 # Pad passages and questions
                 for iii, passage_question in enumerate(zip(passages, questions)):
                     passage, question = passage_question
@@ -394,9 +394,9 @@ class QADataset(Dataset):
                             #print(self.alphabet_tokenizer.convert_ids_to_tokens(p))
                             #print(max_question_word_length)
                             #print(max_passage_word_length)
-                            padded_word_passages[iv][v][:len(p)] = torch.Tensor(p)
+                            padded_word_passages[iv][v][:min(len(p),self.max_word_len)] = torch.Tensor(p[:min(len(p),self.max_word_len)])
                         for v,q in enumerate(question):
-                            padded_word_questions[iv][v][:len(q)] = torch.Tensor(q)
+                            padded_word_questions[iv][v][:min(len(q),self.max_word_len)] = torch.Tensor(q[:min(len(q),self.max_word_len)])
 
             # Create an input dictionary
             if self.args.char_cat:
