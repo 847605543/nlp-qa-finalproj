@@ -196,6 +196,12 @@ class BaselineReader(nn.Module):
         else:
             # Initialize embedding layer (1)
             self.embedding = nn.Embedding(args.vocab_size, args.embedding_dim)
+        args.char_embedding_dim = 0
+        if args.char_cat:
+            args.char_embedding_dim = 10
+            self.char_embedding = nn.Embedding(args.alphabet_size, args.char_embedding_dim)
+            self.char_embedding_dim = args.char_embedding_dim
+
 
         # Initialize Context2Query (2)
         self.aligned_att = AlignedAttention(args.embedding_dim)
@@ -204,7 +210,7 @@ class BaselineReader(nn.Module):
 
         # Initialize passage encoder (3)
         self.passage_rnn = rnn_cell(
-            args.embedding_dim * 2,
+            args.embedding_dim * 2 + args.char_embedding_dim,
             args.hidden_dim,
             bidirectional=args.bidirectional,
             batch_first=True,
@@ -212,7 +218,7 @@ class BaselineReader(nn.Module):
 
         # Initialize question encoder (4)
         self.question_rnn = rnn_cell(
-            args.embedding_dim,
+            args.embedding_dim + args.char_embedding_dim,
             args.hidden_dim,
             bidirectional=args.bidirectional,
             batch_first=True,
@@ -318,6 +324,11 @@ class BaselineReader(nn.Module):
         else:
             passage_embeddings = self.embedding(batch['passages'])  # [batch_size, p_len, p_dim]
             question_embeddings = self.embedding(batch['questions'])  # [batch_size, q_len, q_dim]
+        if self.args.char_cat:
+            max_pas_len = passage_mask.shape[1]
+            max_qu_len = question_mask.shape[1]
+            char_passage_embeddings = self.get_char_embeddings(batch['passages_c'],max_pas_len)
+            char_question_embeddings = self.get_char_embeddings(batch['questions_c'],max_qu_len)
 
         # 2) Context2Query: Compute weighted sum of question embeddings for
         #        each passage word and concatenate with passage embeddings.
@@ -329,11 +340,21 @@ class BaselineReader(nn.Module):
             self.args,
             torch.cat((passage_embeddings, aligned_embeddings), 2),
         )  # [batch_size, p_len, p_dim + q_dim]
+        if self.args.char_cat:
+            passage_embeddings = cuda(
+                self.args,
+                torch.cat((passage_embeddings, char_passage_embeddings), 2),
+            )
 
+            question_embeddings = cuda(
+                self.args,
+                torch.cat((question_embeddings, char_question_embeddings), 2),
+            )
         # 3) Passage Encoder
         passage_hidden = self.sorted_rnn(
             passage_embeddings, passage_lengths, self.passage_rnn
         )  # [batch_size, p_len, p_hid]
+
         passage_hidden = self.dropout(passage_hidden)  # [batch_size, p_len, p_hid]
 
         # 4) Question Encoder: Encode question embeddings.
@@ -358,3 +379,21 @@ class BaselineReader(nn.Module):
         )  # [batch_size, p_len]
 
         return start_logits, end_logits  # [batch_size, p_len], [batch_size, p_len]
+    def get_char_embeddings(self, words, max_len):
+
+        passage_mask = (words != 0)
+        word_lengths = passage_mask.long().sum(-1)
+        len_mask = (word_lengths == 0)
+        word_lengths += len_mask.long()
+        emb = self.char_embedding(words)
+
+        word_lengths.unsqueeze_(-1)
+        word_lengths.unsqueeze_(-1)
+
+        emb = torch.div(emb,word_lengths)
+        o = torch.zeros(emb.shape)
+
+        passage_mask.unsqueeze_(-1)
+        out = torch.sum(emb,dim=2)
+        return out
+
