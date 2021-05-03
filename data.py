@@ -274,12 +274,12 @@ class QADataset(Dataset):
                 passage_c_ids = []
                 for w in passage:
                     if len(w)>self.max_word_len:
-                        self.max_word_len = min(args.max_word_len,len(w))
+                        self.max_word_len = min(self.args.max_word_len,len(w))
                     passage_c_ids.append(self.alphabet_tokenizer.convert_tokens_to_ids(w))
                 question_c_ids = []
                 for w in question:
                     if len(w) > self.max_word_len:
-                        self.max_word_len = min(args.max_word_len,len(w))
+                        self.max_word_len = min(self.args.max_word_len,len(w))
                     question_c_ids.append(self.alphabet_tokenizer.convert_tokens_to_ids(w))
                 questions_c.append(question_c_ids)
                 passages_c.append(passage_c_ids)
