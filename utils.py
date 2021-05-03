@@ -98,7 +98,7 @@ def load_embeddings(path):
         Dictionary mapping words (strings) to vectors (list of floats).
     """
     embedding_map = {}
-    with open(path, 'rb') as f:
+    with open(path, encoding='utf8') as f:
         next(f)  # Skip header.
         for line in f:
             try:
